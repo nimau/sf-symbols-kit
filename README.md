@@ -89,14 +89,14 @@ Add SFSymbolsKit to your project using Swift Package Manager:
 
 **In Xcode:**
 1. File → Add Package Dependencies
-2. Enter the repository URL: `https://github.com/yourname/sf-symbols-swift-generator`
+2. Enter the repository URL: `https://github.com/nimau/sf-symbols-kit`
 3. Select "Up to Next Major Version" starting from `1.0.0`
 4. Add to your target
 
 **In Package.swift:**
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourname/sf-symbols-swift-generator", from: "1.0.0")
+    .package(url: "https://github.com/nimau/sf-symbols-kit", from: "1.0.0")
 ],
 targets: [
     .target(
