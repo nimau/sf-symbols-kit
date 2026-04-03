@@ -34,12 +34,26 @@ func uiKitImage() {
     let image = SFSymbol.circle.uiImage
     #expect(image != nil)
 }
+
+@Test("UIKit configured image returns UIImage")
+func configuredUIKitImage() {
+    let configuration = UIImage.SymbolConfiguration(pointSize: 16, weight: .regular)
+    let image = SFSymbol.circle.image(withConfiguration: configuration)
+    #expect(image != nil)
+}
 #endif
 
 #if canImport(AppKit)
 @Test("AppKit image property returns NSImage")
 func appKitImage() {
     let image = SFSymbol.circle.nsImage
+    #expect(image != nil)
+}
+
+@Test("AppKit configured image returns NSImage")
+func configuredAppKitImage() {
+    let configuration = NSImage.SymbolConfiguration(pointSize: 16, weight: .regular)
+    let image = SFSymbol.circle.image(withConfiguration: configuration)
     #expect(image != nil)
 }
 #endif

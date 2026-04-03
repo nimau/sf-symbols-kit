@@ -38588,12 +38588,22 @@ public enum SFSymbol: Sendable {
     public var uiImage: UIImage? {
         UIImage(systemName: self.name)
     }
+
+    @available(iOS 13.0, tvOS 13.0, visionOS 1.0, *)
+    public func image(withConfiguration configuration: UIImage.SymbolConfiguration) -> UIImage? {
+        UIImage(systemName: self.name, withConfiguration: configuration)
+    }
     #endif
     
     #if canImport(AppKit)
     @available(macOS 11.0, *)
     public var nsImage: NSImage? {
         NSImage(systemSymbolName: self.name, accessibilityDescription: nil)
+    }
+
+    @available(macOS 11.0, *)
+    public func image(withConfiguration configuration: NSImage.SymbolConfiguration) -> NSImage? {
+        nsImage?.withSymbolConfiguration(configuration)
     }
     #endif
 }

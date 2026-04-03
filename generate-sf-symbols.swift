@@ -548,12 +548,22 @@ func generateSwiftCode(cases: [SymbolCase], yearToRelease: [String: PlatformVers
         \(config.accessLevel) var uiImage: UIImage? {
             UIImage(systemName: self.name)
         }
+
+        @available(iOS 13.0, tvOS 13.0, visionOS 1.0, *)
+        \(config.accessLevel) func image(withConfiguration configuration: UIImage.SymbolConfiguration) -> UIImage? {
+            UIImage(systemName: self.name, withConfiguration: configuration)
+        }
         #endif
         
         #if canImport(AppKit)
         @available(macOS 11.0, *)
         \(config.accessLevel) var nsImage: NSImage? {
             NSImage(systemSymbolName: self.name, accessibilityDescription: nil)
+        }
+
+        @available(macOS 11.0, *)
+        \(config.accessLevel) func image(withConfiguration configuration: NSImage.SymbolConfiguration) -> NSImage? {
+            nsImage?.withSymbolConfiguration(configuration)
         }
         #endif
     }
