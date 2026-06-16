@@ -38595,7 +38595,10 @@ public enum SFSymbol: Sendable {
     }
     #endif
     
-    #if canImport(AppKit)
+    // AppKit is importable under Mac Catalyst (`canImport(AppKit)` is true), but
+    // NSImage.SymbolConfiguration is unavailable there, so exclude the AppKit image
+    // helpers from Mac Catalyst — UIKit (`uiImage` above) covers that environment.
+    #if canImport(AppKit) && !targetEnvironment(macCatalyst)
     @available(macOS 11.0, *)
     public var nsImage: NSImage? {
         NSImage(systemSymbolName: self.name, accessibilityDescription: nil)
