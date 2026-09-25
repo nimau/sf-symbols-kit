@@ -1,6 +1,6 @@
 // This file is auto-generated. Do not edit.
-// Generated on: 2025-11-02T13:06:14Z
-// SF Symbols version: 7.0
+// Generated on: 2026-09-25T06:21:00Z
+// SF Symbols version: 27.0
 
 import SwiftUI
 
@@ -125,6 +125,14 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case abs_circle_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    @available(*, deprecated, renamed: "air_conditioner")
+    case ac
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    @available(*, deprecated, renamed: "air_conditioner_slash")
+    case ac_slash
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case accessibility
     
@@ -140,11 +148,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case air_car_side_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case air_conditioner
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case air_conditioner_horizontal
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case air_conditioner_horizontal_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case air_conditioner_slash
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case air_conditioner_vertical
@@ -188,8 +202,44 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case airplane_circle_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_cloud
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case airplane_departure
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_landed
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_path_dotted
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_ticket
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_ticket_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_up_forward
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_up_forward_app
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_up_forward_app_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_up_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_up_right_app
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplane_up_right_app_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case airplaneseat
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case airplay_audio
@@ -324,6 +374,48 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case airpods_pro_chargingcase_wireless_radiowaves_left_and_right_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen1
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen1_chargingcase_wireless
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen1_chargingcase_wireless_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen1_chargingcase_wireless_radiowaves_left_and_right
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen1_chargingcase_wireless_radiowaves_left_and_right_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen1_left
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen1_right
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen3
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen3_chargingcase_wireless
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen3_chargingcase_wireless_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen3_chargingcase_wireless_radiowaves_left_and_right
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen3_chargingcase_wireless_radiowaves_left_and_right_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen3_left
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case airpods_pro_gen3_right
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case airpods_pro_left
     
@@ -384,8 +476,32 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case alarm
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_badge_exclamationmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_badge_minus
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_badge_minus_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_badge_xmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_badge_xmark_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case alarm_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_slash
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case alarm_slash_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case alarm_waves_left_and_right
@@ -540,6 +656,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case app
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case app_background_dotted
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case app_badge
     
@@ -573,6 +692,57 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case app_gift_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case app_grid
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_and_person_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_bottom_dashed
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_bottom_dashed_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_topleading_dashed
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_topleading_dashed_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_topleading_filled
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_topleft_dashed
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_topleft_dashed_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_grid_2x2_topleft_filled
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case app_shadow
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_slash
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case app_slash_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case app_specular
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case app_translucent
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case appclip
     
@@ -588,6 +758,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case append_page_rtl
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apple_books_pages
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apple_books_pages_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apple_classical_pages
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apple_classical_pages_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case apple_haptics_and_exclamationmark_triangle
     
@@ -596,6 +778,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case apple_haptics_and_music_note_slash
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case apple_homekit
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case apple_image_playground
@@ -626,6 +811,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.4, macOS 14.4, tvOS 17.4, watchOS 10.4, visionOS 1.1, *)
     case apple_meditate_square_stack_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apple_podcasts_pages
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apple_podcasts_pages_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case apple_terminal
@@ -691,6 +882,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case appletv
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case appletv_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case appletv_badge_checkmark_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case appletv_badge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case appletv_badge_exclamationmark_fill
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case appletv_fill
     
@@ -727,6 +930,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case applewatch_and_arrow_forward_rtl
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case applewatch_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case applewatch_badge_exclamationmark
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "inset_filled_applewatch_case")
     case applewatch_case_inset_filled
@@ -749,11 +958,38 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case apps_ipad
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apps_ipad_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apps_ipad_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case apps_ipad_badge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apps_ipad_badge_plus
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case apps_ipad_landscape
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apps_ipad_on_rectangle_portrait_dashed
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apps_ipad_on_rectangle_portrait_dashed_rtl
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case apps_iphone
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apps_iphone_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case apps_iphone_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case apps_iphone_badge_exclamationmark
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case apps_iphone_badge_plus
@@ -775,6 +1011,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     case aqi_medium
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case aqi_medium_gauge_open
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case arcade_stick
@@ -1010,6 +1249,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrow_down_circle
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_down_circle_badge_pause
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_down_circle_badge_pause_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_down_circle_badge_xmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_down_circle_badge_xmark_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case arrow_down_circle_dotted
     
@@ -1237,6 +1488,18 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrow_forward_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_forward_folder
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_forward_folder_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_forward_folder_fill_rtl
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_forward_folder_rtl
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrow_forward_square
@@ -1733,6 +1996,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrow_trianglehead_topright_capsulepath_clockwise
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_trianglehead_turn_up_right
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrow_trianglehead_turn_up_right_circle
     
@@ -1927,6 +2193,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrow_up_document_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_up_folder
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case arrow_up_folder_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrow_up_forward
@@ -2469,6 +2741,16 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrowtriangle_backward_fill
     
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case arrowtriangle_backward_inset_filled_leadingthird_rectangle
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    @available(*, deprecated, renamed: "arrowtriangle_backward_inset_filled_leadingthird_rectangle")
+    case arrowtriangle_backward_inset_filled_trailingthird_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case arrowtriangle_backward_leadingside_rectangle
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrowtriangle_backward_square
     
@@ -2477,6 +2759,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrowtriangle_down
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case arrowtriangle_down_2
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case arrowtriangle_down_2_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrowtriangle_down_circle
@@ -2505,11 +2793,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrowtriangle_forward_fill
     
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case arrowtriangle_forward_inset_filled_trailingthird_rectangle
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrowtriangle_forward_square
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case arrowtriangle_forward_square_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case arrowtriangle_forward_trailingside_rectangle
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrowtriangle_left
@@ -2532,6 +2826,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "arrowtriangle_left_and_line_vertical_and_arrowtriangle_right_fill")
     case arrowtriangle_left_fill_and_line_vertical_and_arrowtriangle_right_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case arrowtriangle_left_inset_filled_leftthird_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case arrowtriangle_left_leftside_rectangle
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrowtriangle_left_square
@@ -2561,6 +2861,12 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "arrowtriangle_right_and_line_vertical_and_arrowtriangle_left_fill")
     case arrowtriangle_right_fill_and_line_vertical_and_arrowtriangle_left_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case arrowtriangle_right_inset_filled_rightthird_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case arrowtriangle_right_rightside_rectangle
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrowtriangle_right_square
     
@@ -2569,6 +2875,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case arrowtriangle_up
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case arrowtriangle_up_2
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case arrowtriangle_up_2_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case arrowtriangle_up_arrowtriangle_down_window_left
@@ -2653,10 +2965,18 @@ public enum SFSymbol: Sendable {
     case australiandollarsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "australiandollarsign_building_classical")
     case australiandollarsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "australiandollarsign_building_classical_fill")
     case australiandollarsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case australiandollarsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case australiandollarsign_building_classical_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case australiandollarsign_circle
@@ -2693,10 +3013,18 @@ public enum SFSymbol: Sendable {
     case australsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "australsign_building_classical")
     case australsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "australsign_building_classical_fill")
     case australsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case australsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case australsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case australsign_circle
@@ -2836,8 +3164,26 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case backpack_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case backpack_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case backpack_sensor_tag_radiowaves_left_and_right_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case backward
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case backward_bubble
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case backward_bubble_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case backward_bubble_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case backward_bubble_rtl
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case backward_circle
@@ -2933,10 +3279,18 @@ public enum SFSymbol: Sendable {
     case bahtsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "bahtsign_building_classical")
     case bahtsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "bahtsign_building_classical_fill")
     case bahtsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case bahtsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case bahtsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case bahtsign_circle
@@ -3330,6 +3684,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case bed_double
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case bed_double_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case bed_double_badge_checkmark_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case bed_double_circle
     
@@ -3386,6 +3746,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case bell_badge_waveform_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case bell_badge_waveform_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case bell_badge_waveform_slash_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case bell_circle
     
@@ -3424,6 +3790,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case bicycle_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case bicycle_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case bicycle_sensor_tag_radiowaves_left_and_right_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "xmark_bin")
@@ -3474,10 +3846,18 @@ public enum SFSymbol: Sendable {
     case bitcoinsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "bitcoinsign_building_classical")
     case bitcoinsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "bitcoinsign_building_classical_fill")
     case bitcoinsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case bitcoinsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case bitcoinsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case bitcoinsign_circle
@@ -3514,6 +3894,18 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case blinds_vertical_open
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case blood_pressure_cuff
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case blood_pressure_cuff_badge_gauge_with_needle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case blood_pressure_cuff_badge_gauge_with_needle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case blood_pressure_cuff_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case bold
@@ -3672,6 +4064,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case book_and_wrench_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case book_badge_plus
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case book_badge_plus_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case book_circle
     
@@ -3797,10 +4195,18 @@ public enum SFSymbol: Sendable {
     case brazilianrealsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "brazilianrealsign_building_classical")
     case brazilianrealsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "brazilianrealsign_building_classical_fill")
     case brazilianrealsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case brazilianrealsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case brazilianrealsign_building_classical_fill
     
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     case brazilianrealsign_circle
@@ -3838,6 +4244,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case briefcase_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case briefcase_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case briefcase_sensor_tag_radiowaves_left_and_right_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case bubble
     
@@ -3870,6 +4282,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case bubble_left_and_exclamationmark_bubble_right_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case bubble_left_and_heart_bubble_right
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case bubble_left_and_heart_bubble_right_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case bubble_left_and_text_bubble_right
@@ -3938,15 +4356,27 @@ public enum SFSymbol: Sendable {
     case building_2_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case building_classical_columns
+    
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    case building_classical_columns_circle
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case building_classical_columns_fill
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "building_classical_columns")
     case building_columns
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "building_classical_columns_circle")
     case building_columns_circle
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case building_columns_circle_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "building_classical_columns_fill")
     case building_columns_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
@@ -4003,6 +4433,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case button_horizontal_fill
     
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case button_horizontal_top
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case button_horizontal_top_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case button_horizontal_top_press
     
@@ -4030,11 +4466,23 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case button_roundedtop_horizontal_fill
     
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case button_vertical_left
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case button_vertical_left_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case button_vertical_left_press
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case button_vertical_left_press_fill
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case button_vertical_right
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case button_vertical_right_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case button_vertical_right_press
@@ -4084,8 +4532,197 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case calendar
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_1
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_10
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_11
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_12
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_13
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_14
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_15
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_16
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_17
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_18
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_19
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_2
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_20
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_21
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_22
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_23
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_24
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_25
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_26
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_27
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_28
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_29
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_3
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_30
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_31
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_4
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_5
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_6
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_7
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_8
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_9
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case calendar_and_person
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_1
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_10
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_11
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_12
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_13
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_14
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_15
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_16
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_17
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_18
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_19
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_2
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_20
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_21
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_22
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_23
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_24
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_25
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_26
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_27
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_28
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_29
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_3
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_30
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_31
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_4
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_5
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_6
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_7
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_8
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_ar_9
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_badge
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case calendar_badge_checkmark
@@ -4102,6 +4739,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case calendar_badge_exclamationmark
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_badge_lock
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case calendar_badge_minus
     
@@ -4114,17 +4754,137 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case calendar_circle_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case calendar_day
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case calendar_day_timeline_leading
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_leading_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_leading_circle_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case calendar_day_timeline_left
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_left_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_left_circle_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case calendar_day_timeline_right
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_right_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_right_circle_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case calendar_day_timeline_trailing
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_trailing_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_day_timeline_trailing_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_1
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_10
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_11
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_12
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_13
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_14
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_15
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_16
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_17
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_18
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_19
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_2
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_20
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_21
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_22
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_23
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_24
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_25
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_26
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_27
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_28
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_29
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_3
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_30
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_31
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_4
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_5
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_6
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_7
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_8
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case calendar_hi_9
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case camera
@@ -4219,6 +4979,12 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "arrow_trianglehead_2_clockwise_rotate_90_camera_fill")
     case camera_rotate_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case camera_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case camera_sensor_tag_radiowaves_left_and_right_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case camera_shutter_button
     
@@ -4227,6 +4993,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case camera_viewfinder
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case camera_viewfinder_badge_automatic
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case candybarphone
@@ -4264,6 +5033,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case capsule_on_rectangle_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case capsule_on_rectangle_liquid_glass
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case capsule_on_rectangle_liquid_glass_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case capsule_portrait
@@ -4313,6 +5088,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case car_badge_gearshape_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case car_card
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case car_card_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case car_circle
@@ -4379,6 +5160,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case car_rear_road_lane_dashed
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case car_rear_road_lane_dashed_arrowtriangle_2_outward
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case car_rear_road_lane_distance_1
@@ -4868,6 +5652,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case car_window_left_badge_exclamationmark
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case car_window_left_badge_lock
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case car_window_left_badge_xmark
     
@@ -4882,6 +5669,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case car_window_right_badge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case car_window_right_badge_lock
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case car_window_right_badge_xmark
@@ -5118,10 +5908,18 @@ public enum SFSymbol: Sendable {
     case cedisign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "cedisign_building_classical")
     case cedisign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "cedisign_building_classical_fill")
     case cedisign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case cedisign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case cedisign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case cedisign_circle
@@ -5150,6 +5948,15 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case cellularbars
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case cellularbars_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case cellularbars_circle_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case cellularbars_short_cellularbars
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case centsign
     
@@ -5161,10 +5968,18 @@ public enum SFSymbol: Sendable {
     case centsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "centsign_building_classical")
     case centsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "centsign_building_classical_fill")
     case centsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case centsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case centsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case centsign_circle
@@ -5223,11 +6038,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_ar
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_bn
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_fill_ar
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_bn
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_gu
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_fill_he
@@ -5238,14 +6062,47 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_fill_ja
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_kn
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_fill_ko
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_ml
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_mni
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_mr
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_or
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_pa
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_sat
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_si
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_ta
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_fill_te
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_fill_th
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_fill_zh
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_gu
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_he
@@ -5256,8 +6113,38 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_ja
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_kn
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_ko
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_ml
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_mni
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_mr
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_or
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_pa
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_sat
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_si
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_ta
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_book_closed_te
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_book_closed_th
@@ -5271,11 +6158,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_bubble_ar
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_bn
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case character_bubble_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_bubble_fill_ar
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_bn
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_gu
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_bubble_fill_he
@@ -5286,14 +6182,47 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case character_bubble_fill_ja
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_kn
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case character_bubble_fill_ko
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_ml
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_mni
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_mr
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_or
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_pa
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_sat
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_si
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_ta
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_fill_te
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case character_bubble_fill_th
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case character_bubble_fill_zh
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_gu
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case character_bubble_he
@@ -5304,8 +6233,38 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case character_bubble_ja
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_kn
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case character_bubble_ko
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_ml
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_mni
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_mr
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_or
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_pa
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_sat
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_si
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_ta
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_bubble_te
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case character_bubble_th
@@ -5727,6 +6686,66 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case character_te
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_ar
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_bn
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_gu
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_he
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_hi
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_ja
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_kn
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_ko
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_ml
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_mni
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_mr
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_or
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_pa
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_sat
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_si
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_ta
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_te
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_th
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case character_text_justify_zh
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case character_textbox
     
@@ -5903,6 +6922,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case chart_bar_xaxis_ascending_badge_clock_rtl
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case chart_bar_xaxis_descending
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case chart_bar_yaxis
     
@@ -5977,8 +6999,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case checkmark
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_app
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_app_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case checkmark_applewatch
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_arrow_trianglehead_clockwise
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case checkmark_arrow_trianglehead_counterclockwise
@@ -5998,6 +7029,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case checkmark_circle
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_circle_badge_airplane
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_circle_badge_airplane_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_circle_badge_plus
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_circle_badge_plus_fill
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case checkmark_circle_badge_questionmark
     
@@ -6016,11 +7059,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case checkmark_circle_badge_xmark_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_circle_dotted
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case checkmark_circle_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case checkmark_circle_trianglebadge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case checkmark_circle_trianglebadge_exclamationmark_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case checkmark_diamond
@@ -6314,10 +7363,18 @@ public enum SFSymbol: Sendable {
     case chineseyuanrenminbisign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "chineseyuanrenminbisign_building_classical")
     case chineseyuanrenminbisign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "chineseyuanrenminbisign_building_classical_fill")
     case chineseyuanrenminbisign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case chineseyuanrenminbisign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case chineseyuanrenminbisign_building_classical_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case chineseyuanrenminbisign_circle
@@ -7408,6 +8465,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.1, macOS 10.15, tvOS 13.0, watchOS 6.1, visionOS 1.0, *)
     case circle_grid_2x2_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case circle_grid_2x2_topleft_checkmark_filled
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case circle_grid_3x3
     
@@ -7689,6 +8749,21 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case circle_lefthalf_striped_horizontal_inverse
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case circle_on_app_liquid_glass
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case circle_on_app_liquid_glass_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case circle_on_square
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case circle_on_square_intersection_dotted
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case circle_on_square_merge
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case circle_rectangle_dashed
     
@@ -7781,11 +8856,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     case clock_arrow_trianglehead_2_counterclockwise_rotate_90
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case clock_arrow_trianglehead_clockwise_rotate_90_path_dotted
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case clock_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case clock_badge
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case clock_badge_airplane
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case clock_badge_airplane_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case clock_badge_checkmark
@@ -8038,6 +9122,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case coat
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case coat_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case coat_circle_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case coat_fill
     
@@ -8052,10 +9142,18 @@ public enum SFSymbol: Sendable {
     case coloncurrencysign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "coloncurrencysign_building_classical")
     case coloncurrencysign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "coloncurrencysign_building_classical_fill")
     case coloncurrencysign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case coloncurrencysign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case coloncurrencysign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case coloncurrencysign_circle
@@ -8124,7 +9222,11 @@ public enum SFSymbol: Sendable {
     case contact_sensor_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "contextualmenu_and_pointer_arrow")
     case contextualmenu_and_cursorarrow
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case contextualmenu_and_pointer_arrow
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case control
@@ -8259,7 +9361,20 @@ public enum SFSymbol: Sendable {
     case creditcard
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "creditcard_and_numbers")
     case creditcard_and_123
+    
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    case creditcard_and_numbers
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case creditcard_arrow_trianglehead_2_clockwise_rotate_90
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case creditcard_badge_plus
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case creditcard_badge_plus_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case creditcard_circle
@@ -8269,6 +9384,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case creditcard_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case creditcard_rewards
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case creditcard_rewards_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case creditcard_trianglebadge_exclamationmark
@@ -8344,10 +9465,18 @@ public enum SFSymbol: Sendable {
     case cruzeirosign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "cruzeirosign_building_classical")
     case cruzeirosign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "cruzeirosign_building_classical_fill")
     case cruzeirosign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case cruzeirosign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case cruzeirosign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case cruzeirosign_circle
@@ -8376,6 +9505,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case cube
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case cube_badge_paintbrush
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case cube_badge_paintbrush_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "shippingbox")
     case cube_box
@@ -8384,8 +9519,20 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "shippingbox_fill")
     case cube_box_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case cube_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case cube_circle_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case cube_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case cube_plane_bottom_right_detached
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case cube_plane_bottom_right_detached_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case cube_transparent
@@ -8415,50 +9562,63 @@ public enum SFSymbol: Sendable {
     case curlybraces_square_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "cursorarrow_rays")
+    @available(*, deprecated, renamed: "pointer_arrow_rays")
     case cursor_rays
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "cursorarrow_resize_north_east_south_east")
+    @available(*, deprecated, renamed: "pointer_arrow")
     case cursorarrow
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_and_square_on_square_dashed")
     case cursorarrow_and_square_on_square_dashed
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_click")
     case cursorarrow_click
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_click_2")
     case cursorarrow_click_2
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_click_badge_clock")
     case cursorarrow_click_badge_clock
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_motionlines")
     case cursorarrow_motionlines
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_motionlines_click")
     case cursorarrow_motionlines_click
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_rays")
     case cursorarrow_rays
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow")
     case cursorarrow_resize_north_east_south_east
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_slash")
     case cursorarrow_slash
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_slash_square")
     case cursorarrow_slash_square
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_slash_square_fill")
     case cursorarrow_slash_square_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_square")
     case cursorarrow_square
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pointer_arrow_square_fill")
     case cursorarrow_square_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
@@ -8502,10 +9662,18 @@ public enum SFSymbol: Sendable {
     case danishkronesign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "danishkronesign_building_classical")
     case danishkronesign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "danishkronesign_building_classical_fill")
     case danishkronesign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case danishkronesign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case danishkronesign_building_classical_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case danishkronesign_circle
@@ -8587,6 +9755,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case desktopcomputer_and_macbook
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case desktopcomputer_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case desktopcomputer_badge_shield_checkmark
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case desktopcomputer_trianglebadge_exclamationmark
@@ -8709,6 +9883,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case die_face_6_fill
     
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case digitalcrown
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case digitalcrown_arrow_clockwise
     
@@ -8721,6 +9898,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case digitalcrown_arrow_counterclockwise_fill
     
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case digitalcrown_fill
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case digitalcrown_horizontal
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case digitalcrown_horizontal_arrow_clockwise
     
@@ -8732,6 +9915,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case digitalcrown_horizontal_arrow_counterclockwise_fill
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case digitalcrown_horizontal_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case digitalcrown_horizontal_press
@@ -8768,6 +9954,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case display_and_arrow_down
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case display_and_screwdriver
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case display_trianglebadge_exclamationmark
@@ -9138,6 +10327,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case document_on_document_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case document_on_trash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case document_on_trash_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case document_viewfinder
     
@@ -9167,10 +10362,18 @@ public enum SFSymbol: Sendable {
     case dollarsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "dollarsign_building_classical")
     case dollarsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "dollarsign_building_classical_fill")
     case dollarsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case dollarsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case dollarsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case dollarsign_circle
@@ -9207,10 +10410,18 @@ public enum SFSymbol: Sendable {
     case dongsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "dongsign_building_classical")
     case dongsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "dongsign_building_classical_fill")
     case dongsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case dongsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case dongsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case dongsign_circle
@@ -9304,10 +10515,14 @@ public enum SFSymbol: Sendable {
     case dot_circle
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "dot_circle_and_pointer_arrow")
     case dot_circle_and_cursorarrow
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case dot_circle_and_hand_point_up_left_fill
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case dot_circle_and_pointer_arrow
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "smallcircle_filled_circle_fill")
@@ -9315,6 +10530,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case dot_circle_viewfinder
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case dot_crosshair
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case dot_radiowaves_forward
@@ -9356,7 +10574,11 @@ public enum SFSymbol: Sendable {
     case dot_viewfinder
     
     @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "dots_and_line_vertical_and_pointer_arrow_rectangle")
     case dots_and_line_vertical_and_cursorarrow_rectangle
+    
+    @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, visionOS 1.0, *)
+    case dots_and_line_vertical_and_pointer_arrow_rectangle
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case dpad
@@ -9501,14 +10723,47 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case ear_trianglebadge_exclamationmark
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbud_left
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbud_right
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case earbuds
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_bone_conduction
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_bone_conduction_left
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_bone_conduction_right
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case earbuds_case
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case earbuds_case_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_in_ear
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_in_ear_left
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_in_ear_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_stemless
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_stemless_left
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case earbuds_stemless_right
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case earpods
@@ -9579,8 +10834,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case ellipsis_bubble_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ellipsis_calendar
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case ellipsis_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ellipsis_circle_badge
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ellipsis_circle_badge_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case ellipsis_circle_fill
@@ -9657,6 +10921,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case envelope_and_arrow_trianglehead_branch_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case envelope_and_hand_raised
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case envelope_and_hand_raised_fill
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "envelope_and_arrow_trianglehead_branch")
     case envelope_arrow_triangle_branch
@@ -9671,11 +10941,23 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case envelope_badge_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case envelope_badge_minus
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case envelope_badge_minus_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case envelope_badge_person_crop
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case envelope_badge_person_crop_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case envelope_badge_plus
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case envelope_badge_plus_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case envelope_badge_shield_half_filled
@@ -9718,6 +11000,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case envelope_open_badge_clock
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case envelope_open_badge_clock_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case envelope_open_fill
     
@@ -9726,6 +11011,30 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     case envelope_stack_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments_slash_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments_slash_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case environments_slash_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case equal
@@ -9745,6 +11054,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case eraser
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eraser_badge_xmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eraser_badge_xmark_fill
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case eraser_fill
     
@@ -9753,6 +11068,18 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case eraser_line_dashed_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eraser_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eraser_slash_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eraser_trianglebadge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eraser_trianglebadge_exclamationmark_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case escape
@@ -9774,10 +11101,18 @@ public enum SFSymbol: Sendable {
     case eurosign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "eurosign_building_classical")
     case eurosign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "eurosign_building_classical_fill")
     case eurosign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case eurosign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case eurosign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case eurosign_circle
@@ -9814,10 +11149,18 @@ public enum SFSymbol: Sendable {
     case eurozonesign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "eurozonesign_building_classical")
     case eurozonesign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "eurozonesign_building_classical_fill")
     case eurozonesign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case eurozonesign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case eurozonesign_building_classical_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case eurozonesign_circle
@@ -10037,6 +11380,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
     case exclamationmark_triangle_text_page_rtl
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case exclamationmark_viewfinder
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case exclamationmark_warninglight
     
@@ -10139,6 +11485,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case eye_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eye_half_closed
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case eye_half_closed_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case eye_slash
     
@@ -10168,6 +11520,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case eyedropper
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case eyedropper_and_sparkles
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case eyedropper_full
@@ -10201,6 +11556,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case f_cursive_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case f_cursive_slash
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case f_square
@@ -10242,6 +11600,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case fan_and_light_ceiling_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case fan_badge_arrow_up_and_down_and_arrow_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case fan_badge_arrow_up_and_down_and_arrow_left_and_right_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case fan_badge_automatic
     
@@ -10253,6 +11617,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case fan_ceiling_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case fan_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case fan_circle_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case fan_desk
@@ -10268,6 +11638,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case fan_floor_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case fan_gauge_open
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case fan_oscillation
@@ -10340,11 +11713,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case figure_2_arms_open
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_2_ascending
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case figure_2_circle
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case figure_2_circle_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_2_descending
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_2_left_holdinghands
@@ -10459,6 +11838,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case figure_child_circle_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_child_shield
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_child_shield_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case figure_climbing
@@ -11086,8 +12471,14 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case figure_seated_side_left
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_seated_side_left_air_distribution_indirect
+    
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case figure_seated_side_left_air_distribution_lower
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_seated_side_left_air_distribution_lower_angled_and_upper_angled
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case figure_seated_side_left_air_distribution_middle
@@ -11103,6 +12494,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
     case figure_seated_side_left_air_distribution_upper_and_middle_and_lower
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_seated_side_left_air_distribution_upper_angled_and_dottedline_and_lower_angled
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case figure_seated_side_left_air_distribution_upper_angled_and_lower_angled
@@ -11161,8 +12555,14 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_seated_side_right
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_seated_side_right_air_distribution_indirect
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_seated_side_right_air_distribution_lower
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_seated_side_right_air_distribution_lower_angled_and_upper_angled
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_seated_side_right_air_distribution_middle
@@ -11178,6 +12578,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
     case figure_seated_side_right_air_distribution_upper_and_middle_and_lower
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_seated_side_right_air_distribution_upper_angled_and_dottedline_and_lower_angled
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_seated_side_right_air_distribution_upper_angled_and_lower_angled
@@ -11202,6 +12605,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_seated_side_right_automatic
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_seated_side_right_child_lap
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_seated_side_right_fan
@@ -11357,6 +12763,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case figure_stand
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_stand_and_figure_teen
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_stand_dress
     
@@ -11420,6 +12829,27 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_taichi_circle_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_teen
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_teen_and_lock
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_teen_and_lock_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_teen_and_lock_open
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_teen_and_lock_open_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_teen_shield
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case figure_teen_shield_fill
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case figure_tennis
     
@@ -11473,6 +12903,15 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case figure_walk_motion_trianglebadge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_walk_suitcase_rolling
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_walk_suitcase_rolling_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case figure_walk_suitcase_rolling_circle_fill
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case figure_walk_treadmill
@@ -11535,10 +12974,18 @@ public enum SFSymbol: Sendable {
     case figure_yoga_circle_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "filemenu_and_pointer_arrow")
     case filemenu_and_cursorarrow
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "filemenu_and_pointer_arrow_rtl")
     case filemenu_and_cursorarrow_rtl
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case filemenu_and_pointer_arrow
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case filemenu_and_pointer_arrow_rtl
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case filemenu_and_selection
@@ -11560,6 +13007,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case film_stack_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case finder
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case fire_extinguisher
@@ -11691,6 +13141,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case flame_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case flame_gauge_open
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case flashlight_off_circle
     
@@ -11752,10 +13205,18 @@ public enum SFSymbol: Sendable {
     case florinsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "florinsign_building_classical")
     case florinsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "florinsign_building_classical_fill")
     case florinsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case florinsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case florinsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case florinsign_circle
@@ -11804,6 +13265,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case folder
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case folder_and_person
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case folder_and_person_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "folder_badge_gearshape")
@@ -11954,10 +13421,18 @@ public enum SFSymbol: Sendable {
     case francsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "francsign_building_classical")
     case francsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "francsign_building_classical_fill")
     case francsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case francsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case francsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case francsign_circle
@@ -12025,11 +13500,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case fuelpump_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case fuelpump_nozzle_and_drop
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case fuelpump_slash
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case fuelpump_slash_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case fuelpump_thermometer
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case fuelpump_thermometer_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case function
@@ -12076,6 +13560,12 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "gauge_with_dots_needle_bottom_50percent_badge_plus")
     case gauge_badge_plus
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case gauge_chart_lefthalf_righthalf
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case gauge_chart_leftthird_topthird_rightthird
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "gauge_with_dots_needle_bottom_100percent")
     case gauge_high
@@ -12095,6 +13585,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "gauge_with_dots_needle_bottom_50percent_badge_plus")
     case gauge_medium_badge_plus
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case gauge_open
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case gauge_open_righthalf_dotted_with_needle_and_arrow_trianglehead_backward
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case gauge_open_with_lines_needle_33percent
@@ -12117,6 +13613,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case gauge_open_with_lines_needle_84percent_exclamation
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case gauge_range_33to100_dotted_with_needle
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case gauge_with_dots_needle_0percent
@@ -12233,6 +13732,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case globe_americas_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case globe_and_person
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case globe_asia_australia
     
@@ -12241,6 +13743,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case globe_badge_chevron_backward
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case globe_badge_clock
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case globe_badge_clock_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case globe_central_south_asia
@@ -12259,6 +13767,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case globe_europe_africa_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case globe_fill
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case glowplug
@@ -12483,6 +13994,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case graduationcap_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case graph_2d
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case graph_3d
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case greaterthan
     
@@ -12539,10 +14056,18 @@ public enum SFSymbol: Sendable {
     case guaranisign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "guaranisign_building_classical")
     case guaranisign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "guaranisign_building_classical_fill")
     case guaranisign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case guaranisign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case guaranisign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case guaranisign_circle
@@ -12567,6 +14092,18 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case guaranisign_square_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case guidepoint_horizontal
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case guidepoint_vertical
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case guidepoint_vertical_arrowtriangle_forward
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case guidepoint_vertical_numbers
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case guitars
@@ -12618,6 +14155,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case hammer_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hammer_slash
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hammer_slash_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "hand_raised_app")
@@ -12777,6 +14320,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case hand_thumbsdown_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case hand_thumbsdown_filled_hand_thumbsup
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case hand_thumbsdown_hand_thumbsup
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case hand_thumbsdown_hand_thumbsup_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case hand_thumbsdown_hand_thumbsup_filled
+    
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     case hand_thumbsdown_slash
     
@@ -12818,6 +14373,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case handbag_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case handbag_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case handbag_sensor_tag_radiowaves_left_and_right_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case hands_and_sparkles
@@ -12873,11 +14434,15 @@ public enum SFSymbol: Sendable {
     case hazardsign_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "head_profile_vision_pro_remove")
     case head_profile_arrow_forward_and_vision_pro
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "head_profile_arrow_forward_and_vision_pro")
+    @available(*, deprecated, renamed: "head_profile_vision_pro_remove")
     case head_profile_arrow_forward_and_visionpro
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case head_profile_vision_pro_remove
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case headlight_daytime
@@ -12915,6 +14480,15 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
     case headphones_dots
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case headphones_over_ear
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case headphones_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case headphones_sensor_tag_radiowaves_left_and_right_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case headphones_slash
     
@@ -12946,6 +14520,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case heart
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heart_badge_bolt
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heart_badge_bolt_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heart_badge_bolt_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heart_badge_bolt_slash_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case heart_circle
     
@@ -12954,6 +14540,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case heart_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heart_gauge_open
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case heart_rectangle
@@ -13000,6 +14589,15 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case heat_waves_and_fan
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heat_waves_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heat_waves_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case heat_waves_gauge_open
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case heater_vertical
     
@@ -13045,6 +14643,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case hifispeaker_2
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_2_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_2_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_2_badge_checkmark_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_2_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_2_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_2_badge_exclamationmark_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case hifispeaker_2_badge_minus
     
@@ -13075,6 +14691,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case hifispeaker_and_homepod
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_badge_checkmark_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_badge_exclamationmark_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case hifispeaker_and_homepod_badge_minus
     
@@ -13092,6 +14726,24 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
     case hifispeaker_and_homepod_mini
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_mini_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_mini_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_mini_badge_checkmark_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_mini_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_mini_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_and_homepod_mini_badge_exclamationmark_fill
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case hifispeaker_and_homepod_mini_badge_minus
@@ -13122,6 +14774,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case hifispeaker_arrow_forward_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_badge_checkmark_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case hifispeaker_badge_exclamationmark_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case hifispeaker_badge_minus
     
@@ -13140,6 +14810,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case highlighter
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case highlighter_badge_ellipsis
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case hockey_puck
     
@@ -13156,6 +14829,7 @@ public enum SFSymbol: Sendable {
     case hold_brakesignal
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "apple_homekit")
     case homekit
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
@@ -13163,6 +14837,24 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case homepod_2
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_2_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_2_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_2_badge_checkmark_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_2_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_2_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_2_badge_exclamationmark_fill
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_2_badge_minus
@@ -13194,6 +14886,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
     case homepod_and_homepod_mini
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_and_homepod_mini_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_and_homepod_mini_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_and_homepod_mini_badge_checkmark_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_and_homepod_mini_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_and_homepod_mini_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_and_homepod_mini_badge_exclamationmark_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_and_homepod_mini_badge_minus
     
@@ -13223,6 +14933,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_arrow_forward_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_badge_checkmark_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_badge_checkmark_fill_rtl
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_badge_exclamationmark_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_badge_minus
     
@@ -13244,6 +14972,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
     case homepod_mini_2
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_2_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_2_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_2_badge_checkmark_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_2_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_2_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_2_badge_exclamationmark_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_mini_2_badge_minus
     
@@ -13259,11 +15005,41 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
     case homepod_mini_2_fill
     
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    case homepod_mini_and_appletv
+    
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    case homepod_mini_and_appletv_fill
+    
+    @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    case homepod_mini_and_appletv_fill_rtl
+    
+    @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    case homepod_mini_and_appletv_rtl
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_mini_arrow_forward
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_mini_arrow_forward_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_mini_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_mini_badge_checkmark_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_mini_badge_checkmark_fill_rtl
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case homepod_mini_badge_checkmark_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_badge_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case homepod_mini_badge_exclamationmark_fill
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case homepod_mini_badge_minus
@@ -13293,15 +15069,19 @@ public enum SFSymbol: Sendable {
     case homepodmini_2_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "homepod_mini_and_appletv")
     case homepodmini_and_appletv
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "homepod_mini_and_appletv_fill")
     case homepodmini_and_appletv_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "homepod_mini_and_appletv_fill_rtl")
     case homepodmini_and_appletv_fill_rtl
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "homepod_mini_and_appletv_rtl")
     case homepodmini_and_appletv_rtl
     
     @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
@@ -13324,10 +15104,14 @@ public enum SFSymbol: Sendable {
     case hourglass
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "hourglass_badge_lock")
     case hourglass_and_lock
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case hourglass_badge_eye
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case hourglass_badge_lock
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case hourglass_badge_plus
@@ -13425,10 +15209,18 @@ public enum SFSymbol: Sendable {
     case hryvniasign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "hryvniasign_building_classical")
     case hryvniasign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "hryvniasign_building_classical_fill")
     case hryvniasign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case hryvniasign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case hryvniasign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case hryvniasign_circle
@@ -13462,6 +15254,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case humidifier_and_droplets_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case humidifier_and_ellipsis
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case humidifier_and_ellipsis_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case humidifier_fill
@@ -13529,6 +15327,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case icloud_circle_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case icloud_dashed
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case icloud_fill
     
@@ -13561,10 +15362,18 @@ public enum SFSymbol: Sendable {
     case indianrupeesign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "indianrupeesign_building_classical")
     case indianrupeesign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "indianrupeesign_building_classical_fill")
     case indianrupeesign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case indianrupeesign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case indianrupeesign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case indianrupeesign_circle
@@ -13602,6 +15411,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case info
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case info_app
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case info_app_fill
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case info_bubble
     
@@ -13616,6 +15431,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case info_circle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case info_circle_badge
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case info_circle_badge_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case info_circle_fill
@@ -13665,11 +15486,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case inset_filled_bottomhalf_tophalf_rectangle
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case inset_filled_bottomleading_bottomtrailing_rectangle
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_bottomleading_rectangle
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_bottomleading_rectangle_portrait
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case inset_filled_bottomleft_bottomright_rectangle
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_bottomleft_rectangle
@@ -13698,6 +15525,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_bottomtrailing_rectangle_portrait
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_bubble
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_capsule
     
@@ -13719,11 +15549,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_circle_dashed
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case inset_filled_circle_slash
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_diamond
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_leadinghalf_arrow_leading_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_leadinghalf_arrowtriangle_backward_rectangle
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_leadinghalf_rectangle
@@ -13740,6 +15576,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_leadingthird_rectangle
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_leadingthird_rectangle_badge_xmark
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_leadingthird_rectangle_portrait
     
@@ -13748,6 +15587,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_lefthalf_arrow_left_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_lefthalf_arrowtriangle_left_rectangle
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_lefthalf_rectangle
@@ -13761,8 +15603,14 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case inset_filled_lefthalf_topright_bottomright_rectangle
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case inset_filled_leftthird_middlethird_rightthird_rectangle
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_leftthird_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_leftthird_rectangle_badge_xmark
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_leftthird_rectangle_portrait
@@ -13776,13 +15624,21 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_oval_portrait
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case inset_filled_pano
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_rectangle
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "inset_filled_rectangle_and_pointer_arrow")
     case inset_filled_rectangle_and_cursorarrow
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    case inset_filled_rectangle_and_person
+    
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "inset_filled_rectangle_and_person")
     case inset_filled_rectangle_and_person_filled
     
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
@@ -13790,6 +15646,23 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
     case inset_filled_rectangle_and_person_filled_circle_fill
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    @available(*, deprecated, renamed: "inset_filled_rectangle_and_person_slash")
+    case inset_filled_rectangle_and_person_filled_slash
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    @available(*, deprecated, renamed: "inset_filled_rectangle_and_person_slash_rtl")
+    case inset_filled_rectangle_and_person_filled_slash_rtl
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case inset_filled_rectangle_and_person_slash
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case inset_filled_rectangle_and_person_slash_rtl
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case inset_filled_rectangle_and_pointer_arrow
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case inset_filled_rectangle_badge_record
@@ -13803,6 +15676,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_righthalf_arrow_right_rectangle
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_righthalf_arrowtriangle_right_rectangle
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case inset_filled_righthalf_lefthalf_rectangle
     
@@ -13815,6 +15691,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_rightthird_rectangle
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_rightthird_rectangle_badge_xmark
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_rightthird_rectangle_portrait
     
@@ -13826,6 +15705,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case inset_filled_square_dashed
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_square_dashed_micro
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case inset_filled_tophalf_bottomhalf_rectangle
@@ -13869,6 +15751,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_topright_rectangle_portrait
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case inset_filled_topthird_middlethird_bottomthird_rectangle
+    
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     case inset_filled_topthird_rectangle
     
@@ -13887,6 +15772,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_trailinghalf_arrow_trailing_rectangle
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_trailinghalf_arrowtriangle_forward_rectangle
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case inset_filled_trailinghalf_leadinghalf_rectangle
     
@@ -13899,6 +15787,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_trailingthird_rectangle
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_filled_trailingthird_rectangle_badge_xmark
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_trailingthird_rectangle_portrait
     
@@ -13910,6 +15801,45 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case inset_filled_tv
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_left_half_filled_square_dashed_micro
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_left_half_square_dashed_micro
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case inset_square_dashed_micro
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case interface_window
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case interface_window_and_pointer_arrow
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case interface_window_and_pointer_arrow_rtl
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case interface_window_badge_plus
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case interface_window_dashed
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case interface_window_on_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case interface_window_on_rectangle_dashed
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case interface_window_on_rectangle_dashed_rtl
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case interface_window_on_rectangle_rtl
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case interface_window_stack
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case internaldrive
@@ -13930,6 +15860,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     @available(*, deprecated, renamed: "ipad_landscape_and_iphone_slash")
     case ipad_and_iphone_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipad_badge_checkmark
     
     @available(iOS 17.4, macOS 14.4, tvOS 17.4, watchOS 10.4, visionOS 1.1, *)
     case ipad_badge_exclamationmark
@@ -13958,6 +15891,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     case ipad_gen1_badge_play
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipad_gen1_crop_homebutton_circle
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case ipad_gen1_landscape
     
@@ -13972,6 +15908,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case ipad_gen1_landscape_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipad_gen1_sizes
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case ipad_gen1_slash
@@ -14003,6 +15942,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case ipad_gen2_landscape_slash
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipad_gen2_sizes
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case ipad_gen2_slash
     
@@ -14025,11 +15967,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case ipad_landscape
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipad_landscape_and_applewatch
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case ipad_landscape_and_iphone
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case ipad_landscape_and_iphone_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipad_landscape_and_ipod
     
     @available(iOS 17.4, macOS 14.4, tvOS 17.4, watchOS 10.4, visionOS 1.1, *)
     case ipad_landscape_badge_exclamationmark
@@ -14072,8 +16020,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case iphone_and_arrow_right_outward
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_and_ipod
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_and_vision_pro
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case iphone_app_switcher
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_badge_checkmark
     
     @available(iOS 17.4, macOS 14.4, tvOS 17.4, watchOS 10.4, visionOS 1.1, *)
     case iphone_badge_exclamationmark
@@ -14123,6 +16080,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case iphone_gen1_crop_circle
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_gen1_crop_homebutton_circle
+    
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     case iphone_gen1_landscape
     
@@ -14140,6 +16100,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case iphone_gen1_radiowaves_left_and_right_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_gen1_sizes
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case iphone_gen1_slash
@@ -14192,6 +16155,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case iphone_gen2_radiowaves_left_and_right_circle_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_gen2_sizes
+    
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case iphone_gen2_slash
     
@@ -14242,6 +16208,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case iphone_gen3_radiowaves_left_and_right_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_gen3_sizes
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case iphone_gen3_slash
@@ -14302,6 +16271,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case iphone_motion
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_pattern_diagonalline
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case iphone_pattern_diagonalline_on_rectangle_portrait_dashed
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case iphone_radiowaves_left_and_right
     
@@ -14334,6 +16309,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case ipod
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipod_and_applewatch
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ipod_and_vision_pro
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case ipod_shuffle_gen1
@@ -14418,8 +16399,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case jacket
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case jacket_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case jacket_circle_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case jacket_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case jacket_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case jacket_sensor_tag_radiowaves_left_and_right_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case k
@@ -14472,6 +16465,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case key_card_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case key_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case key_circle_fill
+    
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     case key_convertible_side
     
@@ -14504,6 +16503,18 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case key_radiowaves_forward_slash_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case key_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case key_sensor_tag_radiowaves_left_and_right_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case key_shield
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case key_shield_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case key_slash
@@ -14557,6 +16568,10 @@ public enum SFSymbol: Sendable {
     case keyboard_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case keyboard_interface_window
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "keyboard_interface_window")
     case keyboard_macwindow
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
@@ -14582,10 +16597,18 @@ public enum SFSymbol: Sendable {
     case kipsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "kipsign_building_classical")
     case kipsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "kipsign_building_classical_fill")
     case kipsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case kipsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case kipsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case kipsign_circle
@@ -14930,6 +16953,12 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "macbook_and_iphone")
     case laptopcomputer_and_iphone
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case laptopcomputer_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case laptopcomputer_display_clean
+    
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case laptopcomputer_slash
     
@@ -14951,10 +16980,18 @@ public enum SFSymbol: Sendable {
     case larisign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "larisign_building_classical")
     case larisign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "larisign_building_classical_fill")
     case larisign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case larisign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case larisign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case larisign_circle
@@ -15187,6 +17224,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case light_strip_2_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case light_tube_rays
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case lightbulb
     
@@ -15314,7 +17354,14 @@ public enum SFSymbol: Sendable {
     case line_diagonal
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "line_diagonal_trianglehead_up_right")
     case line_diagonal_arrow
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case line_diagonal_trianglehead_up_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case line_diagonal_trianglehead_up_right_left_down
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "line_2_horizontal_decrease_circle")
@@ -15354,6 +17401,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case lines_measurement_horizontal
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lines_measurement_horizontal_aligned_bottom
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case lines_measurement_vertical
     
@@ -15389,10 +17439,18 @@ public enum SFSymbol: Sendable {
     case lirasign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "lirasign_building_classical")
     case lirasign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "lirasign_building_classical_fill")
     case lirasign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case lirasign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case lirasign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case lirasign_circle
@@ -15423,6 +17481,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case list_bullet
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case list_bullet_badge_ellipsis
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case list_bullet_below_rectangle
@@ -15463,14 +17524,29 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case list_dash
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case list_dash_badge_ellipsis
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case list_dash_header_rectangle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case list_dash_header_rectangle_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case list_number
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case list_number_ar
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case list_number_badge_ellipsis
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case list_number_badge_ellipsis_hi
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case list_number_badge_ellipsis_rtl
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case list_number_hi
@@ -15590,11 +17666,23 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     case lock_applewatch
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_badge_checkmark_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case lock_badge_clock
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case lock_badge_clock_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_badge_xmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_badge_xmark_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case lock_circle
@@ -15627,6 +17715,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case lock_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_heart
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_heart_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case lock_icloud
@@ -15679,6 +17773,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case lock_rectangle
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_rectangle_dashed
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case lock_rectangle_fill
     
@@ -15718,6 +17815,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case lock_square
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case lock_square_dashed
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case lock_square_fill
@@ -15831,6 +17931,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case macbook_and_iphone
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_and_ipod
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case macbook_and_vision_pro
     
@@ -15838,17 +17941,44 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "macbook_and_vision_pro")
     case macbook_and_visionpro
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_badge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_badge_shield_checkmark
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case macbook_gen1
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_gen1_sizes
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case macbook_gen2
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_gen2_sizes
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_sizes
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case macbook_slash
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macbook_trianglebadge_exclamationmark
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case macmini
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macmini_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macmini_badge_checkmark_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case macmini_fill
@@ -15880,6 +18010,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case macpro_gen3
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macpro_gen3_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macpro_gen3_badge_checkmark_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    @available(*, deprecated, renamed: "macpro_gen3_badge_checkmark")
+    case macpro_gen3_badge_ckeckmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    @available(*, deprecated, renamed: "macpro_gen3_badge_checkmark_fill")
+    case macpro_gen3_badge_ckeckmark_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case macpro_gen3_fill
     
@@ -15889,26 +18033,50 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case macstudio
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macstudio_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case macstudio_badge_checkmark_fill
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case macstudio_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window")
     case macwindow
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window_and_pointer_arrow")
     case macwindow_and_cursorarrow
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window_and_pointer_arrow_rtl")
     case macwindow_and_cursorarrow_rtl
     
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window_and_pointer_arrow")
+    case macwindow_and_pointer_arrow
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window_and_pointer_arrow_rtl")
+    case macwindow_and_pointer_arrow_rtl
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window_badge_plus")
     case macwindow_badge_plus
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window_on_rectangle")
     case macwindow_on_rectangle
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "interface_window_on_rectangle_rtl")
     case macwindow_on_rectangle_rtl
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    @available(*, deprecated, renamed: "interface_window_stack")
+    case macwindow_stack
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case magazine
@@ -15971,10 +18139,18 @@ public enum SFSymbol: Sendable {
     case malaysianringgitsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "malaysianringgitsign_building_classical")
     case malaysianringgitsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "malaysianringgitsign_building_classical_fill")
     case malaysianringgitsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case malaysianringgitsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case malaysianringgitsign_building_classical_fill
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case malaysianringgitsign_circle
@@ -16011,10 +18187,18 @@ public enum SFSymbol: Sendable {
     case manatsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "manatsign_building_classical")
     case manatsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "manatsign_building_classical_fill")
     case manatsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case manatsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case manatsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case manatsign_circle
@@ -16335,6 +18519,15 @@ public enum SFSymbol: Sendable {
     case microphone_circle_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case microphone_dynamic_on_stand
+    
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    case microphone_dynamic_on_stand_circle
+    
+    @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    case microphone_dynamic_on_stand_circle_fill
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case microphone_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
@@ -16372,10 +18565,18 @@ public enum SFSymbol: Sendable {
     case millsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "millsign_building_classical")
     case millsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "millsign_building_classical_fill")
     case millsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case millsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case millsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case millsign_circle
@@ -16403,6 +18604,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case minus
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case minus_arrow_trianglehead_clockwise
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case minus_arrow_trianglehead_counterclockwise
@@ -16475,6 +18679,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case minus_plus_batteryblock_stack_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case minus_plus_lines_measurement_horizontal_aligned_bottom
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case minus_rectangle
@@ -16657,6 +18864,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case mosaic_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case motor_electric_vehicle
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case motorcycle
     
@@ -16735,28 +18945,34 @@ public enum SFSymbol: Sendable {
     case music_house_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "music_microphone")
+    @available(*, deprecated, renamed: "microphone_dynamic_on_stand")
     case music_mic
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "music_microphone_circle")
+    @available(*, deprecated, renamed: "microphone_dynamic_on_stand_circle")
     case music_mic_circle
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "music_microphone_circle_fill")
+    @available(*, deprecated, renamed: "microphone_dynamic_on_stand_circle_fill")
     case music_mic_circle_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "microphone_dynamic_on_stand")
     case music_microphone
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "microphone_dynamic_on_stand_circle")
     case music_microphone_circle
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "microphone_dynamic_on_stand_circle_fill")
     case music_microphone_circle_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case music_note
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case music_note_arrow_trianglehead_clockwise
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case music_note_house
@@ -16767,11 +18983,26 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case music_note_list
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case music_note_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case music_note_square_stack
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case music_note_square_stack_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case music_note_tv
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case music_note_tv_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case music_pages
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case music_pages_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case music_quarternote_3
@@ -16847,10 +19078,18 @@ public enum SFSymbol: Sendable {
     case nairasign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "nairasign_building_classical")
     case nairasign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "nairasign_building_classical_fill")
     case nairasign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case nairasign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case nairasign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case nairasign_circle
@@ -16908,10 +19147,18 @@ public enum SFSymbol: Sendable {
     case norwegiankronesign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "norwegiankronesign_building_classical")
     case norwegiankronesign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "norwegiankronesign_building_classical_fill")
     case norwegiankronesign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case norwegiankronesign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case norwegiankronesign_building_classical_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case norwegiankronesign_circle
@@ -16956,12 +19203,15 @@ public enum SFSymbol: Sendable {
     case nosign_badge_clock
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "pad_header")
     case note
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "text_pad_header")
     case note_text
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "text_pad_header_badge_plus")
     case note_text_badge_plus
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
@@ -16980,18 +19230,38 @@ public enum SFSymbol: Sendable {
     case notequal_square_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "number_sign")
     case number
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "number_sign_circle")
     case number_circle
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "number_sign_circle_fill")
     case number_circle_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case number_sign
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case number_sign_circle
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case number_sign_circle_fill
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case number_sign_square
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case number_sign_square_fill
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "number_sign_square")
     case number_square
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "number_sign_square_fill")
     case number_square_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
@@ -17000,8 +19270,38 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case numbers_ar
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_bn
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_gu
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case numbers_hi
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_km
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_kn
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_ml
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_mni
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_mr
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_my
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_or
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_pa
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case numbers_rectangle
@@ -17021,8 +19321,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case numbers_rectangle_hi
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_sat
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case numbers_te
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "numero_sign")
     case numbersign
+    
+    @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    case numero_sign
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case o_circle
@@ -17182,6 +19492,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case p_square_fill
     
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pad_header
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case paddleshifter_left
     
@@ -17194,6 +19507,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case paddleshifter_right_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case paint_bucket_classic
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case paintbrush
     
@@ -17205,6 +19521,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case paintbrush_pointed_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case paintbrush_slash
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case paintbrush_slash_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case paintpalette
@@ -17363,8 +19685,14 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case pedestrian_gate_closed
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pedestrian_gate_closed_trianglebadge_exclamationmark
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case pedestrian_gate_open
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pedestrian_gate_open_trianglebadge_exclamationmark
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case pencil
@@ -17463,6 +19791,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case person_2_arrow_trianglehead_counterclockwise
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_2_badge
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_2_badge_fill
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case person_2_badge_gearshape
     
@@ -17505,6 +19839,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "person_2_arrow_trianglehead_counterclockwise")
     case person_2_gobackward
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_2_shield
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_2_shield_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case person_2_slash
@@ -17559,17 +19899,47 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "person_2_fill")
     case person_and_person_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_checkmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_checkmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_checkmark_seal
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_checkmark_seal_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_badge_clock
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_badge_clock_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_creditcard
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_creditcard_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_gearshape
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_gearshape_fill
+    
     @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, visionOS 1.0, *)
     case person_badge_key
     
     @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, visionOS 1.0, *)
     case person_badge_key_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_location
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_badge_location_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case person_badge_minus
@@ -17603,6 +19973,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case person_bubble_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_building_classical
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_building_classical_fill
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case person_bust
     
@@ -17631,9 +20007,11 @@ public enum SFSymbol: Sendable {
     case person_crop_artframe
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "person_crop_circle_badge_magnifyingglass")
     case person_crop_badge_magnifyingglass
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "person_crop_circle_badge_magnifyingglass_fill")
     case person_crop_badge_magnifyingglass_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
@@ -17655,6 +20033,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_crop_circle_badge_clock_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_crop_circle_badge_ellipsis
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_crop_circle_badge_ellipsis_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "person_crop_circle_badge_exclamationmark")
     case person_crop_circle_badge_exclam
@@ -17671,6 +20055,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_crop_circle_badge_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case person_crop_circle_badge_magnifyingglass
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case person_crop_circle_badge_magnifyingglass_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case person_crop_circle_badge_minus
@@ -17870,23 +20260,59 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case person_line_dotted_person_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_number_sign_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_number_sign_rectangle_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case person_slash
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case person_slash_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_spatialaudio_3d_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_spatialaudio_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_spatialaudio_stereo_3d_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_spatialaudio_stereo_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_text_rectangle
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_text_rectangle_badge_clock
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_text_rectangle_badge_clock_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_text_rectangle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_text_rectangle_trianglebadge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case person_text_rectangle_trianglebadge_exclamationmark_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_wave_2
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case person_wave_2_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_wave_2_inward
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case person_wave_2_inward_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case personalhotspot
@@ -17910,10 +20336,18 @@ public enum SFSymbol: Sendable {
     case peruviansolessign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "peruviansolessign_building_classical")
     case peruviansolessign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "peruviansolessign_building_classical_fill")
     case peruviansolessign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case peruviansolessign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case peruviansolessign_building_classical_fill
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case peruviansolessign_circle
@@ -17950,10 +20384,18 @@ public enum SFSymbol: Sendable {
     case pesetasign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "pesetasign_building_classical")
     case pesetasign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "pesetasign_building_classical_fill")
     case pesetasign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case pesetasign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case pesetasign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case pesetasign_circle
@@ -17990,10 +20432,18 @@ public enum SFSymbol: Sendable {
     case pesosign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "pesosign_building_classical")
     case pesosign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "pesosign_building_classical_fill")
     case pesosign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case pesosign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case pesosign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case pesosign_circle
@@ -18018,6 +20468,18 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case pesosign_square_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pet_carrier
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pet_carrier_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pet_carrier_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pet_carrier_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case phone
@@ -18145,6 +20607,18 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "phone_connection_fill")
     case phone_fill_connection
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case phone_pause
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case phone_pause_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case phone_pause_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case phone_pause_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case photo
     
@@ -18187,6 +20661,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case photo_badge_plus_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case photo_badge_questionmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case photo_badge_questionmark_fill
+    
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     case photo_badge_shield_exclamationmark
     
@@ -18217,6 +20697,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "photo_fill_on_rectangle_fill")
     case photo_on_rectangle_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case photo_slash
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case photo_slash_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case photo_stack
@@ -18326,6 +20812,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case pipe_and_drop_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case pizza_slice
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case pizza_slice_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case pl_button_horizontal
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case pl_button_horizontal_fill
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case placeholdertext_fill
     
@@ -18368,6 +20866,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case play
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case play_bubble
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case play_bubble_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case play_bubble_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case play_bubble_rtl
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case play_circle
     
@@ -18376,6 +20886,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case play_desktopcomputer
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case play_diamond
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case play_diamond_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case play_display
@@ -18461,11 +20977,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case plus_arrow_trianglehead_clockwise
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case plus_arrow_trianglehead_counterclockwise
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case plus_bubble
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case plus_bubble_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case plus_capsule
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case plus_capsule_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case plus_circle
@@ -18655,6 +21180,69 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case point_topright_filled_arrow_triangle_backward_to_point_bottomleft_scurvepath
     
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow_and_square_on_square_dashed
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow_click
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow_click_2
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow_click_badge_clock
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad_and_square_on_square_dashed
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad_rays
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad_slash_square
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad_slash_square_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad_square
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case pointer_arrow_ipad_square_fill
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow_motionlines
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow_motionlines_click
+    
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case pointer_arrow_rays
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case pointer_arrow_slash
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case pointer_arrow_slash_square
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case pointer_arrow_slash_square_fill
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case pointer_arrow_square
+    
+    @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    case pointer_arrow_square_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case polishzlotysign
     
@@ -18666,10 +21254,18 @@ public enum SFSymbol: Sendable {
     case polishzlotysign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "polishzlotysign_building_classical")
     case polishzlotysign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "polishzlotysign_building_classical_fill")
     case polishzlotysign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case polishzlotysign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case polishzlotysign_building_classical_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case polishzlotysign_circle
@@ -18934,6 +21530,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case powersleep
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case pr_button_horizontal
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case pr_button_horizontal_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case printer
@@ -19332,6 +21934,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case r_square_on_square_fill
     
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    case radicand_squareroot
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case radicand_squareroot_ar
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case radio
     
@@ -19391,6 +21999,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case recordingtape
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case recordingtape_badge
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case recordingtape_circle
     
@@ -19424,6 +22035,9 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "rectangle_3_group_bubble_fill")
     case rectangle_3_group_bubble_left_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case rectangle_3_group_dashed
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rectangle_3_group_fill
     
@@ -19442,6 +22056,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "rectangle_3_group_fill")
     case rectangle_3_offgrid_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case rectangle_3_portrait_pano
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case rectangle_3_portrait_pano_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rectangle_and_arrow_up_right_and_arrow_down_left
@@ -19498,6 +22118,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case rectangle_badge_plus
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case rectangle_badge_sparkles
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case rectangle_badge_sparkles_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rectangle_badge_xmark
@@ -19619,6 +22245,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rectangle_grid_1x2_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case rectangle_grid_1x3
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case rectangle_grid_1x3_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rectangle_grid_2x2
     
@@ -19680,11 +22312,11 @@ public enum SFSymbol: Sendable {
     case rectangle_inset_filled
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "inset_filled_rectangle_and_cursorarrow")
+    @available(*, deprecated, renamed: "inset_filled_rectangle_and_pointer_arrow")
     case rectangle_inset_filled_and_cursorarrow
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
-    @available(*, deprecated, renamed: "inset_filled_rectangle_and_person_filled")
+    @available(*, deprecated, renamed: "inset_filled_rectangle_and_person")
     case rectangle_inset_filled_and_person_filled
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
@@ -19721,6 +22353,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case rectangle_landscape_rotate
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case rectangle_landscape_rotate_slash
     
     @available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, visionOS 1.0, *)
     case rectangle_leadinghalf_filled
@@ -19937,6 +22572,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case rectangle_portrait_rotate
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case rectangle_portrait_rotate_slash
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case rectangle_portrait_slash
     
@@ -20106,6 +22744,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rectangle_stack
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case rectangle_stack_and_person
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case rectangle_stack_and_person_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rectangle_stack_badge_minus
     
@@ -20152,6 +22796,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "person_crop_rectangle_stack_fill")
     case rectangle_stack_person_crop_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case rectangle_stack_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case rectangle_stack_slash_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case rectangle_tophalf_filled
@@ -20221,6 +22871,10 @@ public enum SFSymbol: Sendable {
     case repeat_1_hi
     
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
+    case repeat_badge_xmark
+    
+    @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
+    @available(*, deprecated, renamed: "repeat_badge_xmark")
     case repeat_badge_xmark_circle_fill
     
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
@@ -20328,6 +22982,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case righttriangle_split_diagonal_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ring
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "smallcircle_circle")
     case ring_circle
@@ -20335,6 +22992,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "smallcircle_circle_fill")
     case ring_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ring_dashed
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case ring_light
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case rm_button_horizontal
@@ -20451,10 +23114,18 @@ public enum SFSymbol: Sendable {
     case rublesign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "rublesign_building_classical")
     case rublesign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "rublesign_building_classical_fill")
     case rublesign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case rublesign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case rublesign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rublesign_circle
@@ -20509,10 +23180,18 @@ public enum SFSymbol: Sendable {
     case rupeesign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "rupeesign_building_classical")
     case rupeesign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "rupeesign_building_classical_fill")
     case rupeesign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case rupeesign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case rupeesign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case rupeesign_circle
@@ -20601,6 +23280,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case scope
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case scope_continuous
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case screwdriver
     
@@ -20640,6 +23322,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case sensor_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case sensor_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case sensor_radiowaves_left_and_right_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case sensor_tag_radiowaves_forward
     
@@ -20648,6 +23336,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case server_rack
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case service_dog
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case service_dog_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case shadow
@@ -20703,10 +23397,18 @@ public enum SFSymbol: Sendable {
     case shekelsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "shekelsign_building_classical")
     case shekelsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "shekelsign_building_classical_fill")
     case shekelsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case shekelsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case shekelsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case shekelsign_circle
@@ -20827,6 +23529,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case shoe_2_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case shoe_arrow_trianglehead_up_and_down
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case shoe_arrow_trianglehead_up_and_down_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case shoe_arrow_trianglehead_up_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case shoe_arrow_trianglehead_up_right_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case shoe_arrow_trianglehead_up_right_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case shoe_arrow_trianglehead_up_right_fill
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case shoe_circle
     
@@ -20835,6 +23555,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case shoe_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case shoe_running_and_shadow_fill
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case shoeprints_fill
@@ -20975,10 +23698,18 @@ public enum SFSymbol: Sendable {
     case singaporedollarsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "singaporedollarsign_building_classical")
     case singaporedollarsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "singaporedollarsign_building_classical_fill")
     case singaporedollarsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case singaporedollarsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case singaporedollarsign_building_classical_fill
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case singaporedollarsign_circle
@@ -21009,6 +23740,15 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case sink_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case siri
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case siri_gen1
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case siri_gen2
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case skateboard
@@ -21066,6 +23806,18 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case slider_horizontal_3
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case slider_horizontal_below_circle_lefthalf_filled
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case slider_horizontal_below_circle_lefthalf_filled_inverse
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case slider_horizontal_below_circle_righthalf_filled
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case slider_horizontal_below_circle_righthalf_filled_inverse
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case slider_horizontal_below_rectangle
     
@@ -21081,6 +23833,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case slider_horizontal_below_sun_max
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case slider_horizontal_below_sun_min
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case slider_vertical_3
@@ -21201,8 +23956,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case sparkle_magnifyingglass
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case sparkle_text_clipboard
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case sparkle_text_clipboard_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case sparkles
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case sparkles_2
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case sparkles_rectangle_stack
@@ -21222,6 +23986,24 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case sparkles_tv_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case spatial_capture
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case spatial_capture_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case spatial_capture_on_hexagon
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case spatial_capture_on_hexagon_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case spatial_capture_slash
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case spatial_capture_slash_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case speaker
@@ -21306,6 +24088,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case speaker_square_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case speaker_trianglebadge_exclamationmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case speaker_trianglebadge_exclamationmark_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case speaker_wave_1
@@ -22011,6 +24799,9 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "inset_filled_square_dashed")
     case square_dashed_inset_filled
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case square_dashed_micro
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case square_dotted
     
@@ -22706,6 +25497,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case square_grid_4x3_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case square_grid_month
+    
     @available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, visionOS 1.1, *)
     case square_hi_0
     
@@ -23116,6 +25910,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case squareshape_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case squareshape_on_pattern_diagonalline
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case squareshape_split_2x2
     
@@ -23154,6 +25951,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case star_bubble_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case star_calendar
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case star_circle
     
@@ -23183,6 +25983,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "star_leadinghalf_filled")
     case star_lefthalf_fill
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case star_rectangle
+    
+    @available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *)
+    case star_rectangle_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case star_slash
@@ -23236,6 +26042,7 @@ public enum SFSymbol: Sendable {
     case steeringwheel_and_liquid_wave
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "steeringwheel_badge_lock")
     case steeringwheel_and_lock
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
@@ -23249,6 +26056,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case steeringwheel_badge_exclamationmark
+    
+    @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
+    case steeringwheel_badge_lock
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case steeringwheel_circle
@@ -23279,10 +26089,18 @@ public enum SFSymbol: Sendable {
     case sterlingsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "sterlingsign_building_classical")
     case sterlingsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "sterlingsign_building_classical_fill")
     case sterlingsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case sterlingsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case sterlingsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case sterlingsign_circle
@@ -23356,6 +26174,15 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case strikethrough
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case strikethrough_double
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case stroke_line_diagonal
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case stroke_line_diagonal_slash
+    
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case stroller
     
@@ -23398,11 +26225,47 @@ public enum SFSymbol: Sendable {
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case suitcase_cart_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_circle_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case suitcase_fill
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case suitcase_rolling
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_film
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_film_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_film_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_film_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_suitcase
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_suitcase_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_suitcase_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_and_suitcase_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case suitcase_rolling_circle_fill
     
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case suitcase_rolling_fill
@@ -23695,10 +26558,18 @@ public enum SFSymbol: Sendable {
     case swedishkronasign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "swedishkronasign_building_classical")
     case swedishkronasign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "swedishkronasign_building_classical_fill")
     case swedishkronasign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case swedishkronasign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case swedishkronasign_building_classical_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case swedishkronasign_circle
@@ -23908,10 +26779,18 @@ public enum SFSymbol: Sendable {
     case tengesign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "tengesign_building_classical")
     case tengesign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "tengesign_building_classical_fill")
     case tengesign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case tengesign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case tengesign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case tengesign_circle
@@ -24003,6 +26882,10 @@ public enum SFSymbol: Sendable {
     case text_alignright
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case text_and_command_interface_window
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "text_and_command_interface_window")
     case text_and_command_macwindow
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
@@ -24025,6 +26908,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case text_badge_xmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_below_folder
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_below_folder_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case text_below_photo
@@ -24058,6 +26947,18 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case text_bubble_badge_clock_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case text_bubble_badge_sparkles
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case text_bubble_badge_sparkles_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case text_bubble_badge_sparkles_fill_rtl
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case text_bubble_badge_sparkles_rtl
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case text_bubble_fill
@@ -24140,6 +27041,15 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "text_justify_right")
     case text_justifyright
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_line_2_summary
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_line_2_summary_badge_xmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_line_3_summary
+    
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case text_line_first_and_arrowtriangle_forward
     
@@ -24155,8 +27065,29 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case text_magnifyingglass_rtl
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case text_menu
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case text_pad_header
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_pad_header_badge_clock
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_pad_header_badge_clock_rtl
+    
+    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+    case text_pad_header_badge_plus
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case text_page
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case text_page_and_line_vertical_and_text_page
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case text_page_and_line_vertical_and_text_page_rtl
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case text_page_badge_magnifyingglass
@@ -24182,6 +27113,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case text_quote_rtl
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_rectangle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_rectangle_fill
+    
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case text_rectangle_page
     
@@ -24190,6 +27127,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case text_redaction
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case text_square_filled
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case text_viewfinder
@@ -24596,6 +27536,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case textformat_numbers_mni
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case textformat_numbers_mr
+    
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case textformat_numbers_my
     
@@ -24957,6 +27900,9 @@ public enum SFSymbol: Sendable {
     @available(*, deprecated, renamed: "thermometer_medium")
     case thermometer
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case thermometer_and_ellipsis
+    
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case thermometer_and_liquid_waves
     
@@ -24968,6 +27914,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case thermometer_brakesignal
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case thermometer_gauge_open
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case thermometer_high
@@ -25006,6 +27955,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case thermometer_sun_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case thermometer_tirepressure
+    
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     case thermometer_transmission
     
@@ -25021,8 +27973,20 @@ public enum SFSymbol: Sendable {
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case thermometer_variable_and_figure_circle_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case thermometer_variable_badge_clock
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case thermometer_variable_badge_play
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case ticket
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ticket_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case ticket_circle_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case ticket_fill
@@ -25129,6 +28093,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case tram
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case tram_card
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case tram_card_fill
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case tram_circle
     
@@ -25219,6 +28189,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case tray_and_arrow_up_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case tray_badge
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case tray_badge_fill
     
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case tray_circle
@@ -25471,10 +28447,18 @@ public enum SFSymbol: Sendable {
     case tugriksign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "tugriksign_building_classical")
     case tugriksign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "tugriksign_building_classical_fill")
     case tugriksign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case tugriksign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case tugriksign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case tugriksign_circle
@@ -25514,10 +28498,18 @@ public enum SFSymbol: Sendable {
     case turkishlirasign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "turkishlirasign_building_classical")
     case turkishlirasign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "turkishlirasign_building_classical_fill")
     case turkishlirasign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case turkishlirasign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case turkishlirasign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case turkishlirasign_circle
@@ -25606,8 +28598,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case umbrella
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case umbrella_circle
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case umbrella_circle_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case umbrella_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case umbrella_gauge_open
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case umbrella_percent
@@ -25621,8 +28622,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case umbrella_percent_fill_ar
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case umbrella_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case umbrella_sensor_tag_radiowaves_left_and_right_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case underline
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case underline_double
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case v_circle
@@ -25635,6 +28645,21 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case v_square_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case vent_airflow_diffused
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case vent_airflow_focused
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case vent_airflow_manual
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case vent_airflow_oscillating
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case vent_heat_waves_upward
     
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     case vial_viewfinder
@@ -25662,6 +28687,24 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @available(*, deprecated, renamed: "video_fill_badge_plus")
     case video_badge_plus_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case video_badge_questionmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case video_badge_questionmark_ar
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case video_badge_questionmark_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case video_badge_questionmark_fill_ar
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case video_badge_shield_exclamationmark
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case video_badge_shield_exclamationmark_fill
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case video_badge_waveform
@@ -25746,6 +28789,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case viewfinder
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case viewfinder_and_person
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case viewfinder_circle
     
@@ -25766,6 +28812,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case vision_pro_and_arrow_forward_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case vision_pro_badge_checkmark
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case vision_pro_badge_checkmark_fill
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     case vision_pro_badge_exclamationmark
@@ -25966,6 +29018,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case wallet_pass_fill
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case wallet_sensor_tag_radiowaves_left_and_right
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case wallet_sensor_tag_radiowaves_left_and_right_fill
+    
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
     case wand_and_outline
     
@@ -26139,6 +29197,10 @@ public enum SFSymbol: Sendable {
     case waveform_and_mic
     
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    case waveform_and_person
+    
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "waveform_and_person")
     case waveform_and_person_filled
     
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
@@ -26171,6 +29233,12 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case waveform_circle_fill
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case waveform_low
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case waveform_mid
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case waveform_path
@@ -26241,6 +29309,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case widget_extralarge_badge_plus
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case widget_grid_2x1_rectangle
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case widget_grid_2x1_rectangle_fill
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case widget_large
     
@@ -26256,11 +29330,17 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case widget_small
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case widget_small_badge_exclamationmark
+    
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case widget_small_badge_plus
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case wifi
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case wifi_badge_lock
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     case wifi_circle
@@ -26419,10 +29499,18 @@ public enum SFSymbol: Sendable {
     case wonsign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "wonsign_building_classical")
     case wonsign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "wonsign_building_classical_fill")
     case wonsign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case wonsign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case wonsign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case wonsign_circle
@@ -26487,6 +29575,7 @@ public enum SFSymbol: Sendable {
     case x_square_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    @available(*, deprecated, renamed: "radicand_squareroot")
     case x_squareroot
     
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
@@ -26516,6 +29605,12 @@ public enum SFSymbol: Sendable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case xmark_circle
     
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case xmark_circle_badge_airplane
+    
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
+    case xmark_circle_badge_airplane_fill
+    
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case xmark_circle_fill
     
@@ -26530,6 +29625,9 @@ public enum SFSymbol: Sendable {
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case xmark_icloud_fill
+    
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case xmark_interface_window
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case xmark_octagon
@@ -26573,6 +29671,9 @@ public enum SFSymbol: Sendable {
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     case xmark_triangle_circle_square_fill
     
+    @available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *)
+    case xmark_viewfinder
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     case xserve
     
@@ -26602,10 +29703,18 @@ public enum SFSymbol: Sendable {
     case yensign_arrow_trianglehead_counterclockwise_rotate_90
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "yensign_building_classical")
     case yensign_bank_building
     
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    @available(*, deprecated, renamed: "yensign_building_classical_fill")
     case yensign_bank_building_fill
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case yensign_building_classical
+    
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    case yensign_building_classical_fill
     
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     case yensign_circle
@@ -26716,13 +29825,25 @@ public enum SFSymbol: Sendable {
             case .abs_brakesignal_slash: return "abs.brakesignal.slash"
             case .abs_circle: return "abs.circle"
             case .abs_circle_fill: return "abs.circle.fill"
+            case .ac: return "ac"
+            case .ac_slash: return "ac.slash"
             case .accessibility: return "accessibility"
             case .accessibility_badge_arrow_up_right: return "accessibility.badge.arrow.up.right"
             case .accessibility_fill: return "accessibility.fill"
             case .air_car_side: return "air.car.side"
             case .air_car_side_fill: return "air.car.side.fill"
+            case .air_conditioner:
+                if #available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *) {
+                    return "air.conditioner"
+                }
+                return "ac"
             case .air_conditioner_horizontal: return "air.conditioner.horizontal"
             case .air_conditioner_horizontal_fill: return "air.conditioner.horizontal.fill"
+            case .air_conditioner_slash:
+                if #available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *) {
+                    return "air.conditioner.slash"
+                }
+                return "ac.slash"
             case .air_conditioner_vertical: return "air.conditioner.vertical"
             case .air_conditioner_vertical_fill: return "air.conditioner.vertical.fill"
             case .air_convertible_side: return "air.convertible.side"
@@ -26737,7 +29858,19 @@ public enum SFSymbol: Sendable {
             case .airplane_arrival: return "airplane.arrival"
             case .airplane_circle: return "airplane.circle"
             case .airplane_circle_fill: return "airplane.circle.fill"
+            case .airplane_cloud: return "airplane.cloud"
             case .airplane_departure: return "airplane.departure"
+            case .airplane_landed: return "airplane.landed"
+            case .airplane_path_dotted: return "airplane.path.dotted"
+            case .airplane_ticket: return "airplane.ticket"
+            case .airplane_ticket_fill: return "airplane.ticket.fill"
+            case .airplane_up_forward: return "airplane.up.forward"
+            case .airplane_up_forward_app: return "airplane.up.forward.app"
+            case .airplane_up_forward_app_fill: return "airplane.up.forward.app.fill"
+            case .airplane_up_right: return "airplane.up.right"
+            case .airplane_up_right_app: return "airplane.up.right.app"
+            case .airplane_up_right_app_fill: return "airplane.up.right.app.fill"
+            case .airplaneseat: return "airplaneseat"
             case .airplay_audio:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "airplay.audio"
@@ -26835,6 +29968,20 @@ public enum SFSymbol: Sendable {
                     return "airpods.pro.chargingcase.wireless.radiowaves.left.and.right.fill"
                 }
                 return "airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill"
+            case .airpods_pro_gen1: return "airpods.pro.gen1"
+            case .airpods_pro_gen1_chargingcase_wireless: return "airpods.pro.gen1.chargingcase.wireless"
+            case .airpods_pro_gen1_chargingcase_wireless_fill: return "airpods.pro.gen1.chargingcase.wireless.fill"
+            case .airpods_pro_gen1_chargingcase_wireless_radiowaves_left_and_right: return "airpods.pro.gen1.chargingcase.wireless.radiowaves.left.and.right"
+            case .airpods_pro_gen1_chargingcase_wireless_radiowaves_left_and_right_fill: return "airpods.pro.gen1.chargingcase.wireless.radiowaves.left.and.right.fill"
+            case .airpods_pro_gen1_left: return "airpods.pro.gen1.left"
+            case .airpods_pro_gen1_right: return "airpods.pro.gen1.right"
+            case .airpods_pro_gen3: return "airpods.pro.gen3"
+            case .airpods_pro_gen3_chargingcase_wireless: return "airpods.pro.gen3.chargingcase.wireless"
+            case .airpods_pro_gen3_chargingcase_wireless_fill: return "airpods.pro.gen3.chargingcase.wireless.fill"
+            case .airpods_pro_gen3_chargingcase_wireless_radiowaves_left_and_right: return "airpods.pro.gen3.chargingcase.wireless.radiowaves.left.and.right"
+            case .airpods_pro_gen3_chargingcase_wireless_radiowaves_left_and_right_fill: return "airpods.pro.gen3.chargingcase.wireless.radiowaves.left.and.right.fill"
+            case .airpods_pro_gen3_left: return "airpods.pro.gen3.left"
+            case .airpods_pro_gen3_right: return "airpods.pro.gen3.right"
             case .airpods_pro_left:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "airpods.pro.left"
@@ -26861,7 +30008,15 @@ public enum SFSymbol: Sendable {
             case .airtag_radiowaves_forward_fill_rtl: return "airtag.radiowaves.forward.fill.rtl"
             case .airtag_radiowaves_forward_rtl: return "airtag.radiowaves.forward.rtl"
             case .alarm: return "alarm"
+            case .alarm_badge_exclamationmark: return "alarm.badge.exclamationmark"
+            case .alarm_badge_exclamationmark_fill: return "alarm.badge.exclamationmark.fill"
+            case .alarm_badge_minus: return "alarm.badge.minus"
+            case .alarm_badge_minus_fill: return "alarm.badge.minus.fill"
+            case .alarm_badge_xmark: return "alarm.badge.xmark"
+            case .alarm_badge_xmark_fill: return "alarm.badge.xmark.fill"
             case .alarm_fill: return "alarm.fill"
+            case .alarm_slash: return "alarm.slash"
+            case .alarm_slash_fill: return "alarm.slash.fill"
             case .alarm_waves_left_and_right: return "alarm.waves.left.and.right"
             case .alarm_waves_left_and_right_fill: return "alarm.waves.left.and.right.fill"
             case .align_horizontal_center: return "align.horizontal.center"
@@ -26929,6 +30084,7 @@ public enum SFSymbol: Sendable {
             case .antenna_radiowaves_left_and_right_slash_circle: return "antenna.radiowaves.left.and.right.slash.circle"
             case .antenna_radiowaves_left_and_right_slash_circle_fill: return "antenna.radiowaves.left.and.right.slash.circle.fill"
             case .app: return "app"
+            case .app_background_dotted: return "app.background.dotted"
             case .app_badge: return "app.badge"
             case .app_badge_checkmark: return "app.badge.checkmark"
             case .app_badge_checkmark_fill: return "app.badge.checkmark.fill"
@@ -26940,6 +30096,23 @@ public enum SFSymbol: Sendable {
             case .app_fill: return "app.fill"
             case .app_gift: return "app.gift"
             case .app_gift_fill: return "app.gift.fill"
+            case .app_grid: return "app.grid"
+            case .app_grid_2x2: return "app.grid.2x2"
+            case .app_grid_2x2_and_person_fill: return "app.grid.2x2.and.person.fill"
+            case .app_grid_2x2_bottom_dashed: return "app.grid.2x2.bottom.dashed"
+            case .app_grid_2x2_bottom_dashed_fill: return "app.grid.2x2.bottom.dashed.fill"
+            case .app_grid_2x2_fill: return "app.grid.2x2.fill"
+            case .app_grid_2x2_topleading_dashed: return "app.grid.2x2.topleading.dashed"
+            case .app_grid_2x2_topleading_dashed_fill: return "app.grid.2x2.topleading.dashed.fill"
+            case .app_grid_2x2_topleading_filled: return "app.grid.2x2.topleading.filled"
+            case .app_grid_2x2_topleft_dashed: return "app.grid.2x2.topleft.dashed"
+            case .app_grid_2x2_topleft_dashed_fill: return "app.grid.2x2.topleft.dashed.fill"
+            case .app_grid_2x2_topleft_filled: return "app.grid.2x2.topleft.filled"
+            case .app_shadow: return "app.shadow"
+            case .app_slash: return "app.slash"
+            case .app_slash_fill: return "app.slash.fill"
+            case .app_specular: return "app.specular"
+            case .app_translucent: return "app.translucent"
             case .appclip: return "appclip"
             case .append_page:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
@@ -26961,9 +30134,18 @@ public enum SFSymbol: Sendable {
                     return "append.page.rtl"
                 }
                 return "doc.append.rtl"
+            case .apple_books_pages: return "apple.books.pages"
+            case .apple_books_pages_fill: return "apple.books.pages.fill"
+            case .apple_classical_pages: return "apple.classical.pages"
+            case .apple_classical_pages_fill: return "apple.classical.pages.fill"
             case .apple_haptics_and_exclamationmark_triangle: return "apple.haptics.and.exclamationmark.triangle"
             case .apple_haptics_and_music_note: return "apple.haptics.and.music.note"
             case .apple_haptics_and_music_note_slash: return "apple.haptics.and.music.note.slash"
+            case .apple_homekit:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "apple.homekit"
+                }
+                return "homekit"
             case .apple_image_playground: return "apple.image.playground"
             case .apple_image_playground_fill: return "apple.image.playground.fill"
             case .apple_intelligence: return "apple.intelligence"
@@ -26978,6 +30160,8 @@ public enum SFSymbol: Sendable {
             case .apple_meditate_circle_fill: return "apple.meditate.circle.fill"
             case .apple_meditate_square_stack: return "apple.meditate.square.stack"
             case .apple_meditate_square_stack_fill: return "apple.meditate.square.stack.fill"
+            case .apple_podcasts_pages: return "apple.podcasts.pages"
+            case .apple_podcasts_pages_fill: return "apple.podcasts.pages.fill"
             case .apple_terminal:
                 if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *) {
                     return "apple.terminal"
@@ -27007,6 +30191,10 @@ public enum SFSymbol: Sendable {
             case .applescript: return "applescript"
             case .applescript_fill: return "applescript.fill"
             case .appletv: return "appletv"
+            case .appletv_badge_checkmark: return "appletv.badge.checkmark"
+            case .appletv_badge_checkmark_fill: return "appletv.badge.checkmark.fill"
+            case .appletv_badge_exclamationmark: return "appletv.badge.exclamationmark"
+            case .appletv_badge_exclamationmark_fill: return "appletv.badge.exclamationmark.fill"
             case .appletv_fill: return "appletv.fill"
             case .appletvremote_gen1: return "appletvremote.gen1"
             case .appletvremote_gen1_fill: return "appletvremote.gen1.fill"
@@ -27019,6 +30207,8 @@ public enum SFSymbol: Sendable {
             case .applewatch: return "applewatch"
             case .applewatch_and_arrow_forward: return "applewatch.and.arrow.forward"
             case .applewatch_and_arrow_forward_rtl: return "applewatch.and.arrow.forward.rtl"
+            case .applewatch_badge_checkmark: return "applewatch.badge.checkmark"
+            case .applewatch_badge_exclamationmark: return "applewatch.badge.exclamationmark"
             case .applewatch_case_inset_filled: return "applewatch.case.inset.filled"
             case .applewatch_case_sizes: return "applewatch.case.sizes"
             case .applewatch_radiowaves_left_and_right: return "applewatch.radiowaves.left.and.right"
@@ -27026,8 +30216,17 @@ public enum SFSymbol: Sendable {
             case .applewatch_slash: return "applewatch.slash"
             case .applewatch_watchface: return "applewatch.watchface"
             case .apps_ipad: return "apps.ipad"
+            case .apps_ipad_badge_checkmark: return "apps.ipad.badge.checkmark"
+            case .apps_ipad_badge_checkmark_rtl: return "apps.ipad.badge.checkmark.rtl"
+            case .apps_ipad_badge_exclamationmark: return "apps.ipad.badge.exclamationmark"
+            case .apps_ipad_badge_plus: return "apps.ipad.badge.plus"
             case .apps_ipad_landscape: return "apps.ipad.landscape"
+            case .apps_ipad_on_rectangle_portrait_dashed: return "apps.ipad.on.rectangle.portrait.dashed"
+            case .apps_ipad_on_rectangle_portrait_dashed_rtl: return "apps.ipad.on.rectangle.portrait.dashed.rtl"
             case .apps_iphone: return "apps.iphone"
+            case .apps_iphone_badge_checkmark: return "apps.iphone.badge.checkmark"
+            case .apps_iphone_badge_checkmark_rtl: return "apps.iphone.badge.checkmark.rtl"
+            case .apps_iphone_badge_exclamationmark: return "apps.iphone.badge.exclamationmark"
             case .apps_iphone_badge_plus: return "apps.iphone.badge.plus"
             case .apps_iphone_landscape: return "apps.iphone.landscape"
             case .apps_iphone_landscape_rtl: return "apps.iphone.landscape.rtl"
@@ -27035,6 +30234,7 @@ public enum SFSymbol: Sendable {
             case .aqi_high: return "aqi.high"
             case .aqi_low: return "aqi.low"
             case .aqi_medium: return "aqi.medium"
+            case .aqi_medium_gauge_open: return "aqi.medium.gauge.open"
             case .arcade_stick: return "arcade.stick"
             case .arcade_stick_and_arrow_down: return "arcade.stick.and.arrow.down"
             case .arcade_stick_and_arrow_left: return "arcade.stick.and.arrow.left"
@@ -27113,6 +30313,10 @@ public enum SFSymbol: Sendable {
             case .arrow_down_backward_toptrailing_rectangle: return "arrow.down.backward.toptrailing.rectangle"
             case .arrow_down_backward_toptrailing_rectangle_fill: return "arrow.down.backward.toptrailing.rectangle.fill"
             case .arrow_down_circle: return "arrow.down.circle"
+            case .arrow_down_circle_badge_pause: return "arrow.down.circle.badge.pause"
+            case .arrow_down_circle_badge_pause_fill: return "arrow.down.circle.badge.pause.fill"
+            case .arrow_down_circle_badge_xmark: return "arrow.down.circle.badge.xmark"
+            case .arrow_down_circle_badge_xmark_fill: return "arrow.down.circle.badge.xmark.fill"
             case .arrow_down_circle_dotted: return "arrow.down.circle.dotted"
             case .arrow_down_circle_fill: return "arrow.down.circle.fill"
             case .arrow_down_doc: return "arrow.down.doc"
@@ -27200,6 +30404,10 @@ public enum SFSymbol: Sendable {
             case .arrow_forward_circle: return "arrow.forward.circle"
             case .arrow_forward_circle_dotted: return "arrow.forward.circle.dotted"
             case .arrow_forward_circle_fill: return "arrow.forward.circle.fill"
+            case .arrow_forward_folder: return "arrow.forward.folder"
+            case .arrow_forward_folder_fill: return "arrow.forward.folder.fill"
+            case .arrow_forward_folder_fill_rtl: return "arrow.forward.folder.fill.rtl"
+            case .arrow_forward_folder_rtl: return "arrow.forward.folder.rtl"
             case .arrow_forward_square: return "arrow.forward.square"
             case .arrow_forward_square_fill: return "arrow.forward.square.fill"
             case .arrow_forward_to_line: return "arrow.forward.to.line"
@@ -27709,6 +30917,7 @@ public enum SFSymbol: Sendable {
                     return "arrow.trianglehead.topright.capsulepath.clockwise"
                 }
                 return "arrow.triangle.capsulepath"
+            case .arrow_trianglehead_turn_up_right: return "arrow.trianglehead.turn.up.right"
             case .arrow_trianglehead_turn_up_right_circle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "arrow.trianglehead.turn.up.right.circle"
@@ -27813,6 +31022,8 @@ public enum SFSymbol: Sendable {
                     return "arrow.up.document.fill"
                 }
                 return "arrow.up.doc.fill"
+            case .arrow_up_folder: return "arrow.up.folder"
+            case .arrow_up_folder_fill: return "arrow.up.folder.fill"
             case .arrow_up_forward: return "arrow.up.forward"
             case .arrow_up_forward_and_arrow_down_backward: return "arrow.up.forward.and.arrow.down.backward"
             case .arrow_up_forward_and_arrow_down_backward_circle: return "arrow.up.forward.and.arrow.down.backward.circle"
@@ -28000,9 +31211,18 @@ public enum SFSymbol: Sendable {
             case .arrowtriangle_backward_circle: return "arrowtriangle.backward.circle"
             case .arrowtriangle_backward_circle_fill: return "arrowtriangle.backward.circle.fill"
             case .arrowtriangle_backward_fill: return "arrowtriangle.backward.fill"
+            case .arrowtriangle_backward_inset_filled_leadingthird_rectangle:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "arrowtriangle.backward.inset.filled.leadingthird.rectangle"
+                }
+                return "arrowtriangle.backward.inset.filled.trailingthird.rectangle"
+            case .arrowtriangle_backward_inset_filled_trailingthird_rectangle: return "arrowtriangle.backward.inset.filled.trailingthird.rectangle"
+            case .arrowtriangle_backward_leadingside_rectangle: return "arrowtriangle.backward.leadingside.rectangle"
             case .arrowtriangle_backward_square: return "arrowtriangle.backward.square"
             case .arrowtriangle_backward_square_fill: return "arrowtriangle.backward.square.fill"
             case .arrowtriangle_down: return "arrowtriangle.down"
+            case .arrowtriangle_down_2: return "arrowtriangle.down.2"
+            case .arrowtriangle_down_2_fill: return "arrowtriangle.down.2.fill"
             case .arrowtriangle_down_circle: return "arrowtriangle.down.circle"
             case .arrowtriangle_down_circle_fill: return "arrowtriangle.down.circle.fill"
             case .arrowtriangle_down_fill: return "arrowtriangle.down.fill"
@@ -28012,8 +31232,10 @@ public enum SFSymbol: Sendable {
             case .arrowtriangle_forward_circle: return "arrowtriangle.forward.circle"
             case .arrowtriangle_forward_circle_fill: return "arrowtriangle.forward.circle.fill"
             case .arrowtriangle_forward_fill: return "arrowtriangle.forward.fill"
+            case .arrowtriangle_forward_inset_filled_trailingthird_rectangle: return "arrowtriangle.forward.inset.filled.trailingthird.rectangle"
             case .arrowtriangle_forward_square: return "arrowtriangle.forward.square"
             case .arrowtriangle_forward_square_fill: return "arrowtriangle.forward.square.fill"
+            case .arrowtriangle_forward_trailingside_rectangle: return "arrowtriangle.forward.trailingside.rectangle"
             case .arrowtriangle_left: return "arrowtriangle.left"
             case .arrowtriangle_left_and_line_vertical_and_arrowtriangle_right: return "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
             case .arrowtriangle_left_and_line_vertical_and_arrowtriangle_right_fill:
@@ -28025,6 +31247,8 @@ public enum SFSymbol: Sendable {
             case .arrowtriangle_left_circle_fill: return "arrowtriangle.left.circle.fill"
             case .arrowtriangle_left_fill: return "arrowtriangle.left.fill"
             case .arrowtriangle_left_fill_and_line_vertical_and_arrowtriangle_right_fill: return "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
+            case .arrowtriangle_left_inset_filled_leftthird_rectangle: return "arrowtriangle.left.inset.filled.leftthird.rectangle"
+            case .arrowtriangle_left_leftside_rectangle: return "arrowtriangle.left.leftside.rectangle"
             case .arrowtriangle_left_square: return "arrowtriangle.left.square"
             case .arrowtriangle_left_square_fill: return "arrowtriangle.left.square.fill"
             case .arrowtriangle_right: return "arrowtriangle.right"
@@ -28038,9 +31262,13 @@ public enum SFSymbol: Sendable {
             case .arrowtriangle_right_circle_fill: return "arrowtriangle.right.circle.fill"
             case .arrowtriangle_right_fill: return "arrowtriangle.right.fill"
             case .arrowtriangle_right_fill_and_line_vertical_and_arrowtriangle_left_fill: return "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
+            case .arrowtriangle_right_inset_filled_rightthird_rectangle: return "arrowtriangle.right.inset.filled.rightthird.rectangle"
+            case .arrowtriangle_right_rightside_rectangle: return "arrowtriangle.right.rightside.rectangle"
             case .arrowtriangle_right_square: return "arrowtriangle.right.square"
             case .arrowtriangle_right_square_fill: return "arrowtriangle.right.square.fill"
             case .arrowtriangle_up: return "arrowtriangle.up"
+            case .arrowtriangle_up_2: return "arrowtriangle.up.2"
+            case .arrowtriangle_up_2_fill: return "arrowtriangle.up.2.fill"
             case .arrowtriangle_up_arrowtriangle_down_window_left: return "arrowtriangle.up.arrowtriangle.down.window.left"
             case .arrowtriangle_up_arrowtriangle_down_window_right: return "arrowtriangle.up.arrowtriangle.down.window.right"
             case .arrowtriangle_up_circle: return "arrowtriangle.up.circle"
@@ -28074,6 +31302,16 @@ public enum SFSymbol: Sendable {
                 return "australiandollarsign.arrow.circlepath"
             case .australiandollarsign_bank_building: return "australiandollarsign.bank.building"
             case .australiandollarsign_bank_building_fill: return "australiandollarsign.bank.building.fill"
+            case .australiandollarsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "australiandollarsign.building.classical"
+                }
+                return "australiandollarsign.bank.building"
+            case .australiandollarsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "australiandollarsign.building.classical.fill"
+                }
+                return "australiandollarsign.bank.building.fill"
             case .australiandollarsign_circle: return "australiandollarsign.circle"
             case .australiandollarsign_circle_fill: return "australiandollarsign.circle.fill"
             case .australiandollarsign_gauge_chart_lefthalf_righthalf: return "australiandollarsign.gauge.chart.lefthalf.righthalf"
@@ -28091,6 +31329,16 @@ public enum SFSymbol: Sendable {
                 return "australsign.arrow.circlepath"
             case .australsign_bank_building: return "australsign.bank.building"
             case .australsign_bank_building_fill: return "australsign.bank.building.fill"
+            case .australsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "australsign.building.classical"
+                }
+                return "australsign.bank.building"
+            case .australsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "australsign.building.classical.fill"
+                }
+                return "australsign.bank.building.fill"
             case .australsign_circle: return "australsign.circle"
             case .australsign_circle_fill: return "australsign.circle.fill"
             case .australsign_gauge_chart_lefthalf_righthalf: return "australsign.gauge.chart.lefthalf.righthalf"
@@ -28170,7 +31418,13 @@ public enum SFSymbol: Sendable {
             case .backpack_circle: return "backpack.circle"
             case .backpack_circle_fill: return "backpack.circle.fill"
             case .backpack_fill: return "backpack.fill"
+            case .backpack_sensor_tag_radiowaves_left_and_right: return "backpack.sensor.tag.radiowaves.left.and.right"
+            case .backpack_sensor_tag_radiowaves_left_and_right_fill: return "backpack.sensor.tag.radiowaves.left.and.right.fill"
             case .backward: return "backward"
+            case .backward_bubble: return "backward.bubble"
+            case .backward_bubble_fill: return "backward.bubble.fill"
+            case .backward_bubble_fill_rtl: return "backward.bubble.fill.rtl"
+            case .backward_bubble_rtl: return "backward.bubble.rtl"
             case .backward_circle: return "backward.circle"
             case .backward_circle_fill: return "backward.circle.fill"
             case .backward_end: return "backward.end"
@@ -28207,6 +31461,16 @@ public enum SFSymbol: Sendable {
                 return "bahtsign.arrow.circlepath"
             case .bahtsign_bank_building: return "bahtsign.bank.building"
             case .bahtsign_bank_building_fill: return "bahtsign.bank.building.fill"
+            case .bahtsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "bahtsign.building.classical"
+                }
+                return "bahtsign.bank.building"
+            case .bahtsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "bahtsign.building.classical.fill"
+                }
+                return "bahtsign.bank.building.fill"
             case .bahtsign_circle: return "bahtsign.circle"
             case .bahtsign_circle_fill: return "bahtsign.circle.fill"
             case .bahtsign_gauge_chart_lefthalf_righthalf: return "bahtsign.gauge.chart.lefthalf.righthalf"
@@ -28433,6 +31697,8 @@ public enum SFSymbol: Sendable {
             case .beats_studiobudsplus_left: return "beats.studiobudsplus.left"
             case .beats_studiobudsplus_right: return "beats.studiobudsplus.right"
             case .bed_double: return "bed.double"
+            case .bed_double_badge_checkmark: return "bed.double.badge.checkmark"
+            case .bed_double_badge_checkmark_fill: return "bed.double.badge.checkmark.fill"
             case .bed_double_circle: return "bed.double.circle"
             case .bed_double_circle_fill: return "bed.double.circle.fill"
             case .bed_double_fill: return "bed.double.fill"
@@ -28459,6 +31725,8 @@ public enum SFSymbol: Sendable {
                     return "bell.badge.waveform.fill"
                 }
                 return "bell.and.waveform.fill"
+            case .bell_badge_waveform_slash: return "bell.badge.waveform.slash"
+            case .bell_badge_waveform_slash_fill: return "bell.badge.waveform.slash.fill"
             case .bell_circle: return "bell.circle"
             case .bell_circle_fill: return "bell.circle.fill"
             case .bell_fill: return "bell.fill"
@@ -28472,6 +31740,8 @@ public enum SFSymbol: Sendable {
             case .bicycle: return "bicycle"
             case .bicycle_circle: return "bicycle.circle"
             case .bicycle_circle_fill: return "bicycle.circle.fill"
+            case .bicycle_sensor_tag_radiowaves_left_and_right: return "bicycle.sensor.tag.radiowaves.left.and.right"
+            case .bicycle_sensor_tag_radiowaves_left_and_right_fill: return "bicycle.sensor.tag.radiowaves.left.and.right.fill"
             case .bin_xmark: return "bin.xmark"
             case .bin_xmark_fill: return "bin.xmark.fill"
             case .binoculars: return "binoculars"
@@ -28493,6 +31763,16 @@ public enum SFSymbol: Sendable {
                 return "bitcoinsign.arrow.circlepath"
             case .bitcoinsign_bank_building: return "bitcoinsign.bank.building"
             case .bitcoinsign_bank_building_fill: return "bitcoinsign.bank.building.fill"
+            case .bitcoinsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "bitcoinsign.building.classical"
+                }
+                return "bitcoinsign.bank.building"
+            case .bitcoinsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "bitcoinsign.building.classical.fill"
+                }
+                return "bitcoinsign.bank.building.fill"
             case .bitcoinsign_circle: return "bitcoinsign.circle"
             case .bitcoinsign_circle_fill: return "bitcoinsign.circle.fill"
             case .bitcoinsign_gauge_chart_lefthalf_righthalf: return "bitcoinsign.gauge.chart.lefthalf.righthalf"
@@ -28505,6 +31785,10 @@ public enum SFSymbol: Sendable {
             case .blinds_horizontal_open: return "blinds.horizontal.open"
             case .blinds_vertical_closed: return "blinds.vertical.closed"
             case .blinds_vertical_open: return "blinds.vertical.open"
+            case .blood_pressure_cuff: return "blood.pressure.cuff"
+            case .blood_pressure_cuff_badge_gauge_with_needle: return "blood.pressure.cuff.badge.gauge.with.needle"
+            case .blood_pressure_cuff_badge_gauge_with_needle_fill: return "blood.pressure.cuff.badge.gauge.with.needle.fill"
+            case .blood_pressure_cuff_fill: return "blood.pressure.cuff.fill"
             case .bold: return "bold"
             case .bold_italic_underline: return "bold.italic.underline"
             case .bold_underline: return "bold.underline"
@@ -28572,6 +31856,8 @@ public enum SFSymbol: Sendable {
             case .book: return "book"
             case .book_and_wrench: return "book.and.wrench"
             case .book_and_wrench_fill: return "book.and.wrench.fill"
+            case .book_badge_plus: return "book.badge.plus"
+            case .book_badge_plus_fill: return "book.badge.plus.fill"
             case .book_circle: return "book.circle"
             case .book_circle_fill: return "book.circle.fill"
             case .book_closed: return "book.closed"
@@ -28617,6 +31903,16 @@ public enum SFSymbol: Sendable {
                 return "brazilianrealsign.arrow.circlepath"
             case .brazilianrealsign_bank_building: return "brazilianrealsign.bank.building"
             case .brazilianrealsign_bank_building_fill: return "brazilianrealsign.bank.building.fill"
+            case .brazilianrealsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "brazilianrealsign.building.classical"
+                }
+                return "brazilianrealsign.bank.building"
+            case .brazilianrealsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "brazilianrealsign.building.classical.fill"
+                }
+                return "brazilianrealsign.bank.building.fill"
             case .brazilianrealsign_circle: return "brazilianrealsign.circle"
             case .brazilianrealsign_circle_fill: return "brazilianrealsign.circle.fill"
             case .brazilianrealsign_gauge_chart_lefthalf_righthalf: return "brazilianrealsign.gauge.chart.lefthalf.righthalf"
@@ -28629,6 +31925,8 @@ public enum SFSymbol: Sendable {
             case .briefcase_circle: return "briefcase.circle"
             case .briefcase_circle_fill: return "briefcase.circle.fill"
             case .briefcase_fill: return "briefcase.fill"
+            case .briefcase_sensor_tag_radiowaves_left_and_right: return "briefcase.sensor.tag.radiowaves.left.and.right"
+            case .briefcase_sensor_tag_radiowaves_left_and_right_fill: return "briefcase.sensor.tag.radiowaves.left.and.right.fill"
             case .bubble: return "bubble"
             case .bubble_and_pencil: return "bubble.and.pencil"
             case .bubble_and_pencil_rtl: return "bubble.and.pencil.rtl"
@@ -28640,6 +31938,8 @@ public enum SFSymbol: Sendable {
             case .bubble_left_and_bubble_right_fill: return "bubble.left.and.bubble.right.fill"
             case .bubble_left_and_exclamationmark_bubble_right: return "bubble.left.and.exclamationmark.bubble.right"
             case .bubble_left_and_exclamationmark_bubble_right_fill: return "bubble.left.and.exclamationmark.bubble.right.fill"
+            case .bubble_left_and_heart_bubble_right: return "bubble.left.and.heart.bubble.right"
+            case .bubble_left_and_heart_bubble_right_fill: return "bubble.left.and.heart.bubble.right.fill"
             case .bubble_left_and_text_bubble_right: return "bubble.left.and.text.bubble.right"
             case .bubble_left_and_text_bubble_right_fill: return "bubble.left.and.text.bubble.right.fill"
             case .bubble_left_and_text_bubble_right_fill_rtl: return "bubble.left.and.text.bubble.right.fill.rtl"
@@ -28662,6 +31962,21 @@ public enum SFSymbol: Sendable {
             case .building_2_crop_circle: return "building.2.crop.circle"
             case .building_2_crop_circle_fill: return "building.2.crop.circle.fill"
             case .building_2_fill: return "building.2.fill"
+            case .building_classical_columns:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "building.classical.columns"
+                }
+                return "building.columns"
+            case .building_classical_columns_circle:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "building.classical.columns.circle"
+                }
+                return "building.columns.circle"
+            case .building_classical_columns_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "building.classical.columns.fill"
+                }
+                return "building.columns.fill"
             case .building_columns: return "building.columns"
             case .building_columns_circle: return "building.columns.circle"
             case .building_columns_circle_fill: return "building.columns.circle.fill"
@@ -28684,6 +31999,8 @@ public enum SFSymbol: Sendable {
             case .button_angledtop_vertical_right_fill: return "button.angledtop.vertical.right.fill"
             case .button_horizontal: return "button.horizontal"
             case .button_horizontal_fill: return "button.horizontal.fill"
+            case .button_horizontal_top: return "button.horizontal.top"
+            case .button_horizontal_top_fill: return "button.horizontal.top.fill"
             case .button_horizontal_top_press: return "button.horizontal.top.press"
             case .button_horizontal_top_press_fill: return "button.horizontal.top.press.fill"
             case .button_programmable: return "button.programmable"
@@ -28709,8 +32026,12 @@ public enum SFSymbol: Sendable {
                     return "button.roundedtop.horizontal.fill"
                 }
                 return "rectangle.roundedtop.fill"
+            case .button_vertical_left: return "button.vertical.left"
+            case .button_vertical_left_fill: return "button.vertical.left.fill"
             case .button_vertical_left_press: return "button.vertical.left.press"
             case .button_vertical_left_press_fill: return "button.vertical.left.press.fill"
+            case .button_vertical_right: return "button.vertical.right"
+            case .button_vertical_right_fill: return "button.vertical.right.fill"
             case .button_vertical_right_press: return "button.vertical.right.press"
             case .button_vertical_right_press_fill: return "button.vertical.right.press.fill"
             case .c_circle: return "c.circle"
@@ -28727,20 +32048,124 @@ public enum SFSymbol: Sendable {
             case .cablecar: return "cablecar"
             case .cablecar_fill: return "cablecar.fill"
             case .calendar: return "calendar"
+            case .calendar_1: return "1.calendar"
+            case .calendar_10: return "10.calendar"
+            case .calendar_11: return "11.calendar"
+            case .calendar_12: return "12.calendar"
+            case .calendar_13: return "13.calendar"
+            case .calendar_14: return "14.calendar"
+            case .calendar_15: return "15.calendar"
+            case .calendar_16: return "16.calendar"
+            case .calendar_17: return "17.calendar"
+            case .calendar_18: return "18.calendar"
+            case .calendar_19: return "19.calendar"
+            case .calendar_2: return "2.calendar"
+            case .calendar_20: return "20.calendar"
+            case .calendar_21: return "21.calendar"
+            case .calendar_22: return "22.calendar"
+            case .calendar_23: return "23.calendar"
+            case .calendar_24: return "24.calendar"
+            case .calendar_25: return "25.calendar"
+            case .calendar_26: return "26.calendar"
+            case .calendar_27: return "27.calendar"
+            case .calendar_28: return "28.calendar"
+            case .calendar_29: return "29.calendar"
+            case .calendar_3: return "3.calendar"
+            case .calendar_30: return "30.calendar"
+            case .calendar_31: return "31.calendar"
+            case .calendar_4: return "4.calendar"
+            case .calendar_5: return "5.calendar"
+            case .calendar_6: return "6.calendar"
+            case .calendar_7: return "7.calendar"
+            case .calendar_8: return "8.calendar"
+            case .calendar_9: return "9.calendar"
             case .calendar_and_person: return "calendar.and.person"
+            case .calendar_ar_1: return "1.calendar.ar"
+            case .calendar_ar_10: return "10.calendar.ar"
+            case .calendar_ar_11: return "11.calendar.ar"
+            case .calendar_ar_12: return "12.calendar.ar"
+            case .calendar_ar_13: return "13.calendar.ar"
+            case .calendar_ar_14: return "14.calendar.ar"
+            case .calendar_ar_15: return "15.calendar.ar"
+            case .calendar_ar_16: return "16.calendar.ar"
+            case .calendar_ar_17: return "17.calendar.ar"
+            case .calendar_ar_18: return "18.calendar.ar"
+            case .calendar_ar_19: return "19.calendar.ar"
+            case .calendar_ar_2: return "2.calendar.ar"
+            case .calendar_ar_20: return "20.calendar.ar"
+            case .calendar_ar_21: return "21.calendar.ar"
+            case .calendar_ar_22: return "22.calendar.ar"
+            case .calendar_ar_23: return "23.calendar.ar"
+            case .calendar_ar_24: return "24.calendar.ar"
+            case .calendar_ar_25: return "25.calendar.ar"
+            case .calendar_ar_26: return "26.calendar.ar"
+            case .calendar_ar_27: return "27.calendar.ar"
+            case .calendar_ar_28: return "28.calendar.ar"
+            case .calendar_ar_29: return "29.calendar.ar"
+            case .calendar_ar_3: return "3.calendar.ar"
+            case .calendar_ar_30: return "30.calendar.ar"
+            case .calendar_ar_31: return "31.calendar.ar"
+            case .calendar_ar_4: return "4.calendar.ar"
+            case .calendar_ar_5: return "5.calendar.ar"
+            case .calendar_ar_6: return "6.calendar.ar"
+            case .calendar_ar_7: return "7.calendar.ar"
+            case .calendar_ar_8: return "8.calendar.ar"
+            case .calendar_ar_9: return "9.calendar.ar"
+            case .calendar_badge: return "calendar.badge"
             case .calendar_badge_checkmark: return "calendar.badge.checkmark"
             case .calendar_badge_checkmark_rtl: return "calendar.badge.checkmark.rtl"
             case .calendar_badge_clock: return "calendar.badge.clock"
             case .calendar_badge_clock_rtl: return "calendar.badge.clock.rtl"
             case .calendar_badge_exclamationmark: return "calendar.badge.exclamationmark"
+            case .calendar_badge_lock: return "calendar.badge.lock"
             case .calendar_badge_minus: return "calendar.badge.minus"
             case .calendar_badge_plus: return "calendar.badge.plus"
             case .calendar_circle: return "calendar.circle"
             case .calendar_circle_fill: return "calendar.circle.fill"
+            case .calendar_day: return "calendar.day"
             case .calendar_day_timeline_leading: return "calendar.day.timeline.leading"
+            case .calendar_day_timeline_leading_circle: return "calendar.day.timeline.leading.circle"
+            case .calendar_day_timeline_leading_circle_fill: return "calendar.day.timeline.leading.circle.fill"
             case .calendar_day_timeline_left: return "calendar.day.timeline.left"
+            case .calendar_day_timeline_left_circle: return "calendar.day.timeline.left.circle"
+            case .calendar_day_timeline_left_circle_fill: return "calendar.day.timeline.left.circle.fill"
             case .calendar_day_timeline_right: return "calendar.day.timeline.right"
+            case .calendar_day_timeline_right_circle: return "calendar.day.timeline.right.circle"
+            case .calendar_day_timeline_right_circle_fill: return "calendar.day.timeline.right.circle.fill"
             case .calendar_day_timeline_trailing: return "calendar.day.timeline.trailing"
+            case .calendar_day_timeline_trailing_circle: return "calendar.day.timeline.trailing.circle"
+            case .calendar_day_timeline_trailing_circle_fill: return "calendar.day.timeline.trailing.circle.fill"
+            case .calendar_hi_1: return "1.calendar.hi"
+            case .calendar_hi_10: return "10.calendar.hi"
+            case .calendar_hi_11: return "11.calendar.hi"
+            case .calendar_hi_12: return "12.calendar.hi"
+            case .calendar_hi_13: return "13.calendar.hi"
+            case .calendar_hi_14: return "14.calendar.hi"
+            case .calendar_hi_15: return "15.calendar.hi"
+            case .calendar_hi_16: return "16.calendar.hi"
+            case .calendar_hi_17: return "17.calendar.hi"
+            case .calendar_hi_18: return "18.calendar.hi"
+            case .calendar_hi_19: return "19.calendar.hi"
+            case .calendar_hi_2: return "2.calendar.hi"
+            case .calendar_hi_20: return "20.calendar.hi"
+            case .calendar_hi_21: return "21.calendar.hi"
+            case .calendar_hi_22: return "22.calendar.hi"
+            case .calendar_hi_23: return "23.calendar.hi"
+            case .calendar_hi_24: return "24.calendar.hi"
+            case .calendar_hi_25: return "25.calendar.hi"
+            case .calendar_hi_26: return "26.calendar.hi"
+            case .calendar_hi_27: return "27.calendar.hi"
+            case .calendar_hi_28: return "28.calendar.hi"
+            case .calendar_hi_29: return "29.calendar.hi"
+            case .calendar_hi_3: return "3.calendar.hi"
+            case .calendar_hi_30: return "30.calendar.hi"
+            case .calendar_hi_31: return "31.calendar.hi"
+            case .calendar_hi_4: return "4.calendar.hi"
+            case .calendar_hi_5: return "5.calendar.hi"
+            case .calendar_hi_6: return "6.calendar.hi"
+            case .calendar_hi_7: return "7.calendar.hi"
+            case .calendar_hi_8: return "8.calendar.hi"
+            case .calendar_hi_9: return "9.calendar.hi"
             case .camera: return "camera"
             case .camera_aperture: return "camera.aperture"
             case .camera_badge_clock: return "camera.badge.clock"
@@ -28775,9 +32200,12 @@ public enum SFSymbol: Sendable {
             case .camera_on_rectangle_fill: return "camera.on.rectangle.fill"
             case .camera_rotate: return "camera.rotate"
             case .camera_rotate_fill: return "camera.rotate.fill"
+            case .camera_sensor_tag_radiowaves_left_and_right: return "camera.sensor.tag.radiowaves.left.and.right"
+            case .camera_sensor_tag_radiowaves_left_and_right_fill: return "camera.sensor.tag.radiowaves.left.and.right.fill"
             case .camera_shutter_button: return "camera.shutter.button"
             case .camera_shutter_button_fill: return "camera.shutter.button.fill"
             case .camera_viewfinder: return "camera.viewfinder"
+            case .camera_viewfinder_badge_automatic: return "camera.viewfinder.badge.automatic"
             case .candybarphone: return "candybarphone"
             case .capslock: return "capslock"
             case .capslock_fill: return "capslock.fill"
@@ -28790,6 +32218,8 @@ public enum SFSymbol: Sendable {
             case .capsule_on_capsule_fill: return "capsule.on.capsule.fill"
             case .capsule_on_rectangle: return "capsule.on.rectangle"
             case .capsule_on_rectangle_fill: return "capsule.on.rectangle.fill"
+            case .capsule_on_rectangle_liquid_glass: return "capsule.on.rectangle.liquid.glass"
+            case .capsule_on_rectangle_liquid_glass_fill: return "capsule.on.rectangle.liquid.glass.fill"
             case .capsule_portrait: return "capsule.portrait"
             case .capsule_portrait_bottomhalf_filled: return "capsule.portrait.bottomhalf.filled"
             case .capsule_portrait_fill: return "capsule.portrait.fill"
@@ -28806,6 +32236,8 @@ public enum SFSymbol: Sendable {
             case .car_2_fill: return "car.2.fill"
             case .car_badge_gearshape: return "car.badge.gearshape"
             case .car_badge_gearshape_fill: return "car.badge.gearshape.fill"
+            case .car_card: return "car.card"
+            case .car_card_fill: return "car.card.fill"
             case .car_circle: return "car.circle"
             case .car_circle_fill: return "car.circle.fill"
             case .car_ferry: return "car.ferry"
@@ -28828,6 +32260,7 @@ public enum SFSymbol: Sendable {
             case .car_rear_hazardsign_fill: return "car.rear.hazardsign.fill"
             case .car_rear_road_lane: return "car.rear.road.lane"
             case .car_rear_road_lane_dashed: return "car.rear.road.lane.dashed"
+            case .car_rear_road_lane_dashed_arrowtriangle_2_outward: return "car.rear.road.lane.dashed.arrowtriangle.2.outward"
             case .car_rear_road_lane_distance_1: return "car.rear.road.lane.distance.1"
             case .car_rear_road_lane_distance_1_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle: return "car.rear.road.lane.distance.1.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
             case .car_rear_road_lane_distance_2: return "car.rear.road.lane.distance.2"
@@ -29020,11 +32453,13 @@ public enum SFSymbol: Sendable {
             case .car_top_video_rear_right_fill: return "car.top.video.rear.right.fill"
             case .car_window_left: return "car.window.left"
             case .car_window_left_badge_exclamationmark: return "car.window.left.badge.exclamationmark"
+            case .car_window_left_badge_lock: return "car.window.left.badge.lock"
             case .car_window_left_badge_xmark: return "car.window.left.badge.xmark"
             case .car_window_left_exclamationmark: return "car.window.left.exclamationmark"
             case .car_window_left_xmark: return "car.window.left.xmark"
             case .car_window_right: return "car.window.right"
             case .car_window_right_badge_exclamationmark: return "car.window.right.badge.exclamationmark"
+            case .car_window_right_badge_lock: return "car.window.right.badge.lock"
             case .car_window_right_badge_xmark: return "car.window.right.badge.xmark"
             case .car_window_right_exclamationmark: return "car.window.right.exclamationmark"
             case .car_window_right_xmark: return "car.window.right.xmark"
@@ -29108,6 +32543,16 @@ public enum SFSymbol: Sendable {
                 return "cedisign.arrow.circlepath"
             case .cedisign_bank_building: return "cedisign.bank.building"
             case .cedisign_bank_building_fill: return "cedisign.bank.building.fill"
+            case .cedisign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "cedisign.building.classical"
+                }
+                return "cedisign.bank.building"
+            case .cedisign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "cedisign.building.classical.fill"
+                }
+                return "cedisign.bank.building.fill"
             case .cedisign_circle: return "cedisign.circle"
             case .cedisign_circle_fill: return "cedisign.circle.fill"
             case .cedisign_gauge_chart_lefthalf_righthalf: return "cedisign.gauge.chart.lefthalf.righthalf"
@@ -29117,6 +32562,9 @@ public enum SFSymbol: Sendable {
             case .cedisign_square: return "cedisign.square"
             case .cedisign_square_fill: return "cedisign.square.fill"
             case .cellularbars: return "cellularbars"
+            case .cellularbars_circle: return "cellularbars.circle"
+            case .cellularbars_circle_fill: return "cellularbars.circle.fill"
+            case .cellularbars_short_cellularbars: return "cellularbars.short.cellularbars"
             case .centsign: return "centsign"
             case .centsign_arrow_circlepath: return "centsign.arrow.circlepath"
             case .centsign_arrow_trianglehead_counterclockwise_rotate_90:
@@ -29126,6 +32574,16 @@ public enum SFSymbol: Sendable {
                 return "centsign.arrow.circlepath"
             case .centsign_bank_building: return "centsign.bank.building"
             case .centsign_bank_building_fill: return "centsign.bank.building.fill"
+            case .centsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "centsign.building.classical"
+                }
+                return "centsign.bank.building"
+            case .centsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "centsign.building.classical.fill"
+                }
+                return "centsign.bank.building.fill"
             case .centsign_circle: return "centsign.circle"
             case .centsign_circle_fill: return "centsign.circle.fill"
             case .centsign_gauge_chart_lefthalf_righthalf: return "centsign.gauge.chart.lefthalf.righthalf"
@@ -29157,6 +32615,7 @@ public enum SFSymbol: Sendable {
                     return "character.book.closed.ar"
                 }
                 return "a.book.closed.ar"
+            case .character_book_closed_bn: return "character.book.closed.bn"
             case .character_book_closed_fill:
                 if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *) {
                     return "character.book.closed.fill"
@@ -29167,6 +32626,8 @@ public enum SFSymbol: Sendable {
                     return "character.book.closed.fill.ar"
                 }
                 return "a.book.closed.fill.ar"
+            case .character_book_closed_fill_bn: return "character.book.closed.fill.bn"
+            case .character_book_closed_fill_gu: return "character.book.closed.fill.gu"
             case .character_book_closed_fill_he:
                 if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *) {
                     return "character.book.closed.fill.he"
@@ -29182,11 +32643,21 @@ public enum SFSymbol: Sendable {
                     return "character.book.closed.fill.ja"
                 }
                 return "a.book.closed.fill.ja"
+            case .character_book_closed_fill_kn: return "character.book.closed.fill.kn"
             case .character_book_closed_fill_ko:
                 if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *) {
                     return "character.book.closed.fill.ko"
                 }
                 return "a.book.closed.fill.ko"
+            case .character_book_closed_fill_ml: return "character.book.closed.fill.ml"
+            case .character_book_closed_fill_mni: return "character.book.closed.fill.mni"
+            case .character_book_closed_fill_mr: return "character.book.closed.fill.mr"
+            case .character_book_closed_fill_or: return "character.book.closed.fill.or"
+            case .character_book_closed_fill_pa: return "character.book.closed.fill.pa"
+            case .character_book_closed_fill_sat: return "character.book.closed.fill.sat"
+            case .character_book_closed_fill_si: return "character.book.closed.fill.si"
+            case .character_book_closed_fill_ta: return "character.book.closed.fill.ta"
+            case .character_book_closed_fill_te: return "character.book.closed.fill.te"
             case .character_book_closed_fill_th:
                 if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *) {
                     return "character.book.closed.fill.th"
@@ -29197,6 +32668,7 @@ public enum SFSymbol: Sendable {
                     return "character.book.closed.fill.zh"
                 }
                 return "a.book.closed.fill.zh"
+            case .character_book_closed_gu: return "character.book.closed.gu"
             case .character_book_closed_he:
                 if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *) {
                     return "character.book.closed.he"
@@ -29212,11 +32684,21 @@ public enum SFSymbol: Sendable {
                     return "character.book.closed.ja"
                 }
                 return "a.book.closed.ja"
+            case .character_book_closed_kn: return "character.book.closed.kn"
             case .character_book_closed_ko:
                 if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *) {
                     return "character.book.closed.ko"
                 }
                 return "a.book.closed.ko"
+            case .character_book_closed_ml: return "character.book.closed.ml"
+            case .character_book_closed_mni: return "character.book.closed.mni"
+            case .character_book_closed_mr: return "character.book.closed.mr"
+            case .character_book_closed_or: return "character.book.closed.or"
+            case .character_book_closed_pa: return "character.book.closed.pa"
+            case .character_book_closed_sat: return "character.book.closed.sat"
+            case .character_book_closed_si: return "character.book.closed.si"
+            case .character_book_closed_ta: return "character.book.closed.ta"
+            case .character_book_closed_te: return "character.book.closed.te"
             case .character_book_closed_th:
                 if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *) {
                     return "character.book.closed.th"
@@ -29237,6 +32719,7 @@ public enum SFSymbol: Sendable {
                     return "character.bubble.ar"
                 }
                 return "t.bubble.ar"
+            case .character_bubble_bn: return "character.bubble.bn"
             case .character_bubble_fill:
                 if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *) {
                     return "character.bubble.fill"
@@ -29247,6 +32730,8 @@ public enum SFSymbol: Sendable {
                     return "character.bubble.fill.ar"
                 }
                 return "t.bubble.fill.ar"
+            case .character_bubble_fill_bn: return "character.bubble.fill.bn"
+            case .character_bubble_fill_gu: return "character.bubble.fill.gu"
             case .character_bubble_fill_he:
                 if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *) {
                     return "character.bubble.fill.he"
@@ -29254,9 +32739,20 @@ public enum SFSymbol: Sendable {
                 return "t.bubble.fill.he"
             case .character_bubble_fill_hi: return "character.bubble.fill.hi"
             case .character_bubble_fill_ja: return "character.bubble.fill.ja"
+            case .character_bubble_fill_kn: return "character.bubble.fill.kn"
             case .character_bubble_fill_ko: return "character.bubble.fill.ko"
+            case .character_bubble_fill_ml: return "character.bubble.fill.ml"
+            case .character_bubble_fill_mni: return "character.bubble.fill.mni"
+            case .character_bubble_fill_mr: return "character.bubble.fill.mr"
+            case .character_bubble_fill_or: return "character.bubble.fill.or"
+            case .character_bubble_fill_pa: return "character.bubble.fill.pa"
+            case .character_bubble_fill_sat: return "character.bubble.fill.sat"
+            case .character_bubble_fill_si: return "character.bubble.fill.si"
+            case .character_bubble_fill_ta: return "character.bubble.fill.ta"
+            case .character_bubble_fill_te: return "character.bubble.fill.te"
             case .character_bubble_fill_th: return "character.bubble.fill.th"
             case .character_bubble_fill_zh: return "character.bubble.fill.zh"
+            case .character_bubble_gu: return "character.bubble.gu"
             case .character_bubble_he:
                 if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *) {
                     return "character.bubble.he"
@@ -29264,7 +32760,17 @@ public enum SFSymbol: Sendable {
                 return "t.bubble.he"
             case .character_bubble_hi: return "character.bubble.hi"
             case .character_bubble_ja: return "character.bubble.ja"
+            case .character_bubble_kn: return "character.bubble.kn"
             case .character_bubble_ko: return "character.bubble.ko"
+            case .character_bubble_ml: return "character.bubble.ml"
+            case .character_bubble_mni: return "character.bubble.mni"
+            case .character_bubble_mr: return "character.bubble.mr"
+            case .character_bubble_or: return "character.bubble.or"
+            case .character_bubble_pa: return "character.bubble.pa"
+            case .character_bubble_sat: return "character.bubble.sat"
+            case .character_bubble_si: return "character.bubble.si"
+            case .character_bubble_ta: return "character.bubble.ta"
+            case .character_bubble_te: return "character.bubble.te"
             case .character_bubble_th: return "character.bubble.th"
             case .character_bubble_zh: return "character.bubble.zh"
             case .character_circle: return "character.circle"
@@ -29441,6 +32947,26 @@ public enum SFSymbol: Sendable {
             case .character_sutton: return "character.sutton"
             case .character_ta: return "character.ta"
             case .character_te: return "character.te"
+            case .character_text_justify: return "character.text.justify"
+            case .character_text_justify_ar: return "character.text.justify.ar"
+            case .character_text_justify_bn: return "character.text.justify.bn"
+            case .character_text_justify_gu: return "character.text.justify.gu"
+            case .character_text_justify_he: return "character.text.justify.he"
+            case .character_text_justify_hi: return "character.text.justify.hi"
+            case .character_text_justify_ja: return "character.text.justify.ja"
+            case .character_text_justify_kn: return "character.text.justify.kn"
+            case .character_text_justify_ko: return "character.text.justify.ko"
+            case .character_text_justify_ml: return "character.text.justify.ml"
+            case .character_text_justify_mni: return "character.text.justify.mni"
+            case .character_text_justify_mr: return "character.text.justify.mr"
+            case .character_text_justify_or: return "character.text.justify.or"
+            case .character_text_justify_pa: return "character.text.justify.pa"
+            case .character_text_justify_sat: return "character.text.justify.sat"
+            case .character_text_justify_si: return "character.text.justify.si"
+            case .character_text_justify_ta: return "character.text.justify.ta"
+            case .character_text_justify_te: return "character.text.justify.te"
+            case .character_text_justify_th: return "character.text.justify.th"
+            case .character_text_justify_zh: return "character.text.justify.zh"
             case .character_textbox:
                 if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *) {
                     return "character.textbox"
@@ -29543,6 +33069,7 @@ public enum SFSymbol: Sendable {
             case .chart_bar_xaxis_ascending: return "chart.bar.xaxis.ascending"
             case .chart_bar_xaxis_ascending_badge_clock: return "chart.bar.xaxis.ascending.badge.clock"
             case .chart_bar_xaxis_ascending_badge_clock_rtl: return "chart.bar.xaxis.ascending.badge.clock.rtl"
+            case .chart_bar_xaxis_descending: return "chart.bar.xaxis.descending"
             case .chart_bar_yaxis: return "chart.bar.yaxis"
             case .chart_dots_scatter: return "chart.dots.scatter"
             case .chart_line_downtrend_xyaxis: return "chart.line.downtrend.xyaxis"
@@ -29567,7 +33094,10 @@ public enum SFSymbol: Sendable {
             case .checklist_rtl: return "checklist.rtl"
             case .checklist_unchecked: return "checklist.unchecked"
             case .checkmark: return "checkmark"
+            case .checkmark_app: return "checkmark.app"
+            case .checkmark_app_fill: return "checkmark.app.fill"
             case .checkmark_applewatch: return "checkmark.applewatch"
+            case .checkmark_arrow_trianglehead_clockwise: return "checkmark.arrow.trianglehead.clockwise"
             case .checkmark_arrow_trianglehead_counterclockwise:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "checkmark.arrow.trianglehead.counterclockwise"
@@ -29578,14 +33108,20 @@ public enum SFSymbol: Sendable {
             case .checkmark_bubble_fill_rtl: return "checkmark.bubble.fill.rtl"
             case .checkmark_bubble_rtl: return "checkmark.bubble.rtl"
             case .checkmark_circle: return "checkmark.circle"
+            case .checkmark_circle_badge_airplane: return "checkmark.circle.badge.airplane"
+            case .checkmark_circle_badge_airplane_fill: return "checkmark.circle.badge.airplane.fill"
+            case .checkmark_circle_badge_plus: return "checkmark.circle.badge.plus"
+            case .checkmark_circle_badge_plus_fill: return "checkmark.circle.badge.plus.fill"
             case .checkmark_circle_badge_questionmark: return "checkmark.circle.badge.questionmark"
             case .checkmark_circle_badge_questionmark_ar: return "checkmark.circle.badge.questionmark.ar"
             case .checkmark_circle_badge_questionmark_fill: return "checkmark.circle.badge.questionmark.fill"
             case .checkmark_circle_badge_questionmark_fill_ar: return "checkmark.circle.badge.questionmark.fill.ar"
             case .checkmark_circle_badge_xmark: return "checkmark.circle.badge.xmark"
             case .checkmark_circle_badge_xmark_fill: return "checkmark.circle.badge.xmark.fill"
+            case .checkmark_circle_dotted: return "checkmark.circle.dotted"
             case .checkmark_circle_fill: return "checkmark.circle.fill"
             case .checkmark_circle_trianglebadge_exclamationmark: return "checkmark.circle.trianglebadge.exclamationmark"
+            case .checkmark_circle_trianglebadge_exclamationmark_fill: return "checkmark.circle.trianglebadge.exclamationmark.fill"
             case .checkmark_diamond: return "checkmark.diamond"
             case .checkmark_diamond_fill: return "checkmark.diamond.fill"
             case .checkmark_gobackward: return "checkmark.gobackward"
@@ -29692,6 +33228,16 @@ public enum SFSymbol: Sendable {
                 return "chineseyuanrenminbisign.arrow.circlepath"
             case .chineseyuanrenminbisign_bank_building: return "chineseyuanrenminbisign.bank.building"
             case .chineseyuanrenminbisign_bank_building_fill: return "chineseyuanrenminbisign.bank.building.fill"
+            case .chineseyuanrenminbisign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "chineseyuanrenminbisign.building.classical"
+                }
+                return "chineseyuanrenminbisign.bank.building"
+            case .chineseyuanrenminbisign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "chineseyuanrenminbisign.building.classical.fill"
+                }
+                return "chineseyuanrenminbisign.bank.building.fill"
             case .chineseyuanrenminbisign_circle: return "chineseyuanrenminbisign.circle"
             case .chineseyuanrenminbisign_circle_fill: return "chineseyuanrenminbisign.circle.fill"
             case .chineseyuanrenminbisign_gauge_chart_lefthalf_righthalf: return "chineseyuanrenminbisign.gauge.chart.lefthalf.righthalf"
@@ -30061,6 +33607,7 @@ public enum SFSymbol: Sendable {
             case .circle_grid_2x1_right_filled: return "circle.grid.2x1.right.filled"
             case .circle_grid_2x2: return "circle.grid.2x2"
             case .circle_grid_2x2_fill: return "circle.grid.2x2.fill"
+            case .circle_grid_2x2_topleft_checkmark_filled: return "circle.grid.2x2.topleft.checkmark.filled"
             case .circle_grid_3x3: return "circle.grid.3x3"
             case .circle_grid_3x3_circle: return "circle.grid.3x3.circle"
             case .circle_grid_3x3_circle_fill: return "circle.grid.3x3.circle.fill"
@@ -30194,6 +33741,11 @@ public enum SFSymbol: Sendable {
             case .circle_lefthalf_filled_righthalf_striped_horizontal_inverse: return "circle.lefthalf.filled.righthalf.striped.horizontal.inverse"
             case .circle_lefthalf_striped_horizontal: return "circle.lefthalf.striped.horizontal"
             case .circle_lefthalf_striped_horizontal_inverse: return "circle.lefthalf.striped.horizontal.inverse"
+            case .circle_on_app_liquid_glass: return "circle.on.app.liquid.glass"
+            case .circle_on_app_liquid_glass_fill: return "circle.on.app.liquid.glass.fill"
+            case .circle_on_square: return "circle.on.square"
+            case .circle_on_square_intersection_dotted: return "circle.on.square.intersection.dotted"
+            case .circle_on_square_merge: return "circle.on.square.merge"
             case .circle_rectangle_dashed: return "circle.rectangle.dashed"
             case .circle_rectangle_filled_pattern_diagonalline: return "circle.rectangle.filled.pattern.diagonalline"
             case .circle_righthalf_fill: return "circle.righthalf.fill"
@@ -30238,12 +33790,15 @@ public enum SFSymbol: Sendable {
                     return "clock.arrow.trianglehead.2.counterclockwise.rotate.90"
                 }
                 return "clock.arrow.2.circlepath"
+            case .clock_arrow_trianglehead_clockwise_rotate_90_path_dotted: return "clock.arrow.trianglehead.clockwise.rotate.90.path.dotted"
             case .clock_arrow_trianglehead_counterclockwise_rotate_90:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "clock.arrow.trianglehead.counterclockwise.rotate.90"
                 }
                 return "clock.arrow.circlepath"
             case .clock_badge: return "clock.badge"
+            case .clock_badge_airplane: return "clock.badge.airplane"
+            case .clock_badge_airplane_fill: return "clock.badge.airplane.fill"
             case .clock_badge_checkmark: return "clock.badge.checkmark"
             case .clock_badge_checkmark_fill: return "clock.badge.checkmark.fill"
             case .clock_badge_exclamationmark: return "clock.badge.exclamationmark"
@@ -30335,6 +33890,8 @@ public enum SFSymbol: Sendable {
             case .cloud_sun_rain_circle_fill: return "cloud.sun.rain.circle.fill"
             case .cloud_sun_rain_fill: return "cloud.sun.rain.fill"
             case .coat: return "coat"
+            case .coat_circle: return "coat.circle"
+            case .coat_circle_fill: return "coat.circle.fill"
             case .coat_fill: return "coat.fill"
             case .coloncurrencysign: return "coloncurrencysign"
             case .coloncurrencysign_arrow_circlepath: return "coloncurrencysign.arrow.circlepath"
@@ -30345,6 +33902,16 @@ public enum SFSymbol: Sendable {
                 return "coloncurrencysign.arrow.circlepath"
             case .coloncurrencysign_bank_building: return "coloncurrencysign.bank.building"
             case .coloncurrencysign_bank_building_fill: return "coloncurrencysign.bank.building.fill"
+            case .coloncurrencysign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "coloncurrencysign.building.classical"
+                }
+                return "coloncurrencysign.bank.building"
+            case .coloncurrencysign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "coloncurrencysign.building.classical.fill"
+                }
+                return "coloncurrencysign.bank.building.fill"
             case .coloncurrencysign_circle: return "coloncurrencysign.circle"
             case .coloncurrencysign_circle_fill: return "coloncurrencysign.circle.fill"
             case .coloncurrencysign_gauge_chart_lefthalf_righthalf: return "coloncurrencysign.gauge.chart.lefthalf.righthalf"
@@ -30368,6 +33935,11 @@ public enum SFSymbol: Sendable {
             case .contact_sensor: return "contact.sensor"
             case .contact_sensor_fill: return "contact.sensor.fill"
             case .contextualmenu_and_cursorarrow: return "contextualmenu.and.cursorarrow"
+            case .contextualmenu_and_pointer_arrow:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "contextualmenu.and.pointer.arrow"
+                }
+                return "contextualmenu.and.cursorarrow"
             case .control: return "control"
             case .convertible_side: return "convertible.side"
             case .convertible_side_air_circulate: return "convertible.side.air.circulate"
@@ -30413,9 +33985,19 @@ public enum SFSymbol: Sendable {
             case .cpu_fill: return "cpu.fill"
             case .creditcard: return "creditcard"
             case .creditcard_and_123: return "creditcard.and.123"
+            case .creditcard_and_numbers:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "creditcard.and.numbers"
+                }
+                return "creditcard.and.123"
+            case .creditcard_arrow_trianglehead_2_clockwise_rotate_90: return "creditcard.arrow.trianglehead.2.clockwise.rotate.90"
+            case .creditcard_badge_plus: return "creditcard.badge.plus"
+            case .creditcard_badge_plus_fill: return "creditcard.badge.plus.fill"
             case .creditcard_circle: return "creditcard.circle"
             case .creditcard_circle_fill: return "creditcard.circle.fill"
             case .creditcard_fill: return "creditcard.fill"
+            case .creditcard_rewards: return "creditcard.rewards"
+            case .creditcard_rewards_fill: return "creditcard.rewards.fill"
             case .creditcard_trianglebadge_exclamationmark: return "creditcard.trianglebadge.exclamationmark"
             case .creditcard_trianglebadge_exclamationmark_fill: return "creditcard.trianglebadge.exclamationmark.fill"
             case .creditcard_viewfinder: return "creditcard.viewfinder"
@@ -30446,6 +34028,16 @@ public enum SFSymbol: Sendable {
                 return "cruzeirosign.arrow.circlepath"
             case .cruzeirosign_bank_building: return "cruzeirosign.bank.building"
             case .cruzeirosign_bank_building_fill: return "cruzeirosign.bank.building.fill"
+            case .cruzeirosign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "cruzeirosign.building.classical"
+                }
+                return "cruzeirosign.bank.building"
+            case .cruzeirosign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "cruzeirosign.building.classical.fill"
+                }
+                return "cruzeirosign.bank.building.fill"
             case .cruzeirosign_circle: return "cruzeirosign.circle"
             case .cruzeirosign_circle_fill: return "cruzeirosign.circle.fill"
             case .cruzeirosign_gauge_chart_lefthalf_righthalf: return "cruzeirosign.gauge.chart.lefthalf.righthalf"
@@ -30455,9 +34047,15 @@ public enum SFSymbol: Sendable {
             case .cruzeirosign_square: return "cruzeirosign.square"
             case .cruzeirosign_square_fill: return "cruzeirosign.square.fill"
             case .cube: return "cube"
+            case .cube_badge_paintbrush: return "cube.badge.paintbrush"
+            case .cube_badge_paintbrush_fill: return "cube.badge.paintbrush.fill"
             case .cube_box: return "cube.box"
             case .cube_box_fill: return "cube.box.fill"
+            case .cube_circle: return "cube.circle"
+            case .cube_circle_fill: return "cube.circle.fill"
             case .cube_fill: return "cube.fill"
+            case .cube_plane_bottom_right_detached: return "cube.plane.bottom.right.detached"
+            case .cube_plane_bottom_right_detached_fill: return "cube.plane.bottom.right.detached.fill"
             case .cube_transparent: return "cube.transparent"
             case .cube_transparent_fill: return "cube.transparent.fill"
             case .cup_and_heat_waves: return "cup.and.heat.waves"
@@ -30475,16 +34073,8 @@ public enum SFSymbol: Sendable {
             case .cursorarrow_click_badge_clock: return "cursorarrow.click.badge.clock"
             case .cursorarrow_motionlines: return "cursorarrow.motionlines"
             case .cursorarrow_motionlines_click: return "cursorarrow.motionlines.click"
-            case .cursorarrow_rays:
-                if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *) {
-                    return "cursorarrow.rays"
-                }
-                return "cursor.rays"
-            case .cursorarrow_resize_north_east_south_east:
-                if #available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *) {
-                    return "cursorarrow.resize.north.east.south.east"
-                }
-                return "cursorarrow"
+            case .cursorarrow_rays: return "cursorarrow.rays"
+            case .cursorarrow_resize_north_east_south_east: return "cursorarrow.resize.north.east.south.east"
             case .cursorarrow_slash: return "cursorarrow.slash"
             case .cursorarrow_slash_square: return "cursorarrow.slash.square"
             case .cursorarrow_slash_square_fill: return "cursorarrow.slash.square.fill"
@@ -30509,6 +34099,16 @@ public enum SFSymbol: Sendable {
                 return "danishkronesign.arrow.circlepath"
             case .danishkronesign_bank_building: return "danishkronesign.bank.building"
             case .danishkronesign_bank_building_fill: return "danishkronesign.bank.building.fill"
+            case .danishkronesign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "danishkronesign.building.classical"
+                }
+                return "danishkronesign.bank.building"
+            case .danishkronesign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "danishkronesign.building.classical.fill"
+                }
+                return "danishkronesign.bank.building.fill"
             case .danishkronesign_circle: return "danishkronesign.circle"
             case .danishkronesign_circle_fill: return "danishkronesign.circle.fill"
             case .danishkronesign_gauge_chart_lefthalf_righthalf: return "danishkronesign.gauge.chart.lefthalf.righthalf"
@@ -30536,6 +34136,8 @@ public enum SFSymbol: Sendable {
             case .desktopcomputer: return "desktopcomputer"
             case .desktopcomputer_and_arrow_down: return "desktopcomputer.and.arrow.down"
             case .desktopcomputer_and_macbook: return "desktopcomputer.and.macbook"
+            case .desktopcomputer_badge_checkmark: return "desktopcomputer.badge.checkmark"
+            case .desktopcomputer_badge_shield_checkmark: return "desktopcomputer.badge.shield.checkmark"
             case .desktopcomputer_trianglebadge_exclamationmark: return "desktopcomputer.trianglebadge.exclamationmark"
             case .deskview: return "deskview"
             case .deskview_fill: return "deskview.fill"
@@ -30596,14 +34198,18 @@ public enum SFSymbol: Sendable {
             case .die_face_5_fill: return "die.face.5.fill"
             case .die_face_6: return "die.face.6"
             case .die_face_6_fill: return "die.face.6.fill"
+            case .digitalcrown: return "digitalcrown"
             case .digitalcrown_arrow_clockwise: return "digitalcrown.arrow.clockwise"
             case .digitalcrown_arrow_clockwise_fill: return "digitalcrown.arrow.clockwise.fill"
             case .digitalcrown_arrow_counterclockwise: return "digitalcrown.arrow.counterclockwise"
             case .digitalcrown_arrow_counterclockwise_fill: return "digitalcrown.arrow.counterclockwise.fill"
+            case .digitalcrown_fill: return "digitalcrown.fill"
+            case .digitalcrown_horizontal: return "digitalcrown.horizontal"
             case .digitalcrown_horizontal_arrow_clockwise: return "digitalcrown.horizontal.arrow.clockwise"
             case .digitalcrown_horizontal_arrow_clockwise_fill: return "digitalcrown.horizontal.arrow.clockwise.fill"
             case .digitalcrown_horizontal_arrow_counterclockwise: return "digitalcrown.horizontal.arrow.counterclockwise"
             case .digitalcrown_horizontal_arrow_counterclockwise_fill: return "digitalcrown.horizontal.arrow.counterclockwise.fill"
+            case .digitalcrown_horizontal_fill: return "digitalcrown.horizontal.fill"
             case .digitalcrown_horizontal_press: return "digitalcrown.horizontal.press"
             case .digitalcrown_horizontal_press_fill: return "digitalcrown.horizontal.press.fill"
             case .digitalcrown_press: return "digitalcrown.press"
@@ -30616,6 +34222,7 @@ public enum SFSymbol: Sendable {
             case .display: return "display"
             case .display_2: return "display.2"
             case .display_and_arrow_down: return "display.and.arrow.down"
+            case .display_and_screwdriver: return "display.and.screwdriver"
             case .display_trianglebadge_exclamationmark: return "display.trianglebadge.exclamationmark"
             case .distribute_horizontal: return "distribute.horizontal"
             case .distribute_horizontal_center: return "distribute.horizontal.center"
@@ -30795,6 +34402,8 @@ public enum SFSymbol: Sendable {
                     return "document.on.document.fill"
                 }
                 return "doc.on.doc.fill"
+            case .document_on_trash: return "document.on.trash"
+            case .document_on_trash_fill: return "document.on.trash.fill"
             case .document_viewfinder:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "document.viewfinder"
@@ -30824,6 +34433,16 @@ public enum SFSymbol: Sendable {
                 return "dollarsign.arrow.circlepath"
             case .dollarsign_bank_building: return "dollarsign.bank.building"
             case .dollarsign_bank_building_fill: return "dollarsign.bank.building.fill"
+            case .dollarsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "dollarsign.building.classical"
+                }
+                return "dollarsign.bank.building"
+            case .dollarsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "dollarsign.building.classical.fill"
+                }
+                return "dollarsign.bank.building.fill"
             case .dollarsign_circle: return "dollarsign.circle"
             case .dollarsign_circle_fill: return "dollarsign.circle.fill"
             case .dollarsign_gauge_chart_lefthalf_righthalf: return "dollarsign.gauge.chart.lefthalf.righthalf"
@@ -30841,6 +34460,16 @@ public enum SFSymbol: Sendable {
                 return "dongsign.arrow.circlepath"
             case .dongsign_bank_building: return "dongsign.bank.building"
             case .dongsign_bank_building_fill: return "dongsign.bank.building.fill"
+            case .dongsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "dongsign.building.classical"
+                }
+                return "dongsign.bank.building"
+            case .dongsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "dongsign.building.classical.fill"
+                }
+                return "dongsign.bank.building.fill"
             case .dongsign_circle: return "dongsign.circle"
             case .dongsign_circle_fill: return "dongsign.circle.fill"
             case .dongsign_gauge_chart_lefthalf_righthalf: return "dongsign.gauge.chart.lefthalf.righthalf"
@@ -30873,8 +34502,14 @@ public enum SFSymbol: Sendable {
             case .dot_circle: return "dot.circle"
             case .dot_circle_and_cursorarrow: return "dot.circle.and.cursorarrow"
             case .dot_circle_and_hand_point_up_left_fill: return "dot.circle.and.hand.point.up.left.fill"
+            case .dot_circle_and_pointer_arrow:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "dot.circle.and.pointer.arrow"
+                }
+                return "dot.circle.and.cursorarrow"
             case .dot_circle_fill: return "dot.circle.fill"
             case .dot_circle_viewfinder: return "dot.circle.viewfinder"
+            case .dot_crosshair: return "dot.crosshair"
             case .dot_radiowaves_forward: return "dot.radiowaves.forward"
             case .dot_radiowaves_left_and_right: return "dot.radiowaves.left.and.right"
             case .dot_radiowaves_right: return "dot.radiowaves.right"
@@ -30889,6 +34524,11 @@ public enum SFSymbol: Sendable {
             case .dot_squareshape_split_2x2: return "dot.squareshape.split.2x2"
             case .dot_viewfinder: return "dot.viewfinder"
             case .dots_and_line_vertical_and_cursorarrow_rectangle: return "dots.and.line.vertical.and.cursorarrow.rectangle"
+            case .dots_and_line_vertical_and_pointer_arrow_rectangle:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "dots.and.line.vertical.and.pointer.arrow.rectangle"
+                }
+                return "dots.and.line.vertical.and.cursorarrow.rectangle"
             case .dpad: return "dpad"
             case .dpad_down_fill: return "dpad.down.fill"
             case .dpad_down_filled:
@@ -30963,9 +34603,20 @@ public enum SFSymbol: Sendable {
                 return "ear.and.waveform"
             case .ear_fill: return "ear.fill"
             case .ear_trianglebadge_exclamationmark: return "ear.trianglebadge.exclamationmark"
+            case .earbud_left: return "earbud.left"
+            case .earbud_right: return "earbud.right"
             case .earbuds: return "earbuds"
+            case .earbuds_bone_conduction: return "earbuds.bone.conduction"
+            case .earbuds_bone_conduction_left: return "earbuds.bone.conduction.left"
+            case .earbuds_bone_conduction_right: return "earbuds.bone.conduction.right"
             case .earbuds_case: return "earbuds.case"
             case .earbuds_case_fill: return "earbuds.case.fill"
+            case .earbuds_in_ear: return "earbuds.in.ear"
+            case .earbuds_in_ear_left: return "earbuds.in.ear.left"
+            case .earbuds_in_ear_right: return "earbuds.in.ear.right"
+            case .earbuds_stemless: return "earbuds.stemless"
+            case .earbuds_stemless_left: return "earbuds.stemless.left"
+            case .earbuds_stemless_right: return "earbuds.stemless.right"
             case .earpods: return "earpods"
             case .ecg_text_page: return "ecg.text.page"
             case .ecg_text_page_fill: return "ecg.text.page.fill"
@@ -30995,7 +34646,10 @@ public enum SFSymbol: Sendable {
                     return "ellipsis.bubble.fill"
                 }
                 return "ellipses.bubble.fill"
+            case .ellipsis_calendar: return "ellipsis.calendar"
             case .ellipsis_circle: return "ellipsis.circle"
+            case .ellipsis_circle_badge: return "ellipsis.circle.badge"
+            case .ellipsis_circle_badge_fill: return "ellipsis.circle.badge.fill"
             case .ellipsis_circle_fill: return "ellipsis.circle.fill"
             case .ellipsis_curlybraces: return "ellipsis.curlybraces"
             case .ellipsis_message: return "ellipsis.message"
@@ -31029,12 +34683,18 @@ public enum SFSymbol: Sendable {
                     return "envelope.and.arrow.trianglehead.branch.fill"
                 }
                 return "envelope.arrow.triangle.branch.fill"
+            case .envelope_and_hand_raised: return "envelope.and.hand.raised"
+            case .envelope_and_hand_raised_fill: return "envelope.and.hand.raised.fill"
             case .envelope_arrow_triangle_branch: return "envelope.arrow.triangle.branch"
             case .envelope_arrow_triangle_branch_fill: return "envelope.arrow.triangle.branch.fill"
             case .envelope_badge: return "envelope.badge"
             case .envelope_badge_fill: return "envelope.badge.fill"
+            case .envelope_badge_minus: return "envelope.badge.minus"
+            case .envelope_badge_minus_fill: return "envelope.badge.minus.fill"
             case .envelope_badge_person_crop: return "envelope.badge.person.crop"
             case .envelope_badge_person_crop_fill: return "envelope.badge.person.crop.fill"
+            case .envelope_badge_plus: return "envelope.badge.plus"
+            case .envelope_badge_plus_fill: return "envelope.badge.plus.fill"
             case .envelope_badge_shield_half_filled:
                 if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *) {
                     return "envelope.badge.shield.half.filled"
@@ -31056,18 +34716,33 @@ public enum SFSymbol: Sendable {
             case .envelope_front_rtl: return "envelope.front.rtl"
             case .envelope_open: return "envelope.open"
             case .envelope_open_badge_clock: return "envelope.open.badge.clock"
+            case .envelope_open_badge_clock_fill: return "envelope.open.badge.clock.fill"
             case .envelope_open_fill: return "envelope.open.fill"
             case .envelope_stack: return "envelope.stack"
             case .envelope_stack_fill: return "envelope.stack.fill"
+            case .environments: return "environments"
+            case .environments_circle: return "environments.circle"
+            case .environments_circle_fill: return "environments.circle.fill"
+            case .environments_fill: return "environments.fill"
+            case .environments_slash: return "environments.slash"
+            case .environments_slash_circle: return "environments.slash.circle"
+            case .environments_slash_circle_fill: return "environments.slash.circle.fill"
+            case .environments_slash_fill: return "environments.slash.fill"
             case .equal: return "equal"
             case .equal_circle: return "equal.circle"
             case .equal_circle_fill: return "equal.circle.fill"
             case .equal_square: return "equal.square"
             case .equal_square_fill: return "equal.square.fill"
             case .eraser: return "eraser"
+            case .eraser_badge_xmark: return "eraser.badge.xmark"
+            case .eraser_badge_xmark_fill: return "eraser.badge.xmark.fill"
             case .eraser_fill: return "eraser.fill"
             case .eraser_line_dashed: return "eraser.line.dashed"
             case .eraser_line_dashed_fill: return "eraser.line.dashed.fill"
+            case .eraser_slash: return "eraser.slash"
+            case .eraser_slash_fill: return "eraser.slash.fill"
+            case .eraser_trianglebadge_exclamationmark: return "eraser.trianglebadge.exclamationmark"
+            case .eraser_trianglebadge_exclamationmark_fill: return "eraser.trianglebadge.exclamationmark.fill"
             case .escape: return "escape"
             case .esim: return "esim"
             case .esim_fill: return "esim.fill"
@@ -31080,6 +34755,16 @@ public enum SFSymbol: Sendable {
                 return "eurosign.arrow.circlepath"
             case .eurosign_bank_building: return "eurosign.bank.building"
             case .eurosign_bank_building_fill: return "eurosign.bank.building.fill"
+            case .eurosign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "eurosign.building.classical"
+                }
+                return "eurosign.bank.building"
+            case .eurosign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "eurosign.building.classical.fill"
+                }
+                return "eurosign.bank.building.fill"
             case .eurosign_circle: return "eurosign.circle"
             case .eurosign_circle_fill: return "eurosign.circle.fill"
             case .eurosign_gauge_chart_lefthalf_righthalf: return "eurosign.gauge.chart.lefthalf.righthalf"
@@ -31097,6 +34782,16 @@ public enum SFSymbol: Sendable {
                 return "eurozonesign.arrow.circlepath"
             case .eurozonesign_bank_building: return "eurozonesign.bank.building"
             case .eurozonesign_bank_building_fill: return "eurozonesign.bank.building.fill"
+            case .eurozonesign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "eurozonesign.building.classical"
+                }
+                return "eurozonesign.bank.building"
+            case .eurozonesign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "eurozonesign.building.classical.fill"
+                }
+                return "eurozonesign.bank.building.fill"
             case .eurozonesign_circle: return "eurozonesign.circle"
             case .eurozonesign_circle_fill: return "eurozonesign.circle.fill"
             case .eurozonesign_gauge_chart_lefthalf_righthalf: return "eurozonesign.gauge.chart.lefthalf.righthalf"
@@ -31177,6 +34872,7 @@ public enum SFSymbol: Sendable {
             case .exclamationmark_triangle_text_page_fill: return "exclamationmark.triangle.text.page.fill"
             case .exclamationmark_triangle_text_page_fill_rtl: return "exclamationmark.triangle.text.page.fill.rtl"
             case .exclamationmark_triangle_text_page_rtl: return "exclamationmark.triangle.text.page.rtl"
+            case .exclamationmark_viewfinder: return "exclamationmark.viewfinder"
             case .exclamationmark_warninglight: return "exclamationmark.warninglight"
             case .exclamationmark_warninglight_fill: return "exclamationmark.warninglight.fill"
             case .externaldrive: return "externaldrive"
@@ -31211,6 +34907,8 @@ public enum SFSymbol: Sendable {
             case .eye_circle: return "eye.circle"
             case .eye_circle_fill: return "eye.circle.fill"
             case .eye_fill: return "eye.fill"
+            case .eye_half_closed: return "eye.half.closed"
+            case .eye_half_closed_fill: return "eye.half.closed.fill"
             case .eye_slash: return "eye.slash"
             case .eye_slash_circle: return "eye.slash.circle"
             case .eye_slash_circle_fill: return "eye.slash.circle.fill"
@@ -31221,6 +34919,7 @@ public enum SFSymbol: Sendable {
             case .eye_trianglebadge_exclamationmark_fill: return "eye.trianglebadge.exclamationmark.fill"
             case .eyebrow: return "eyebrow"
             case .eyedropper: return "eyedropper"
+            case .eyedropper_and_sparkles: return "eyedropper.and.sparkles"
             case .eyedropper_full: return "eyedropper.full"
             case .eyedropper_halffull: return "eyedropper.halffull"
             case .eyeglasses: return "eyeglasses"
@@ -31232,6 +34931,7 @@ public enum SFSymbol: Sendable {
             case .f_cursive: return "f.cursive"
             case .f_cursive_circle: return "f.cursive.circle"
             case .f_cursive_circle_fill: return "f.cursive.circle.fill"
+            case .f_cursive_slash: return "f.cursive.slash"
             case .f_square: return "f.square"
             case .f_square_fill: return "f.square.fill"
             case .face_dashed: return "face.dashed"
@@ -31260,10 +34960,14 @@ public enum SFSymbol: Sendable {
                 return "fanblades"
             case .fan_and_light_ceiling: return "fan.and.light.ceiling"
             case .fan_and_light_ceiling_fill: return "fan.and.light.ceiling.fill"
+            case .fan_badge_arrow_up_and_down_and_arrow_left_and_right: return "fan.badge.arrow.up.and.down.and.arrow.left.and.right"
+            case .fan_badge_arrow_up_and_down_and_arrow_left_and_right_fill: return "fan.badge.arrow.up.and.down.and.arrow.left.and.right.fill"
             case .fan_badge_automatic: return "fan.badge.automatic"
             case .fan_badge_automatic_fill: return "fan.badge.automatic.fill"
             case .fan_ceiling: return "fan.ceiling"
             case .fan_ceiling_fill: return "fan.ceiling.fill"
+            case .fan_circle: return "fan.circle"
+            case .fan_circle_fill: return "fan.circle.fill"
             case .fan_desk: return "fan.desk"
             case .fan_desk_fill: return "fan.desk.fill"
             case .fan_fill:
@@ -31273,6 +34977,7 @@ public enum SFSymbol: Sendable {
                 return "fanblades.fill"
             case .fan_floor: return "fan.floor"
             case .fan_floor_fill: return "fan.floor.fill"
+            case .fan_gauge_open: return "fan.gauge.open"
             case .fan_oscillation: return "fan.oscillation"
             case .fan_oscillation_fill: return "fan.oscillation.fill"
             case .fan_slash:
@@ -31307,8 +35012,10 @@ public enum SFSymbol: Sendable {
             case .figure_2: return "figure.2"
             case .figure_2_and_child_holdinghands: return "figure.2.and.child.holdinghands"
             case .figure_2_arms_open: return "figure.2.arms.open"
+            case .figure_2_ascending: return "figure.2.ascending"
             case .figure_2_circle: return "figure.2.circle"
             case .figure_2_circle_fill: return "figure.2.circle.fill"
+            case .figure_2_descending: return "figure.2.descending"
             case .figure_2_left_holdinghands: return "figure.2.left.holdinghands"
             case .figure_2_right_holdinghands: return "figure.2.right.holdinghands"
             case .figure_american_football: return "figure.american.football"
@@ -31347,6 +35054,8 @@ public enum SFSymbol: Sendable {
             case .figure_child_and_lock_open_fill: return "figure.child.and.lock.open.fill"
             case .figure_child_circle: return "figure.child.circle"
             case .figure_child_circle_fill: return "figure.child.circle.fill"
+            case .figure_child_shield: return "figure.child.shield"
+            case .figure_child_shield_fill: return "figure.child.shield.fill"
             case .figure_climbing: return "figure.climbing"
             case .figure_climbing_circle: return "figure.climbing.circle"
             case .figure_climbing_circle_fill: return "figure.climbing.circle.fill"
@@ -31561,6 +35270,7 @@ public enum SFSymbol: Sendable {
                     return "figure.seated.side.left"
                 }
                 return "figure.seated.side"
+            case .figure_seated_side_left_air_distribution_indirect: return "figure.seated.side.left.air.distribution.indirect"
             case .figure_seated_side_left_air_distribution_lower:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "figure.seated.side.left.air.distribution.lower"
@@ -31569,6 +35279,7 @@ public enum SFSymbol: Sendable {
                     return "figure.seated.side.air.distribution.lower"
                 }
                 return "figure.seated.side.air.lower"
+            case .figure_seated_side_left_air_distribution_lower_angled_and_upper_angled: return "figure.seated.side.left.air.distribution.lower.angled.and.upper.angled"
             case .figure_seated_side_left_air_distribution_middle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "figure.seated.side.left.air.distribution.middle"
@@ -31599,6 +35310,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "figure.seated.side.air.windshield"
             case .figure_seated_side_left_air_distribution_upper_and_middle_and_lower: return "figure.seated.side.left.air.distribution.upper.and.middle.and.lower"
+            case .figure_seated_side_left_air_distribution_upper_angled_and_dottedline_and_lower_angled: return "figure.seated.side.left.air.distribution.upper.angled.and.dottedline.and.lower.angled"
             case .figure_seated_side_left_air_distribution_upper_angled_and_lower_angled:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "figure.seated.side.left.air.distribution.upper.angled.and.lower.angled"
@@ -31682,12 +35394,15 @@ public enum SFSymbol: Sendable {
                 }
                 return "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower"
             case .figure_seated_side_right: return "figure.seated.side.right"
+            case .figure_seated_side_right_air_distribution_indirect: return "figure.seated.side.right.air.distribution.indirect"
             case .figure_seated_side_right_air_distribution_lower: return "figure.seated.side.right.air.distribution.lower"
+            case .figure_seated_side_right_air_distribution_lower_angled_and_upper_angled: return "figure.seated.side.right.air.distribution.lower.angled.and.upper.angled"
             case .figure_seated_side_right_air_distribution_middle: return "figure.seated.side.right.air.distribution.middle"
             case .figure_seated_side_right_air_distribution_middle_and_lower: return "figure.seated.side.right.air.distribution.middle.and.lower"
             case .figure_seated_side_right_air_distribution_middle_and_lower_angled: return "figure.seated.side.right.air.distribution.middle.and.lower.angled"
             case .figure_seated_side_right_air_distribution_upper: return "figure.seated.side.right.air.distribution.upper"
             case .figure_seated_side_right_air_distribution_upper_and_middle_and_lower: return "figure.seated.side.right.air.distribution.upper.and.middle.and.lower"
+            case .figure_seated_side_right_air_distribution_upper_angled_and_dottedline_and_lower_angled: return "figure.seated.side.right.air.distribution.upper.angled.and.dottedline.and.lower.angled"
             case .figure_seated_side_right_air_distribution_upper_angled_and_lower_angled: return "figure.seated.side.right.air.distribution.upper.angled.and.lower.angled"
             case .figure_seated_side_right_air_distribution_upper_angled_and_middle: return "figure.seated.side.right.air.distribution.upper.angled.and.middle"
             case .figure_seated_side_right_air_distribution_upper_angled_and_middle_and_lower_angled: return "figure.seated.side.right.air.distribution.upper.angled.and.middle.and.lower.angled"
@@ -31696,6 +35411,7 @@ public enum SFSymbol: Sendable {
             case .figure_seated_side_right_airbag_on: return "figure.seated.side.right.airbag.on"
             case .figure_seated_side_right_airbag_on_2: return "figure.seated.side.right.airbag.on.2"
             case .figure_seated_side_right_automatic: return "figure.seated.side.right.automatic"
+            case .figure_seated_side_right_child_lap: return "figure.seated.side.right.child.lap"
             case .figure_seated_side_right_fan: return "figure.seated.side.right.fan"
             case .figure_seated_side_right_steeringwheel: return "figure.seated.side.right.steeringwheel"
             case .figure_seated_side_right_windshield_front_and_heat_waves: return "figure.seated.side.right.windshield.front.and.heat.waves"
@@ -31748,6 +35464,7 @@ public enum SFSymbol: Sendable {
             case .figure_stairs_circle: return "figure.stairs.circle"
             case .figure_stairs_circle_fill: return "figure.stairs.circle.fill"
             case .figure_stand: return "figure.stand"
+            case .figure_stand_and_figure_teen: return "figure.stand.and.figure.teen"
             case .figure_stand_dress: return "figure.stand.dress"
             case .figure_stand_dress_line_vertical_figure:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
@@ -31773,6 +35490,13 @@ public enum SFSymbol: Sendable {
             case .figure_taichi: return "figure.taichi"
             case .figure_taichi_circle: return "figure.taichi.circle"
             case .figure_taichi_circle_fill: return "figure.taichi.circle.fill"
+            case .figure_teen: return "figure.teen"
+            case .figure_teen_and_lock: return "figure.teen.and.lock"
+            case .figure_teen_and_lock_fill: return "figure.teen.and.lock.fill"
+            case .figure_teen_and_lock_open: return "figure.teen.and.lock.open"
+            case .figure_teen_and_lock_open_fill: return "figure.teen.and.lock.open.fill"
+            case .figure_teen_shield: return "figure.teen.shield"
+            case .figure_teen_shield_fill: return "figure.teen.shield.fill"
             case .figure_tennis: return "figure.tennis"
             case .figure_tennis_circle: return "figure.tennis.circle"
             case .figure_tennis_circle_fill: return "figure.tennis.circle.fill"
@@ -31791,6 +35515,9 @@ public enum SFSymbol: Sendable {
             case .figure_walk_diamond_fill: return "figure.walk.diamond.fill"
             case .figure_walk_motion: return "figure.walk.motion"
             case .figure_walk_motion_trianglebadge_exclamationmark: return "figure.walk.motion.trianglebadge.exclamationmark"
+            case .figure_walk_suitcase_rolling: return "figure.walk.suitcase.rolling"
+            case .figure_walk_suitcase_rolling_circle: return "figure.walk.suitcase.rolling.circle"
+            case .figure_walk_suitcase_rolling_circle_fill: return "figure.walk.suitcase.rolling.circle.fill"
             case .figure_walk_treadmill: return "figure.walk.treadmill"
             case .figure_walk_treadmill_circle: return "figure.walk.treadmill.circle"
             case .figure_walk_treadmill_circle_fill: return "figure.walk.treadmill.circle.fill"
@@ -31813,6 +35540,16 @@ public enum SFSymbol: Sendable {
             case .figure_yoga_circle_fill: return "figure.yoga.circle.fill"
             case .filemenu_and_cursorarrow: return "filemenu.and.cursorarrow"
             case .filemenu_and_cursorarrow_rtl: return "filemenu.and.cursorarrow.rtl"
+            case .filemenu_and_pointer_arrow:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "filemenu.and.pointer.arrow"
+                }
+                return "filemenu.and.cursorarrow"
+            case .filemenu_and_pointer_arrow_rtl:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "filemenu.and.pointer.arrow.rtl"
+                }
+                return "filemenu.and.cursorarrow.rtl"
             case .filemenu_and_selection: return "filemenu.and.selection"
             case .film: return "film"
             case .film_circle: return "film.circle"
@@ -31820,6 +35557,7 @@ public enum SFSymbol: Sendable {
             case .film_fill: return "film.fill"
             case .film_stack: return "film.stack"
             case .film_stack_fill: return "film.stack.fill"
+            case .finder: return "finder"
             case .fire_extinguisher: return "fire.extinguisher"
             case .fire_extinguisher_fill: return "fire.extinguisher.fill"
             case .fireplace: return "fireplace"
@@ -31878,6 +35616,7 @@ public enum SFSymbol: Sendable {
             case .flame_circle: return "flame.circle"
             case .flame_circle_fill: return "flame.circle.fill"
             case .flame_fill: return "flame.fill"
+            case .flame_gauge_open: return "flame.gauge.open"
             case .flashlight_off_circle: return "flashlight.off.circle"
             case .flashlight_off_circle_fill: return "flashlight.off.circle.fill"
             case .flashlight_off_fill: return "flashlight.off.fill"
@@ -31903,6 +35642,16 @@ public enum SFSymbol: Sendable {
                 return "florinsign.arrow.circlepath"
             case .florinsign_bank_building: return "florinsign.bank.building"
             case .florinsign_bank_building_fill: return "florinsign.bank.building.fill"
+            case .florinsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "florinsign.building.classical"
+                }
+                return "florinsign.bank.building"
+            case .florinsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "florinsign.building.classical.fill"
+                }
+                return "florinsign.bank.building.fill"
             case .florinsign_circle: return "florinsign.circle"
             case .florinsign_circle_fill: return "florinsign.circle.fill"
             case .florinsign_gauge_chart_lefthalf_righthalf: return "florinsign.gauge.chart.lefthalf.righthalf"
@@ -31919,6 +35668,8 @@ public enum SFSymbol: Sendable {
             case .fluid_transmission: return "fluid.transmission"
             case .fn: return "fn"
             case .folder: return "folder"
+            case .folder_and_person: return "folder.and.person"
+            case .folder_and_person_fill: return "folder.and.person.fill"
             case .folder_badge_gear: return "folder.badge.gear"
             case .folder_badge_gearshape:
                 if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *) {
@@ -31979,6 +35730,16 @@ public enum SFSymbol: Sendable {
                 return "francsign.arrow.circlepath"
             case .francsign_bank_building: return "francsign.bank.building"
             case .francsign_bank_building_fill: return "francsign.bank.building.fill"
+            case .francsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "francsign.building.classical"
+                }
+                return "francsign.bank.building"
+            case .francsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "francsign.building.classical.fill"
+                }
+                return "francsign.bank.building.fill"
             case .francsign_circle: return "francsign.circle"
             case .francsign_circle_fill: return "francsign.circle.fill"
             case .francsign_gauge_chart_lefthalf_righthalf: return "francsign.gauge.chart.lefthalf.righthalf"
@@ -32001,8 +35762,11 @@ public enum SFSymbol: Sendable {
             case .fuelpump_exclamationmark: return "fuelpump.exclamationmark"
             case .fuelpump_exclamationmark_fill: return "fuelpump.exclamationmark.fill"
             case .fuelpump_fill: return "fuelpump.fill"
+            case .fuelpump_nozzle_and_drop: return "fuelpump.nozzle.and.drop"
             case .fuelpump_slash: return "fuelpump.slash"
             case .fuelpump_slash_fill: return "fuelpump.slash.fill"
+            case .fuelpump_thermometer: return "fuelpump.thermometer"
+            case .fuelpump_thermometer_fill: return "fuelpump.thermometer.fill"
             case .function: return "function"
             case .function_ar: return "function.ar"
             case .fx: return "fx"
@@ -32017,11 +35781,15 @@ public enum SFSymbol: Sendable {
             case .gauge: return "gauge"
             case .gauge_badge_minus: return "gauge.badge.minus"
             case .gauge_badge_plus: return "gauge.badge.plus"
+            case .gauge_chart_lefthalf_righthalf: return "gauge.chart.lefthalf.righthalf"
+            case .gauge_chart_leftthird_topthird_rightthird: return "gauge.chart.leftthird.topthird.rightthird"
             case .gauge_high: return "gauge.high"
             case .gauge_low: return "gauge.low"
             case .gauge_medium: return "gauge.medium"
             case .gauge_medium_badge_minus: return "gauge.medium.badge.minus"
             case .gauge_medium_badge_plus: return "gauge.medium.badge.plus"
+            case .gauge_open: return "gauge.open"
+            case .gauge_open_righthalf_dotted_with_needle_and_arrow_trianglehead_backward: return "gauge.open.righthalf.dotted.with.needle.and.arrow.trianglehead.backward"
             case .gauge_open_with_lines_needle_33percent: return "gauge.open.with.lines.needle.33percent"
             case .gauge_open_with_lines_needle_33percent_and_arrow_trianglehead_from_0percent_to_50percent:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
@@ -32033,6 +35801,7 @@ public enum SFSymbol: Sendable {
             case .gauge_open_with_lines_needle_67percent_and_arrowtriangle: return "gauge.open.with.lines.needle.67percent.and.arrowtriangle"
             case .gauge_open_with_lines_needle_67percent_and_arrowtriangle_and_car: return "gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car"
             case .gauge_open_with_lines_needle_84percent_exclamation: return "gauge.open.with.lines.needle.84percent.exclamation"
+            case .gauge_range_33to100_dotted_with_needle: return "gauge.range.33to100.dotted.with.needle"
             case .gauge_with_dots_needle_0percent: return "gauge.with.dots.needle.0percent"
             case .gauge_with_dots_needle_100percent: return "gauge.with.dots.needle.100percent"
             case .gauge_with_dots_needle_33percent: return "gauge.with.dots.needle.33percent"
@@ -32108,15 +35877,19 @@ public enum SFSymbol: Sendable {
             case .globe: return "globe"
             case .globe_americas: return "globe.americas"
             case .globe_americas_fill: return "globe.americas.fill"
+            case .globe_and_person: return "globe.and.person"
             case .globe_asia_australia: return "globe.asia.australia"
             case .globe_asia_australia_fill: return "globe.asia.australia.fill"
             case .globe_badge_chevron_backward: return "globe.badge.chevron.backward"
+            case .globe_badge_clock: return "globe.badge.clock"
+            case .globe_badge_clock_fill: return "globe.badge.clock.fill"
             case .globe_central_south_asia: return "globe.central.south.asia"
             case .globe_central_south_asia_fill: return "globe.central.south.asia.fill"
             case .globe_desk: return "globe.desk"
             case .globe_desk_fill: return "globe.desk.fill"
             case .globe_europe_africa: return "globe.europe.africa"
             case .globe_europe_africa_fill: return "globe.europe.africa.fill"
+            case .globe_fill: return "globe.fill"
             case .glowplug: return "glowplug"
             case .gobackward: return "gobackward"
             case .gobackward_10: return "gobackward.10"
@@ -32174,6 +35947,8 @@ public enum SFSymbol: Sendable {
             case .graduationcap_circle: return "graduationcap.circle"
             case .graduationcap_circle_fill: return "graduationcap.circle.fill"
             case .graduationcap_fill: return "graduationcap.fill"
+            case .graph_2d: return "graph.2d"
+            case .graph_3d: return "graph.3d"
             case .greaterthan: return "greaterthan"
             case .greaterthan_circle: return "greaterthan.circle"
             case .greaterthan_circle_fill: return "greaterthan.circle.fill"
@@ -32198,6 +35973,16 @@ public enum SFSymbol: Sendable {
                 return "guaranisign.arrow.circlepath"
             case .guaranisign_bank_building: return "guaranisign.bank.building"
             case .guaranisign_bank_building_fill: return "guaranisign.bank.building.fill"
+            case .guaranisign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "guaranisign.building.classical"
+                }
+                return "guaranisign.bank.building"
+            case .guaranisign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "guaranisign.building.classical.fill"
+                }
+                return "guaranisign.bank.building.fill"
             case .guaranisign_circle: return "guaranisign.circle"
             case .guaranisign_circle_fill: return "guaranisign.circle.fill"
             case .guaranisign_gauge_chart_lefthalf_righthalf: return "guaranisign.gauge.chart.lefthalf.righthalf"
@@ -32206,6 +35991,10 @@ public enum SFSymbol: Sendable {
             case .guaranisign_ring_dashed: return "guaranisign.ring.dashed"
             case .guaranisign_square: return "guaranisign.square"
             case .guaranisign_square_fill: return "guaranisign.square.fill"
+            case .guidepoint_horizontal: return "guidepoint.horizontal"
+            case .guidepoint_vertical: return "guidepoint.vertical"
+            case .guidepoint_vertical_arrowtriangle_forward: return "guidepoint.vertical.arrowtriangle.forward"
+            case .guidepoint_vertical_numbers: return "guidepoint.vertical.numbers"
             case .guitars: return "guitars"
             case .guitars_fill: return "guitars.fill"
             case .gym_bag: return "gym.bag"
@@ -32226,6 +36015,8 @@ public enum SFSymbol: Sendable {
             case .hammer_circle: return "hammer.circle"
             case .hammer_circle_fill: return "hammer.circle.fill"
             case .hammer_fill: return "hammer.fill"
+            case .hammer_slash: return "hammer.slash"
+            case .hammer_slash_fill: return "hammer.slash.fill"
             case .hand_app: return "hand.app"
             case .hand_app_fill: return "hand.app.fill"
             case .hand_draw: return "hand.draw"
@@ -32286,6 +36077,10 @@ public enum SFSymbol: Sendable {
             case .hand_thumbsdown_circle: return "hand.thumbsdown.circle"
             case .hand_thumbsdown_circle_fill: return "hand.thumbsdown.circle.fill"
             case .hand_thumbsdown_fill: return "hand.thumbsdown.fill"
+            case .hand_thumbsdown_filled_hand_thumbsup: return "hand.thumbsdown.filled.hand.thumbsup"
+            case .hand_thumbsdown_hand_thumbsup: return "hand.thumbsdown.hand.thumbsup"
+            case .hand_thumbsdown_hand_thumbsup_fill: return "hand.thumbsdown.hand.thumbsup.fill"
+            case .hand_thumbsdown_hand_thumbsup_filled: return "hand.thumbsdown.hand.thumbsup.filled"
             case .hand_thumbsdown_slash: return "hand.thumbsdown.slash"
             case .hand_thumbsdown_slash_fill: return "hand.thumbsdown.slash.fill"
             case .hand_thumbsup: return "hand.thumbsup"
@@ -32300,6 +36095,8 @@ public enum SFSymbol: Sendable {
             case .handbag_circle: return "handbag.circle"
             case .handbag_circle_fill: return "handbag.circle.fill"
             case .handbag_fill: return "handbag.fill"
+            case .handbag_sensor_tag_radiowaves_left_and_right: return "handbag.sensor.tag.radiowaves.left.and.right"
+            case .handbag_sensor_tag_radiowaves_left_and_right_fill: return "handbag.sensor.tag.radiowaves.left.and.right.fill"
             case .hands_and_sparkles:
                 if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *) {
                     return "hands.and.sparkles"
@@ -32325,12 +36122,16 @@ public enum SFSymbol: Sendable {
             case .hat_widebrim_fill: return "hat.widebrim.fill"
             case .hazardsign: return "hazardsign"
             case .hazardsign_fill: return "hazardsign.fill"
-            case .head_profile_arrow_forward_and_vision_pro:
+            case .head_profile_arrow_forward_and_vision_pro: return "head.profile.arrow.forward.and.vision.pro"
+            case .head_profile_arrow_forward_and_visionpro: return "head.profile.arrow.forward.and.visionpro"
+            case .head_profile_vision_pro_remove:
+                if #available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *) {
+                    return "head.profile.vision.pro.remove"
+                }
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "head.profile.arrow.forward.and.vision.pro"
                 }
                 return "head.profile.arrow.forward.and.visionpro"
-            case .head_profile_arrow_forward_and_visionpro: return "head.profile.arrow.forward.and.visionpro"
             case .headlight_daytime: return "headlight.daytime"
             case .headlight_daytime_fill: return "headlight.daytime.fill"
             case .headlight_fog: return "headlight.fog"
@@ -32343,6 +36144,9 @@ public enum SFSymbol: Sendable {
             case .headphones_circle: return "headphones.circle"
             case .headphones_circle_fill: return "headphones.circle.fill"
             case .headphones_dots: return "headphones.dots"
+            case .headphones_over_ear: return "headphones.over.ear"
+            case .headphones_sensor_tag_radiowaves_left_and_right: return "headphones.sensor.tag.radiowaves.left.and.right"
+            case .headphones_sensor_tag_radiowaves_left_and_right_fill: return "headphones.sensor.tag.radiowaves.left.and.right.fill"
             case .headphones_slash: return "headphones.slash"
             case .headset: return "headset"
             case .headset_circle: return "headset.circle"
@@ -32357,9 +36161,14 @@ public enum SFSymbol: Sendable {
                 return "hearingaid.ear"
             case .hearingdevice_ear_fill: return "hearingdevice.ear.fill"
             case .heart: return "heart"
+            case .heart_badge_bolt: return "heart.badge.bolt"
+            case .heart_badge_bolt_fill: return "heart.badge.bolt.fill"
+            case .heart_badge_bolt_slash: return "heart.badge.bolt.slash"
+            case .heart_badge_bolt_slash_fill: return "heart.badge.bolt.slash.fill"
             case .heart_circle: return "heart.circle"
             case .heart_circle_fill: return "heart.circle.fill"
             case .heart_fill: return "heart.fill"
+            case .heart_gauge_open: return "heart.gauge.open"
             case .heart_rectangle: return "heart.rectangle"
             case .heart_rectangle_fill: return "heart.rectangle.fill"
             case .heart_slash: return "heart.slash"
@@ -32375,6 +36184,9 @@ public enum SFSymbol: Sendable {
             case .heat_element_windshield: return "heat.element.windshield"
             case .heat_waves: return "heat.waves"
             case .heat_waves_and_fan: return "heat.waves.and.fan"
+            case .heat_waves_circle: return "heat.waves.circle"
+            case .heat_waves_circle_fill: return "heat.waves.circle.fill"
+            case .heat_waves_gauge_open: return "heat.waves.gauge.open"
             case .heater_vertical: return "heater.vertical"
             case .heater_vertical_fill: return "heater.vertical.fill"
             case .helm: return "helm"
@@ -32390,6 +36202,12 @@ public enum SFSymbol: Sendable {
             case .hifireceiver_fill: return "hifireceiver.fill"
             case .hifispeaker: return "hifispeaker"
             case .hifispeaker_2: return "hifispeaker.2"
+            case .hifispeaker_2_badge_checkmark: return "hifispeaker.2.badge.checkmark"
+            case .hifispeaker_2_badge_checkmark_fill: return "hifispeaker.2.badge.checkmark.fill"
+            case .hifispeaker_2_badge_checkmark_fill_rtl: return "hifispeaker.2.badge.checkmark.fill.rtl"
+            case .hifispeaker_2_badge_checkmark_rtl: return "hifispeaker.2.badge.checkmark.rtl"
+            case .hifispeaker_2_badge_exclamationmark: return "hifispeaker.2.badge.exclamationmark"
+            case .hifispeaker_2_badge_exclamationmark_fill: return "hifispeaker.2.badge.exclamationmark.fill"
             case .hifispeaker_2_badge_minus: return "hifispeaker.2.badge.minus"
             case .hifispeaker_2_badge_minus_fill: return "hifispeaker.2.badge.minus.fill"
             case .hifispeaker_2_badge_plus: return "hifispeaker.2.badge.plus"
@@ -32400,6 +36218,12 @@ public enum SFSymbol: Sendable {
             case .hifispeaker_and_appletv_fill_rtl: return "hifispeaker.and.appletv.fill.rtl"
             case .hifispeaker_and_appletv_rtl: return "hifispeaker.and.appletv.rtl"
             case .hifispeaker_and_homepod: return "hifispeaker.and.homepod"
+            case .hifispeaker_and_homepod_badge_checkmark: return "hifispeaker.and.homepod.badge.checkmark"
+            case .hifispeaker_and_homepod_badge_checkmark_fill: return "hifispeaker.and.homepod.badge.checkmark.fill"
+            case .hifispeaker_and_homepod_badge_checkmark_fill_rtl: return "hifispeaker.and.homepod.badge.checkmark.fill.rtl"
+            case .hifispeaker_and_homepod_badge_checkmark_rtl: return "hifispeaker.and.homepod.badge.checkmark.rtl"
+            case .hifispeaker_and_homepod_badge_exclamationmark: return "hifispeaker.and.homepod.badge.exclamationmark"
+            case .hifispeaker_and_homepod_badge_exclamationmark_fill: return "hifispeaker.and.homepod.badge.exclamationmark.fill"
             case .hifispeaker_and_homepod_badge_minus: return "hifispeaker.and.homepod.badge.minus"
             case .hifispeaker_and_homepod_badge_minus_fill: return "hifispeaker.and.homepod.badge.minus.fill"
             case .hifispeaker_and_homepod_badge_plus: return "hifispeaker.and.homepod.badge.plus"
@@ -32410,6 +36234,12 @@ public enum SFSymbol: Sendable {
                     return "hifispeaker.and.homepod.mini"
                 }
                 return "hifispeaker.and.homepodmini"
+            case .hifispeaker_and_homepod_mini_badge_checkmark: return "hifispeaker.and.homepod.mini.badge.checkmark"
+            case .hifispeaker_and_homepod_mini_badge_checkmark_fill: return "hifispeaker.and.homepod.mini.badge.checkmark.fill"
+            case .hifispeaker_and_homepod_mini_badge_checkmark_fill_rtl: return "hifispeaker.and.homepod.mini.badge.checkmark.fill.rtl"
+            case .hifispeaker_and_homepod_mini_badge_checkmark_rtl: return "hifispeaker.and.homepod.mini.badge.checkmark.rtl"
+            case .hifispeaker_and_homepod_mini_badge_exclamationmark: return "hifispeaker.and.homepod.mini.badge.exclamationmark"
+            case .hifispeaker_and_homepod_mini_badge_exclamationmark_fill: return "hifispeaker.and.homepod.mini.badge.exclamationmark.fill"
             case .hifispeaker_and_homepod_mini_badge_minus: return "hifispeaker.and.homepod.mini.badge.minus"
             case .hifispeaker_and_homepod_mini_badge_minus_fill: return "hifispeaker.and.homepod.mini.badge.minus.fill"
             case .hifispeaker_and_homepod_mini_badge_plus: return "hifispeaker.and.homepod.mini.badge.plus"
@@ -32423,12 +36253,19 @@ public enum SFSymbol: Sendable {
             case .hifispeaker_and_homepodmini_fill: return "hifispeaker.and.homepodmini.fill"
             case .hifispeaker_arrow_forward: return "hifispeaker.arrow.forward"
             case .hifispeaker_arrow_forward_fill: return "hifispeaker.arrow.forward.fill"
+            case .hifispeaker_badge_checkmark: return "hifispeaker.badge.checkmark"
+            case .hifispeaker_badge_checkmark_fill: return "hifispeaker.badge.checkmark.fill"
+            case .hifispeaker_badge_checkmark_fill_rtl: return "hifispeaker.badge.checkmark.fill.rtl"
+            case .hifispeaker_badge_checkmark_rtl: return "hifispeaker.badge.checkmark.rtl"
+            case .hifispeaker_badge_exclamationmark: return "hifispeaker.badge.exclamationmark"
+            case .hifispeaker_badge_exclamationmark_fill: return "hifispeaker.badge.exclamationmark.fill"
             case .hifispeaker_badge_minus: return "hifispeaker.badge.minus"
             case .hifispeaker_badge_minus_fill: return "hifispeaker.badge.minus.fill"
             case .hifispeaker_badge_plus: return "hifispeaker.badge.plus"
             case .hifispeaker_badge_plus_fill: return "hifispeaker.badge.plus.fill"
             case .hifispeaker_fill: return "hifispeaker.fill"
             case .highlighter: return "highlighter"
+            case .highlighter_badge_ellipsis: return "highlighter.badge.ellipsis"
             case .hockey_puck: return "hockey.puck"
             case .hockey_puck_circle: return "hockey.puck.circle"
             case .hockey_puck_circle_fill: return "hockey.puck.circle.fill"
@@ -32437,6 +36274,12 @@ public enum SFSymbol: Sendable {
             case .homekit: return "homekit"
             case .homepod: return "homepod"
             case .homepod_2: return "homepod.2"
+            case .homepod_2_badge_checkmark: return "homepod.2.badge.checkmark"
+            case .homepod_2_badge_checkmark_fill: return "homepod.2.badge.checkmark.fill"
+            case .homepod_2_badge_checkmark_fill_rtl: return "homepod.2.badge.checkmark.fill.rtl"
+            case .homepod_2_badge_checkmark_rtl: return "homepod.2.badge.checkmark.rtl"
+            case .homepod_2_badge_exclamationmark: return "homepod.2.badge.exclamationmark"
+            case .homepod_2_badge_exclamationmark_fill: return "homepod.2.badge.exclamationmark.fill"
             case .homepod_2_badge_minus: return "homepod.2.badge.minus"
             case .homepod_2_badge_minus_fill: return "homepod.2.badge.minus.fill"
             case .homepod_2_badge_plus: return "homepod.2.badge.plus"
@@ -32451,6 +36294,12 @@ public enum SFSymbol: Sendable {
                     return "homepod.and.homepod.mini"
                 }
                 return "homepod.and.homepodmini"
+            case .homepod_and_homepod_mini_badge_checkmark: return "homepod.and.homepod.mini.badge.checkmark"
+            case .homepod_and_homepod_mini_badge_checkmark_fill: return "homepod.and.homepod.mini.badge.checkmark.fill"
+            case .homepod_and_homepod_mini_badge_checkmark_fill_rtl: return "homepod.and.homepod.mini.badge.checkmark.fill.rtl"
+            case .homepod_and_homepod_mini_badge_checkmark_rtl: return "homepod.and.homepod.mini.badge.checkmark.rtl"
+            case .homepod_and_homepod_mini_badge_exclamationmark: return "homepod.and.homepod.mini.badge.exclamationmark"
+            case .homepod_and_homepod_mini_badge_exclamationmark_fill: return "homepod.and.homepod.mini.badge.exclamationmark.fill"
             case .homepod_and_homepod_mini_badge_minus: return "homepod.and.homepod.mini.badge.minus"
             case .homepod_and_homepod_mini_badge_minus_fill: return "homepod.and.homepod.mini.badge.minus.fill"
             case .homepod_and_homepod_mini_badge_plus: return "homepod.and.homepod.mini.badge.plus"
@@ -32464,6 +36313,12 @@ public enum SFSymbol: Sendable {
             case .homepod_and_homepodmini_fill: return "homepod.and.homepodmini.fill"
             case .homepod_arrow_forward: return "homepod.arrow.forward"
             case .homepod_arrow_forward_fill: return "homepod.arrow.forward.fill"
+            case .homepod_badge_checkmark: return "homepod.badge.checkmark"
+            case .homepod_badge_checkmark_fill: return "homepod.badge.checkmark.fill"
+            case .homepod_badge_checkmark_fill_rtl: return "homepod.badge.checkmark.fill.rtl"
+            case .homepod_badge_checkmark_rtl: return "homepod.badge.checkmark.rtl"
+            case .homepod_badge_exclamationmark: return "homepod.badge.exclamationmark"
+            case .homepod_badge_exclamationmark_fill: return "homepod.badge.exclamationmark.fill"
             case .homepod_badge_minus: return "homepod.badge.minus"
             case .homepod_badge_minus_fill: return "homepod.badge.minus.fill"
             case .homepod_badge_plus: return "homepod.badge.plus"
@@ -32479,6 +36334,12 @@ public enum SFSymbol: Sendable {
                     return "homepod.mini.2"
                 }
                 return "homepodmini.2"
+            case .homepod_mini_2_badge_checkmark: return "homepod.mini.2.badge.checkmark"
+            case .homepod_mini_2_badge_checkmark_fill: return "homepod.mini.2.badge.checkmark.fill"
+            case .homepod_mini_2_badge_checkmark_fill_rtl: return "homepod.mini.2.badge.checkmark.fill.rtl"
+            case .homepod_mini_2_badge_checkmark_rtl: return "homepod.mini.2.badge.checkmark.rtl"
+            case .homepod_mini_2_badge_exclamationmark: return "homepod.mini.2.badge.exclamationmark"
+            case .homepod_mini_2_badge_exclamationmark_fill: return "homepod.mini.2.badge.exclamationmark.fill"
             case .homepod_mini_2_badge_minus: return "homepod.mini.2.badge.minus"
             case .homepod_mini_2_badge_minus_fill: return "homepod.mini.2.badge.minus.fill"
             case .homepod_mini_2_badge_plus: return "homepod.mini.2.badge.plus"
@@ -32488,8 +36349,34 @@ public enum SFSymbol: Sendable {
                     return "homepod.mini.2.fill"
                 }
                 return "homepodmini.2.fill"
+            case .homepod_mini_and_appletv:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "homepod.mini.and.appletv"
+                }
+                return "homepodmini.and.appletv"
+            case .homepod_mini_and_appletv_fill:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "homepod.mini.and.appletv.fill"
+                }
+                return "homepodmini.and.appletv.fill"
+            case .homepod_mini_and_appletv_fill_rtl:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "homepod.mini.and.appletv.fill.rtl"
+                }
+                return "homepodmini.and.appletv.fill.rtl"
+            case .homepod_mini_and_appletv_rtl:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "homepod.mini.and.appletv.rtl"
+                }
+                return "homepodmini.and.appletv.rtl"
             case .homepod_mini_arrow_forward: return "homepod.mini.arrow.forward"
             case .homepod_mini_arrow_forward_fill: return "homepod.mini.arrow.forward.fill"
+            case .homepod_mini_badge_checkmark: return "homepod.mini.badge.checkmark"
+            case .homepod_mini_badge_checkmark_fill: return "homepod.mini.badge.checkmark.fill"
+            case .homepod_mini_badge_checkmark_fill_rtl: return "homepod.mini.badge.checkmark.fill.rtl"
+            case .homepod_mini_badge_checkmark_rtl: return "homepod.mini.badge.checkmark.rtl"
+            case .homepod_mini_badge_exclamationmark: return "homepod.mini.badge.exclamationmark"
+            case .homepod_mini_badge_exclamationmark_fill: return "homepod.mini.badge.exclamationmark.fill"
             case .homepod_mini_badge_minus: return "homepod.mini.badge.minus"
             case .homepod_mini_badge_minus_fill: return "homepod.mini.badge.minus.fill"
             case .homepod_mini_badge_plus: return "homepod.mini.badge.plus"
@@ -32514,6 +36401,11 @@ public enum SFSymbol: Sendable {
             case .hourglass: return "hourglass"
             case .hourglass_and_lock: return "hourglass.and.lock"
             case .hourglass_badge_eye: return "hourglass.badge.eye"
+            case .hourglass_badge_lock:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "hourglass.badge.lock"
+                }
+                return "hourglass.and.lock"
             case .hourglass_badge_plus: return "hourglass.badge.plus"
             case .hourglass_bottomhalf_fill: return "hourglass.bottomhalf.fill"
             case .hourglass_bottomhalf_filled:
@@ -32558,6 +36450,16 @@ public enum SFSymbol: Sendable {
                 return "hryvniasign.arrow.circlepath"
             case .hryvniasign_bank_building: return "hryvniasign.bank.building"
             case .hryvniasign_bank_building_fill: return "hryvniasign.bank.building.fill"
+            case .hryvniasign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "hryvniasign.building.classical"
+                }
+                return "hryvniasign.bank.building"
+            case .hryvniasign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "hryvniasign.building.classical.fill"
+                }
+                return "hryvniasign.bank.building.fill"
             case .hryvniasign_circle: return "hryvniasign.circle"
             case .hryvniasign_circle_fill: return "hryvniasign.circle.fill"
             case .hryvniasign_gauge_chart_lefthalf_righthalf: return "hryvniasign.gauge.chart.lefthalf.righthalf"
@@ -32569,6 +36471,8 @@ public enum SFSymbol: Sendable {
             case .humidifier: return "humidifier"
             case .humidifier_and_droplets: return "humidifier.and.droplets"
             case .humidifier_and_droplets_fill: return "humidifier.and.droplets.fill"
+            case .humidifier_and_ellipsis: return "humidifier.and.ellipsis"
+            case .humidifier_and_ellipsis_fill: return "humidifier.and.ellipsis.fill"
             case .humidifier_fill: return "humidifier.fill"
             case .humidity: return "humidity"
             case .humidity_fill: return "humidity.fill"
@@ -32591,6 +36495,7 @@ public enum SFSymbol: Sendable {
             case .icloud_and_arrow_up_fill: return "icloud.and.arrow.up.fill"
             case .icloud_circle: return "icloud.circle"
             case .icloud_circle_fill: return "icloud.circle.fill"
+            case .icloud_dashed: return "icloud.dashed"
             case .icloud_fill: return "icloud.fill"
             case .icloud_slash: return "icloud.slash"
             case .icloud_slash_fill: return "icloud.slash.fill"
@@ -32607,6 +36512,16 @@ public enum SFSymbol: Sendable {
                 return "indianrupeesign.arrow.circlepath"
             case .indianrupeesign_bank_building: return "indianrupeesign.bank.building"
             case .indianrupeesign_bank_building_fill: return "indianrupeesign.bank.building.fill"
+            case .indianrupeesign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "indianrupeesign.building.classical"
+                }
+                return "indianrupeesign.bank.building"
+            case .indianrupeesign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "indianrupeesign.building.classical.fill"
+                }
+                return "indianrupeesign.bank.building.fill"
             case .indianrupeesign_circle: return "indianrupeesign.circle"
             case .indianrupeesign_circle_fill: return "indianrupeesign.circle.fill"
             case .indianrupeesign_gauge_chart_lefthalf_righthalf: return "indianrupeesign.gauge.chart.lefthalf.righthalf"
@@ -32619,11 +36534,15 @@ public enum SFSymbol: Sendable {
             case .infinity_circle: return "infinity.circle"
             case .infinity_circle_fill: return "infinity.circle.fill"
             case .info: return "info"
+            case .info_app: return "info.app"
+            case .info_app_fill: return "info.app.fill"
             case .info_bubble: return "info.bubble"
             case .info_bubble_fill: return "info.bubble.fill"
             case .info_bubble_fill_rtl: return "info.bubble.fill.rtl"
             case .info_bubble_rtl: return "info.bubble.rtl"
             case .info_circle: return "info.circle"
+            case .info_circle_badge: return "info.circle.badge"
+            case .info_circle_badge_fill: return "info.circle.badge.fill"
             case .info_circle_fill: return "info.circle.fill"
             case .info_circle_text_page: return "info.circle.text.page"
             case .info_circle_text_page_fill: return "info.circle.text.page.fill"
@@ -32652,6 +36571,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "rectangle.portrait.bottomhalf.inset.filled"
             case .inset_filled_bottomhalf_tophalf_rectangle: return "inset.filled.bottomhalf.tophalf.rectangle"
+            case .inset_filled_bottomleading_bottomtrailing_rectangle: return "inset.filled.bottomleading.bottomtrailing.rectangle"
             case .inset_filled_bottomleading_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.bottomleading.rectangle"
@@ -32662,6 +36582,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.bottomleading.rectangle.portrait"
                 }
                 return "rectangle.portrait.bottomleading.inset.filled"
+            case .inset_filled_bottomleft_bottomright_rectangle: return "inset.filled.bottomleft.bottomright.rectangle"
             case .inset_filled_bottomleft_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.bottomleft.rectangle"
@@ -32716,6 +36637,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.bottomtrailing.rectangle.portrait"
                 }
                 return "rectangle.portrait.bottomtrailing.inset.filled"
+            case .inset_filled_bubble: return "inset.filled.bubble"
             case .inset_filled_capsule:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.capsule"
@@ -32760,6 +36682,7 @@ public enum SFSymbol: Sendable {
                     return "circle.dashed.inset.filled"
                 }
                 return "circle.dashed.inset.fill"
+            case .inset_filled_circle_slash: return "inset.filled.circle.slash"
             case .inset_filled_diamond:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.diamond"
@@ -32770,6 +36693,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.leadinghalf.arrow.leading.rectangle"
                 }
                 return "rectangle.leadinghalf.inset.filled.arrow.leading"
+            case .inset_filled_leadinghalf_arrowtriangle_backward_rectangle: return "inset.filled.leadinghalf.arrowtriangle.backward.rectangle"
             case .inset_filled_leadinghalf_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.leadinghalf.rectangle"
@@ -32787,6 +36711,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.leadingthird.rectangle"
                 }
                 return "rectangle.leadingthird.inset.filled"
+            case .inset_filled_leadingthird_rectangle_badge_xmark: return "inset.filled.leadingthird.rectangle.badge.xmark"
             case .inset_filled_leadingthird_rectangle_portrait:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.leadingthird.rectangle.portrait"
@@ -32805,6 +36730,7 @@ public enum SFSymbol: Sendable {
                     return "rectangle.lefthalf.inset.filled.arrow.left"
                 }
                 return "rectangle.lefthalf.inset.fill.arrow.left"
+            case .inset_filled_lefthalf_arrowtriangle_left_rectangle: return "inset.filled.lefthalf.arrowtriangle.left.rectangle"
             case .inset_filled_lefthalf_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.lefthalf.rectangle"
@@ -32820,6 +36746,7 @@ public enum SFSymbol: Sendable {
                 return "rectangle.portrait.lefthalf.inset.filled"
             case .inset_filled_lefthalf_righthalf_rectangle: return "inset.filled.lefthalf.righthalf.rectangle"
             case .inset_filled_lefthalf_topright_bottomright_rectangle: return "inset.filled.lefthalf.topright.bottomright.rectangle"
+            case .inset_filled_leftthird_middlethird_rightthird_rectangle: return "inset.filled.leftthird.middlethird.rightthird.rectangle"
             case .inset_filled_leftthird_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.leftthird.rectangle"
@@ -32828,6 +36755,7 @@ public enum SFSymbol: Sendable {
                     return "rectangle.leftthird.inset.filled"
                 }
                 return "rectangle.leftthird.inset.fill"
+            case .inset_filled_leftthird_rectangle_badge_xmark: return "inset.filled.leftthird.rectangle.badge.xmark"
             case .inset_filled_leftthird_rectangle_portrait:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.leftthird.rectangle.portrait"
@@ -32848,6 +36776,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.oval.portrait"
                 }
                 return "oval.portrait.inset.filled"
+            case .inset_filled_pano: return "inset.filled.pano"
             case .inset_filled_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.rectangle"
@@ -32856,18 +36785,38 @@ public enum SFSymbol: Sendable {
                     return "rectangle.inset.filled"
                 }
                 return "rectangle.inset.fill"
-            case .inset_filled_rectangle_and_cursorarrow:
-                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
-                    return "inset.filled.rectangle.and.cursorarrow"
+            case .inset_filled_rectangle_and_cursorarrow: return "inset.filled.rectangle.and.cursorarrow"
+            case .inset_filled_rectangle_and_person:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "inset.filled.rectangle.and.person"
                 }
-                return "rectangle.inset.filled.and.cursorarrow"
-            case .inset_filled_rectangle_and_person_filled:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.rectangle.and.person.filled"
                 }
                 return "rectangle.inset.filled.and.person.filled"
+            case .inset_filled_rectangle_and_person_filled: return "inset.filled.rectangle.and.person.filled"
             case .inset_filled_rectangle_and_person_filled_circle: return "inset.filled.rectangle.and.person.filled.circle"
             case .inset_filled_rectangle_and_person_filled_circle_fill: return "inset.filled.rectangle.and.person.filled.circle.fill"
+            case .inset_filled_rectangle_and_person_filled_slash: return "inset.filled.rectangle.and.person.filled.slash"
+            case .inset_filled_rectangle_and_person_filled_slash_rtl: return "inset.filled.rectangle.and.person.filled.slash.rtl"
+            case .inset_filled_rectangle_and_person_slash:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "inset.filled.rectangle.and.person.slash"
+                }
+                return "inset.filled.rectangle.and.person.filled.slash"
+            case .inset_filled_rectangle_and_person_slash_rtl:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "inset.filled.rectangle.and.person.slash.rtl"
+                }
+                return "inset.filled.rectangle.and.person.filled.slash.rtl"
+            case .inset_filled_rectangle_and_pointer_arrow:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "inset.filled.rectangle.and.pointer.arrow"
+                }
+                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
+                    return "inset.filled.rectangle.and.cursorarrow"
+                }
+                return "rectangle.inset.filled.and.cursorarrow"
             case .inset_filled_rectangle_badge_record:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.rectangle.badge.record"
@@ -32891,6 +36840,7 @@ public enum SFSymbol: Sendable {
                     return "rectangle.righthalf.inset.filled.arrow.right"
                 }
                 return "rectangle.righthalf.inset.fill.arrow.right"
+            case .inset_filled_righthalf_arrowtriangle_right_rectangle: return "inset.filled.righthalf.arrowtriangle.right.rectangle"
             case .inset_filled_righthalf_lefthalf_rectangle: return "inset.filled.righthalf.lefthalf.rectangle"
             case .inset_filled_righthalf_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
@@ -32913,6 +36863,7 @@ public enum SFSymbol: Sendable {
                     return "rectangle.rightthird.inset.filled"
                 }
                 return "rectangle.rightthird.inset.fill"
+            case .inset_filled_rightthird_rectangle_badge_xmark: return "inset.filled.rightthird.rectangle.badge.xmark"
             case .inset_filled_rightthird_rectangle_portrait:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.rightthird.rectangle.portrait"
@@ -32936,6 +36887,7 @@ public enum SFSymbol: Sendable {
                     return "square.dashed.inset.filled"
                 }
                 return "square.dashed.inset.fill"
+            case .inset_filled_square_dashed_micro: return "inset.filled.square.dashed.micro"
             case .inset_filled_tophalf_bottomhalf_rectangle: return "inset.filled.tophalf.bottomhalf.rectangle"
             case .inset_filled_tophalf_bottomleft_bottomright_rectangle: return "inset.filled.tophalf.bottomleft.bottomright.rectangle"
             case .inset_filled_tophalf_rectangle:
@@ -32988,6 +36940,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.topright.rectangle.portrait"
                 }
                 return "rectangle.portrait.topright.inset.filled"
+            case .inset_filled_topthird_middlethird_bottomthird_rectangle: return "inset.filled.topthird.middlethird.bottomthird.rectangle"
             case .inset_filled_topthird_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.topthird.rectangle"
@@ -33024,6 +36977,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.trailinghalf.arrow.trailing.rectangle"
                 }
                 return "rectangle.trailinghalf.inset.filled.arrow.trailing"
+            case .inset_filled_trailinghalf_arrowtriangle_forward_rectangle: return "inset.filled.trailinghalf.arrowtriangle.forward.rectangle"
             case .inset_filled_trailinghalf_leadinghalf_rectangle: return "inset.filled.trailinghalf.leadinghalf.rectangle"
             case .inset_filled_trailinghalf_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
@@ -33040,6 +36994,7 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.trailingthird.rectangle"
                 }
                 return "rectangle.trailingthird.inset.filled"
+            case .inset_filled_trailingthird_rectangle_badge_xmark: return "inset.filled.trailingthird.rectangle.badge.xmark"
             case .inset_filled_trailingthird_rectangle_portrait:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "inset.filled.trailingthird.rectangle.portrait"
@@ -33060,12 +37015,60 @@ public enum SFSymbol: Sendable {
                     return "inset.filled.tv"
                 }
                 return "tv.inset.filled"
+            case .inset_left_half_filled_square_dashed_micro: return "inset.left.half.filled.square.dashed.micro"
+            case .inset_left_half_square_dashed_micro: return "inset.left.half.square.dashed.micro"
+            case .inset_square_dashed_micro: return "inset.square.dashed.micro"
+            case .interface_window:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "interface.window"
+                }
+                return "macwindow"
+            case .interface_window_and_pointer_arrow:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "interface.window.and.pointer.arrow"
+                }
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "macwindow.and.pointer.arrow"
+                }
+                return "macwindow.and.cursorarrow"
+            case .interface_window_and_pointer_arrow_rtl:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "interface.window.and.pointer.arrow.rtl"
+                }
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "macwindow.and.pointer.arrow.rtl"
+                }
+                return "macwindow.and.cursorarrow.rtl"
+            case .interface_window_badge_plus:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "interface.window.badge.plus"
+                }
+                return "macwindow.badge.plus"
+            case .interface_window_dashed: return "interface.window.dashed"
+            case .interface_window_on_rectangle:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "interface.window.on.rectangle"
+                }
+                return "macwindow.on.rectangle"
+            case .interface_window_on_rectangle_dashed: return "interface.window.on.rectangle.dashed"
+            case .interface_window_on_rectangle_dashed_rtl: return "interface.window.on.rectangle.dashed.rtl"
+            case .interface_window_on_rectangle_rtl:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "interface.window.on.rectangle.rtl"
+                }
+                return "macwindow.on.rectangle.rtl"
+            case .interface_window_stack:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "interface.window.stack"
+                }
+                return "macwindow.stack"
             case .internaldrive: return "internaldrive"
             case .internaldrive_fill: return "internaldrive.fill"
             case .ipad: return "ipad"
             case .ipad_and_arrow_forward: return "ipad.and.arrow.forward"
             case .ipad_and_iphone: return "ipad.and.iphone"
             case .ipad_and_iphone_slash: return "ipad.and.iphone.slash"
+            case .ipad_badge_checkmark: return "ipad.badge.checkmark"
             case .ipad_badge_exclamationmark: return "ipad.badge.exclamationmark"
             case .ipad_badge_location: return "ipad.badge.location"
             case .ipad_badge_play: return "ipad.badge.play"
@@ -33083,6 +37086,7 @@ public enum SFSymbol: Sendable {
                     return "ipad.gen1.badge.play"
                 }
                 return "ipad.homebutton.badge.play"
+            case .ipad_gen1_crop_homebutton_circle: return "ipad.gen1.crop.homebutton.circle"
             case .ipad_gen1_landscape:
                 if #available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *) {
                     return "ipad.gen1.landscape"
@@ -33096,6 +37100,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "ipad.homebutton.landscape.badge.play"
             case .ipad_gen1_landscape_slash: return "ipad.gen1.landscape.slash"
+            case .ipad_gen1_sizes: return "ipad.gen1.sizes"
             case .ipad_gen1_slash: return "ipad.gen1.slash"
             case .ipad_gen2: return "ipad.gen2"
             case .ipad_gen2_badge_exclamationmark: return "ipad.gen2.badge.exclamationmark"
@@ -33106,12 +37111,14 @@ public enum SFSymbol: Sendable {
             case .ipad_gen2_landscape_badge_location: return "ipad.gen2.landscape.badge.location"
             case .ipad_gen2_landscape_badge_play: return "ipad.gen2.landscape.badge.play"
             case .ipad_gen2_landscape_slash: return "ipad.gen2.landscape.slash"
+            case .ipad_gen2_sizes: return "ipad.gen2.sizes"
             case .ipad_gen2_slash: return "ipad.gen2.slash"
             case .ipad_homebutton: return "ipad.homebutton"
             case .ipad_homebutton_badge_play: return "ipad.homebutton.badge.play"
             case .ipad_homebutton_landscape: return "ipad.homebutton.landscape"
             case .ipad_homebutton_landscape_badge_play: return "ipad.homebutton.landscape.badge.play"
             case .ipad_landscape: return "ipad.landscape"
+            case .ipad_landscape_and_applewatch: return "ipad.landscape.and.applewatch"
             case .ipad_landscape_and_iphone:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "ipad.landscape.and.iphone"
@@ -33122,6 +37129,7 @@ public enum SFSymbol: Sendable {
                     return "ipad.landscape.and.iphone.slash"
                 }
                 return "ipad.and.iphone.slash"
+            case .ipad_landscape_and_ipod: return "ipad.landscape.and.ipod"
             case .ipad_landscape_badge_exclamationmark: return "ipad.landscape.badge.exclamationmark"
             case .ipad_landscape_badge_location: return "ipad.landscape.badge.location"
             case .ipad_landscape_badge_play: return "ipad.landscape.badge.play"
@@ -33143,7 +37151,10 @@ public enum SFSymbol: Sendable {
                 return "iphone.and.arrow.left.and.arrow.right"
             case .iphone_and_arrow_right_inward: return "iphone.and.arrow.right.inward"
             case .iphone_and_arrow_right_outward: return "iphone.and.arrow.right.outward"
+            case .iphone_and_ipod: return "iphone.and.ipod"
+            case .iphone_and_vision_pro: return "iphone.and.vision.pro"
             case .iphone_app_switcher: return "iphone.app.switcher"
+            case .iphone_badge_checkmark: return "iphone.badge.checkmark"
             case .iphone_badge_exclamationmark: return "iphone.badge.exclamationmark"
             case .iphone_badge_location: return "iphone.badge.location"
             case .iphone_badge_play: return "iphone.badge.play"
@@ -33176,6 +37187,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "iphone.homebutton.circle.fill"
             case .iphone_gen1_crop_circle: return "iphone.gen1.crop.circle"
+            case .iphone_gen1_crop_homebutton_circle: return "iphone.gen1.crop.homebutton.circle"
             case .iphone_gen1_landscape:
                 if #available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *) {
                     return "iphone.gen1.landscape"
@@ -33198,6 +37210,7 @@ public enum SFSymbol: Sendable {
                     return "iphone.gen1.radiowaves.left.and.right.circle.fill"
                 }
                 return "iphone.homebutton.radiowaves.left.and.right.circle.fill"
+            case .iphone_gen1_sizes: return "iphone.gen1.sizes"
             case .iphone_gen1_slash:
                 if #available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *) {
                     return "iphone.gen1.slash"
@@ -33227,6 +37240,7 @@ public enum SFSymbol: Sendable {
             case .iphone_gen2_radiowaves_left_and_right: return "iphone.gen2.radiowaves.left.and.right"
             case .iphone_gen2_radiowaves_left_and_right_circle: return "iphone.gen2.radiowaves.left.and.right.circle"
             case .iphone_gen2_radiowaves_left_and_right_circle_fill: return "iphone.gen2.radiowaves.left.and.right.circle.fill"
+            case .iphone_gen2_sizes: return "iphone.gen2.sizes"
             case .iphone_gen2_slash: return "iphone.gen2.slash"
             case .iphone_gen2_slash_circle: return "iphone.gen2.slash.circle"
             case .iphone_gen2_slash_circle_fill: return "iphone.gen2.slash.circle.fill"
@@ -33244,6 +37258,7 @@ public enum SFSymbol: Sendable {
             case .iphone_gen3_radiowaves_left_and_right: return "iphone.gen3.radiowaves.left.and.right"
             case .iphone_gen3_radiowaves_left_and_right_circle: return "iphone.gen3.radiowaves.left.and.right.circle"
             case .iphone_gen3_radiowaves_left_and_right_circle_fill: return "iphone.gen3.radiowaves.left.and.right.circle.fill"
+            case .iphone_gen3_sizes: return "iphone.gen3.sizes"
             case .iphone_gen3_slash: return "iphone.gen3.slash"
             case .iphone_gen3_slash_circle: return "iphone.gen3.slash.circle"
             case .iphone_gen3_slash_circle_fill: return "iphone.gen3.slash.circle.fill"
@@ -33260,6 +37275,8 @@ public enum SFSymbol: Sendable {
             case .iphone_homebutton_slash_circle_fill: return "iphone.homebutton.slash.circle.fill"
             case .iphone_landscape: return "iphone.landscape"
             case .iphone_motion: return "iphone.motion"
+            case .iphone_pattern_diagonalline: return "iphone.pattern.diagonalline"
+            case .iphone_pattern_diagonalline_on_rectangle_portrait_dashed: return "iphone.pattern.diagonalline.on.rectangle.portrait.dashed"
             case .iphone_radiowaves_left_and_right: return "iphone.radiowaves.left.and.right"
             case .iphone_radiowaves_left_and_right_circle: return "iphone.radiowaves.left.and.right.circle"
             case .iphone_radiowaves_left_and_right_circle_fill: return "iphone.radiowaves.left.and.right.circle.fill"
@@ -33271,6 +37288,8 @@ public enum SFSymbol: Sendable {
             case .iphone_smartbatterycase_gen1: return "iphone.smartbatterycase.gen1"
             case .iphone_smartbatterycase_gen2: return "iphone.smartbatterycase.gen2"
             case .ipod: return "ipod"
+            case .ipod_and_applewatch: return "ipod.and.applewatch"
+            case .ipod_and_vision_pro: return "ipod.and.vision.pro"
             case .ipod_shuffle_gen1:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "ipod.shuffle.gen1"
@@ -33328,7 +37347,11 @@ public enum SFSymbol: Sendable {
                 }
                 return "j.square.fill.on.square.fill"
             case .jacket: return "jacket"
+            case .jacket_circle: return "jacket.circle"
+            case .jacket_circle_fill: return "jacket.circle.fill"
             case .jacket_fill: return "jacket.fill"
+            case .jacket_sensor_tag_radiowaves_left_and_right: return "jacket.sensor.tag.radiowaves.left.and.right"
+            case .jacket_sensor_tag_radiowaves_left_and_right_fill: return "jacket.sensor.tag.radiowaves.left.and.right.fill"
             case .k: return "k"
             case .k_circle: return "k.circle"
             case .k_circle_fill: return "k.circle.fill"
@@ -33346,6 +37369,8 @@ public enum SFSymbol: Sendable {
             case .key_car_side_fill: return "key.car.side.fill"
             case .key_card: return "key.card"
             case .key_card_fill: return "key.card.fill"
+            case .key_circle: return "key.circle"
+            case .key_circle_fill: return "key.circle.fill"
             case .key_convertible_side: return "key.convertible.side"
             case .key_convertible_side_fill: return "key.convertible.side.fill"
             case .key_fill: return "key.fill"
@@ -33357,6 +37382,10 @@ public enum SFSymbol: Sendable {
             case .key_radiowaves_forward_fill: return "key.radiowaves.forward.fill"
             case .key_radiowaves_forward_slash: return "key.radiowaves.forward.slash"
             case .key_radiowaves_forward_slash_fill: return "key.radiowaves.forward.slash.fill"
+            case .key_sensor_tag_radiowaves_left_and_right: return "key.sensor.tag.radiowaves.left.and.right"
+            case .key_sensor_tag_radiowaves_left_and_right_fill: return "key.sensor.tag.radiowaves.left.and.right.fill"
+            case .key_shield: return "key.shield"
+            case .key_shield_fill: return "key.shield.fill"
             case .key_slash: return "key.slash"
             case .key_slash_fill: return "key.slash.fill"
             case .key_suv_side: return "key.suv.side"
@@ -33374,6 +37403,11 @@ public enum SFSymbol: Sendable {
             case .keyboard_chevron_compact_left: return "keyboard.chevron.compact.left"
             case .keyboard_chevron_compact_left_fill: return "keyboard.chevron.compact.left.fill"
             case .keyboard_fill: return "keyboard.fill"
+            case .keyboard_interface_window:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "keyboard.interface.window"
+                }
+                return "keyboard.macwindow"
             case .keyboard_macwindow: return "keyboard.macwindow"
             case .keyboard_onehanded_left: return "keyboard.onehanded.left"
             case .keyboard_onehanded_left_fill: return "keyboard.onehanded.left.fill"
@@ -33388,6 +37422,16 @@ public enum SFSymbol: Sendable {
                 return "kipsign.arrow.circlepath"
             case .kipsign_bank_building: return "kipsign.bank.building"
             case .kipsign_bank_building_fill: return "kipsign.bank.building.fill"
+            case .kipsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "kipsign.building.classical"
+                }
+                return "kipsign.bank.building"
+            case .kipsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "kipsign.building.classical.fill"
+                }
+                return "kipsign.bank.building.fill"
             case .kipsign_circle: return "kipsign.circle"
             case .kipsign_circle_fill: return "kipsign.circle.fill"
             case .kipsign_gauge_chart_lefthalf_righthalf: return "kipsign.gauge.chart.lefthalf.righthalf"
@@ -33531,6 +37575,8 @@ public enum SFSymbol: Sendable {
             case .laptopcomputer_and_arrow_down: return "laptopcomputer.and.arrow.down"
             case .laptopcomputer_and_ipad: return "laptopcomputer.and.ipad"
             case .laptopcomputer_and_iphone: return "laptopcomputer.and.iphone"
+            case .laptopcomputer_badge_checkmark: return "laptopcomputer.badge.checkmark"
+            case .laptopcomputer_display_clean: return "laptopcomputer.display.clean"
             case .laptopcomputer_slash: return "laptopcomputer.slash"
             case .laptopcomputer_trianglebadge_exclamationmark: return "laptopcomputer.trianglebadge.exclamationmark"
             case .largecircle_fill_circle: return "largecircle.fill.circle"
@@ -33543,6 +37589,16 @@ public enum SFSymbol: Sendable {
                 return "larisign.arrow.circlepath"
             case .larisign_bank_building: return "larisign.bank.building"
             case .larisign_bank_building_fill: return "larisign.bank.building.fill"
+            case .larisign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "larisign.building.classical"
+                }
+                return "larisign.bank.building"
+            case .larisign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "larisign.building.classical.fill"
+                }
+                return "larisign.bank.building.fill"
             case .larisign_circle: return "larisign.circle"
             case .larisign_circle_fill: return "larisign.circle.fill"
             case .larisign_gauge_chart_lefthalf_righthalf: return "larisign.gauge.chart.lefthalf.righthalf"
@@ -33640,6 +37696,7 @@ public enum SFSymbol: Sendable {
             case .light_ribbon_fill: return "light.ribbon.fill"
             case .light_strip_2: return "light.strip.2"
             case .light_strip_2_fill: return "light.strip.2.fill"
+            case .light_tube_rays: return "light.tube.rays"
             case .lightbulb: return "lightbulb"
             case .lightbulb_2: return "lightbulb.2"
             case .lightbulb_2_fill: return "lightbulb.2.fill"
@@ -33715,6 +37772,12 @@ public enum SFSymbol: Sendable {
                 return "line.horizontal.3.decrease.circle.fill"
             case .line_diagonal: return "line.diagonal"
             case .line_diagonal_arrow: return "line.diagonal.arrow"
+            case .line_diagonal_trianglehead_up_right:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "line.diagonal.trianglehead.up.right"
+                }
+                return "line.diagonal.arrow"
+            case .line_diagonal_trianglehead_up_right_left_down: return "line.diagonal.trianglehead.up.right.left.down"
             case .line_horizontal_2_decrease_circle: return "line.horizontal.2.decrease.circle"
             case .line_horizontal_2_decrease_circle_fill: return "line.horizontal.2.decrease.circle.fill"
             case .line_horizontal_3: return "line.horizontal.3"
@@ -33725,6 +37788,7 @@ public enum SFSymbol: Sendable {
             case .line_horizontal_3_decrease_circle_fill: return "line.horizontal.3.decrease.circle.fill"
             case .line_horizontal_star_fill_line_horizontal: return "line.horizontal.star.fill.line.horizontal"
             case .lines_measurement_horizontal: return "lines.measurement.horizontal"
+            case .lines_measurement_horizontal_aligned_bottom: return "lines.measurement.horizontal.aligned.bottom"
             case .lines_measurement_vertical: return "lines.measurement.vertical"
             case .lineweight: return "lineweight"
             case .link: return "link"
@@ -33742,6 +37806,16 @@ public enum SFSymbol: Sendable {
                 return "lirasign.arrow.circlepath"
             case .lirasign_bank_building: return "lirasign.bank.building"
             case .lirasign_bank_building_fill: return "lirasign.bank.building.fill"
+            case .lirasign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "lirasign.building.classical"
+                }
+                return "lirasign.bank.building"
+            case .lirasign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "lirasign.building.classical.fill"
+                }
+                return "lirasign.bank.building.fill"
             case .lirasign_circle: return "lirasign.circle"
             case .lirasign_circle_fill: return "lirasign.circle.fill"
             case .lirasign_gauge_chart_lefthalf_righthalf: return "lirasign.gauge.chart.lefthalf.righthalf"
@@ -33752,6 +37826,7 @@ public enum SFSymbol: Sendable {
             case .lirasign_square_fill: return "lirasign.square.fill"
             case .list_and_film: return "list.and.film"
             case .list_bullet: return "list.bullet"
+            case .list_bullet_badge_ellipsis: return "list.bullet.badge.ellipsis"
             case .list_bullet_below_rectangle: return "list.bullet.below.rectangle"
             case .list_bullet_circle: return "list.bullet.circle"
             case .list_bullet_circle_fill: return "list.bullet.circle.fill"
@@ -33765,9 +37840,14 @@ public enum SFSymbol: Sendable {
             case .list_clipboard: return "list.clipboard"
             case .list_clipboard_fill: return "list.clipboard.fill"
             case .list_dash: return "list.dash"
+            case .list_dash_badge_ellipsis: return "list.dash.badge.ellipsis"
             case .list_dash_header_rectangle: return "list.dash.header.rectangle"
+            case .list_dash_header_rectangle_fill: return "list.dash.header.rectangle.fill"
             case .list_number: return "list.number"
             case .list_number_ar: return "list.number.ar"
+            case .list_number_badge_ellipsis: return "list.number.badge.ellipsis"
+            case .list_number_badge_ellipsis_hi: return "list.number.badge.ellipsis.hi"
+            case .list_number_badge_ellipsis_rtl: return "list.number.badge.ellipsis.rtl"
             case .list_number_hi: return "list.number.hi"
             case .list_number_rtl: return "list.number.rtl"
             case .list_star: return "list.star"
@@ -33811,8 +37891,12 @@ public enum SFSymbol: Sendable {
             case .lock: return "lock"
             case .lock_app_dashed: return "lock.app.dashed"
             case .lock_applewatch: return "lock.applewatch"
+            case .lock_badge_checkmark: return "lock.badge.checkmark"
+            case .lock_badge_checkmark_fill: return "lock.badge.checkmark.fill"
             case .lock_badge_clock: return "lock.badge.clock"
             case .lock_badge_clock_fill: return "lock.badge.clock.fill"
+            case .lock_badge_xmark: return "lock.badge.xmark"
+            case .lock_badge_xmark_fill: return "lock.badge.xmark.fill"
             case .lock_circle: return "lock.circle"
             case .lock_circle_dotted: return "lock.circle.dotted"
             case .lock_circle_fill: return "lock.circle.fill"
@@ -33831,6 +37915,8 @@ public enum SFSymbol: Sendable {
                 }
                 return "lock.doc.fill"
             case .lock_fill: return "lock.fill"
+            case .lock_heart: return "lock.heart"
+            case .lock_heart_fill: return "lock.heart.fill"
             case .lock_icloud: return "lock.icloud"
             case .lock_icloud_fill: return "lock.icloud.fill"
             case .lock_ipad: return "lock.ipad"
@@ -33852,6 +37938,7 @@ public enum SFSymbol: Sendable {
             case .lock_open_trianglebadge_exclamationmark: return "lock.open.trianglebadge.exclamationmark"
             case .lock_open_trianglebadge_exclamationmark_fill: return "lock.open.trianglebadge.exclamationmark.fill"
             case .lock_rectangle: return "lock.rectangle"
+            case .lock_rectangle_dashed: return "lock.rectangle.dashed"
             case .lock_rectangle_fill: return "lock.rectangle.fill"
             case .lock_rectangle_on_rectangle: return "lock.rectangle.on.rectangle"
             case .lock_rectangle_on_rectangle_dashed: return "lock.rectangle.on.rectangle.dashed"
@@ -33865,6 +37952,7 @@ public enum SFSymbol: Sendable {
             case .lock_slash: return "lock.slash"
             case .lock_slash_fill: return "lock.slash.fill"
             case .lock_square: return "lock.square"
+            case .lock_square_dashed: return "lock.square.dashed"
             case .lock_square_fill: return "lock.square.fill"
             case .lock_square_stack: return "lock.square.stack"
             case .lock_square_stack_fill: return "lock.square.stack.fill"
@@ -33917,16 +38005,26 @@ public enum SFSymbol: Sendable {
                     return "macbook.and.iphone"
                 }
                 return "laptopcomputer.and.iphone"
+            case .macbook_and_ipod: return "macbook.and.ipod"
             case .macbook_and_vision_pro:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "macbook.and.vision.pro"
                 }
                 return "macbook.and.visionpro"
             case .macbook_and_visionpro: return "macbook.and.visionpro"
+            case .macbook_badge_checkmark: return "macbook.badge.checkmark"
+            case .macbook_badge_exclamationmark: return "macbook.badge.exclamationmark"
+            case .macbook_badge_shield_checkmark: return "macbook.badge.shield.checkmark"
             case .macbook_gen1: return "macbook.gen1"
+            case .macbook_gen1_sizes: return "macbook.gen1.sizes"
             case .macbook_gen2: return "macbook.gen2"
+            case .macbook_gen2_sizes: return "macbook.gen2.sizes"
+            case .macbook_sizes: return "macbook.sizes"
             case .macbook_slash: return "macbook.slash"
+            case .macbook_trianglebadge_exclamationmark: return "macbook.trianglebadge.exclamationmark"
             case .macmini: return "macmini"
+            case .macmini_badge_checkmark: return "macmini.badge.checkmark"
+            case .macmini_badge_checkmark_fill: return "macmini.badge.checkmark.fill"
             case .macmini_fill: return "macmini.fill"
             case .macmini_gen2: return "macmini.gen2"
             case .macmini_gen2_fill: return "macmini.gen2.fill"
@@ -33937,16 +38035,33 @@ public enum SFSymbol: Sendable {
             case .macpro_gen2: return "macpro.gen2"
             case .macpro_gen2_fill: return "macpro.gen2.fill"
             case .macpro_gen3: return "macpro.gen3"
+            case .macpro_gen3_badge_checkmark:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "macpro.gen3.badge.checkmark"
+                }
+                return "macpro.gen3.badge.ckeckmark"
+            case .macpro_gen3_badge_checkmark_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "macpro.gen3.badge.checkmark.fill"
+                }
+                return "macpro.gen3.badge.ckeckmark.fill"
+            case .macpro_gen3_badge_ckeckmark: return "macpro.gen3.badge.ckeckmark"
+            case .macpro_gen3_badge_ckeckmark_fill: return "macpro.gen3.badge.ckeckmark.fill"
             case .macpro_gen3_fill: return "macpro.gen3.fill"
             case .macpro_gen3_server: return "macpro.gen3.server"
             case .macstudio: return "macstudio"
+            case .macstudio_badge_checkmark: return "macstudio.badge.checkmark"
+            case .macstudio_badge_checkmark_fill: return "macstudio.badge.checkmark.fill"
             case .macstudio_fill: return "macstudio.fill"
             case .macwindow: return "macwindow"
             case .macwindow_and_cursorarrow: return "macwindow.and.cursorarrow"
             case .macwindow_and_cursorarrow_rtl: return "macwindow.and.cursorarrow.rtl"
+            case .macwindow_and_pointer_arrow: return "macwindow.and.pointer.arrow"
+            case .macwindow_and_pointer_arrow_rtl: return "macwindow.and.pointer.arrow.rtl"
             case .macwindow_badge_plus: return "macwindow.badge.plus"
             case .macwindow_on_rectangle: return "macwindow.on.rectangle"
             case .macwindow_on_rectangle_rtl: return "macwindow.on.rectangle.rtl"
+            case .macwindow_stack: return "macwindow.stack"
             case .magazine: return "magazine"
             case .magazine_fill: return "magazine.fill"
             case .magicmouse: return "magicmouse"
@@ -33969,6 +38084,16 @@ public enum SFSymbol: Sendable {
             case .malaysianringgitsign_arrow_trianglehead_counterclockwise_rotate_90: return "malaysianringgitsign.arrow.trianglehead.counterclockwise.rotate.90"
             case .malaysianringgitsign_bank_building: return "malaysianringgitsign.bank.building"
             case .malaysianringgitsign_bank_building_fill: return "malaysianringgitsign.bank.building.fill"
+            case .malaysianringgitsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "malaysianringgitsign.building.classical"
+                }
+                return "malaysianringgitsign.bank.building"
+            case .malaysianringgitsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "malaysianringgitsign.building.classical.fill"
+                }
+                return "malaysianringgitsign.bank.building.fill"
             case .malaysianringgitsign_circle: return "malaysianringgitsign.circle"
             case .malaysianringgitsign_circle_fill: return "malaysianringgitsign.circle.fill"
             case .malaysianringgitsign_gauge_chart_lefthalf_righthalf: return "malaysianringgitsign.gauge.chart.lefthalf.righthalf"
@@ -33986,6 +38111,16 @@ public enum SFSymbol: Sendable {
                 return "manatsign.arrow.circlepath"
             case .manatsign_bank_building: return "manatsign.bank.building"
             case .manatsign_bank_building_fill: return "manatsign.bank.building.fill"
+            case .manatsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "manatsign.building.classical"
+                }
+                return "manatsign.bank.building"
+            case .manatsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "manatsign.building.classical.fill"
+                }
+                return "manatsign.bank.building.fill"
             case .manatsign_circle: return "manatsign.circle"
             case .manatsign_circle_fill: return "manatsign.circle.fill"
             case .manatsign_gauge_chart_lefthalf_righthalf: return "manatsign.gauge.chart.lefthalf.righthalf"
@@ -34130,6 +38265,30 @@ public enum SFSymbol: Sendable {
                     return "microphone.circle.fill"
                 }
                 return "mic.circle.fill"
+            case .microphone_dynamic_on_stand:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "microphone.dynamic.on.stand"
+                }
+                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
+                    return "music.microphone"
+                }
+                return "music.mic"
+            case .microphone_dynamic_on_stand_circle:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "microphone.dynamic.on.stand.circle"
+                }
+                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
+                    return "music.microphone.circle"
+                }
+                return "music.mic.circle"
+            case .microphone_dynamic_on_stand_circle_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "microphone.dynamic.on.stand.circle.fill"
+                }
+                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
+                    return "music.microphone.circle.fill"
+                }
+                return "music.mic.circle.fill"
             case .microphone_fill:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "microphone.fill"
@@ -34176,6 +38335,16 @@ public enum SFSymbol: Sendable {
                 return "millsign.arrow.circlepath"
             case .millsign_bank_building: return "millsign.bank.building"
             case .millsign_bank_building_fill: return "millsign.bank.building.fill"
+            case .millsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "millsign.building.classical"
+                }
+                return "millsign.bank.building"
+            case .millsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "millsign.building.classical.fill"
+                }
+                return "millsign.bank.building.fill"
             case .millsign_circle: return "millsign.circle"
             case .millsign_circle_fill: return "millsign.circle.fill"
             case .millsign_gauge_chart_lefthalf_righthalf: return "millsign.gauge.chart.lefthalf.righthalf"
@@ -34185,6 +38354,7 @@ public enum SFSymbol: Sendable {
             case .millsign_square: return "millsign.square"
             case .millsign_square_fill: return "millsign.square.fill"
             case .minus: return "minus"
+            case .minus_arrow_trianglehead_clockwise: return "minus.arrow.trianglehead.clockwise"
             case .minus_arrow_trianglehead_counterclockwise:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "minus.arrow.trianglehead.counterclockwise"
@@ -34217,6 +38387,7 @@ public enum SFSymbol: Sendable {
             case .minus_plus_batteryblock_stack_exclamationmark: return "minus.plus.batteryblock.stack.exclamationmark"
             case .minus_plus_batteryblock_stack_exclamationmark_fill: return "minus.plus.batteryblock.stack.exclamationmark.fill"
             case .minus_plus_batteryblock_stack_fill: return "minus.plus.batteryblock.stack.fill"
+            case .minus_plus_lines_measurement_horizontal_aligned_bottom: return "minus.plus.lines.measurement.horizontal.aligned.bottom"
             case .minus_rectangle: return "minus.rectangle"
             case .minus_rectangle_fill: return "minus.rectangle.fill"
             case .minus_rectangle_portrait: return "minus.rectangle.portrait"
@@ -34277,6 +38448,7 @@ public enum SFSymbol: Sendable {
             case .moped_fill: return "moped.fill"
             case .mosaic: return "mosaic"
             case .mosaic_fill: return "mosaic.fill"
+            case .motor_electric_vehicle: return "motor.electric.vehicle"
             case .motorcycle: return "motorcycle"
             case .motorcycle_fill: return "motorcycle.fill"
             case .mount: return "mount"
@@ -34305,22 +38477,11 @@ public enum SFSymbol: Sendable {
             case .music_mic: return "music.mic"
             case .music_mic_circle: return "music.mic.circle"
             case .music_mic_circle_fill: return "music.mic.circle.fill"
-            case .music_microphone:
-                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
-                    return "music.microphone"
-                }
-                return "music.mic"
-            case .music_microphone_circle:
-                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
-                    return "music.microphone.circle"
-                }
-                return "music.mic.circle"
-            case .music_microphone_circle_fill:
-                if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
-                    return "music.microphone.circle.fill"
-                }
-                return "music.mic.circle.fill"
+            case .music_microphone: return "music.microphone"
+            case .music_microphone_circle: return "music.microphone.circle"
+            case .music_microphone_circle_fill: return "music.microphone.circle.fill"
             case .music_note: return "music.note"
+            case .music_note_arrow_trianglehead_clockwise: return "music.note.arrow.trianglehead.clockwise"
             case .music_note_house:
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *) {
                     return "music.note.house"
@@ -34332,6 +38493,9 @@ public enum SFSymbol: Sendable {
                 }
                 return "music.house.fill"
             case .music_note_list: return "music.note.list"
+            case .music_note_slash: return "music.note.slash"
+            case .music_note_square_stack: return "music.note.square.stack"
+            case .music_note_square_stack_fill: return "music.note.square.stack.fill"
             case .music_note_tv:
                 if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *) {
                     return "music.note.tv"
@@ -34342,6 +38506,8 @@ public enum SFSymbol: Sendable {
                     return "music.note.tv.fill"
                 }
                 return "tv.music.note.fill"
+            case .music_pages: return "music.pages"
+            case .music_pages_fill: return "music.pages.fill"
             case .music_quarternote_3: return "music.quarternote.3"
             case .mustache: return "mustache"
             case .mustache_fill: return "mustache.fill"
@@ -34372,6 +38538,16 @@ public enum SFSymbol: Sendable {
                 return "nairasign.arrow.circlepath"
             case .nairasign_bank_building: return "nairasign.bank.building"
             case .nairasign_bank_building_fill: return "nairasign.bank.building.fill"
+            case .nairasign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "nairasign.building.classical"
+                }
+                return "nairasign.bank.building"
+            case .nairasign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "nairasign.building.classical.fill"
+                }
+                return "nairasign.bank.building.fill"
             case .nairasign_circle: return "nairasign.circle"
             case .nairasign_circle_fill: return "nairasign.circle.fill"
             case .nairasign_gauge_chart_lefthalf_righthalf: return "nairasign.gauge.chart.lefthalf.righthalf"
@@ -34396,6 +38572,16 @@ public enum SFSymbol: Sendable {
                 return "norwegiankronesign.arrow.circlepath"
             case .norwegiankronesign_bank_building: return "norwegiankronesign.bank.building"
             case .norwegiankronesign_bank_building_fill: return "norwegiankronesign.bank.building.fill"
+            case .norwegiankronesign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "norwegiankronesign.building.classical"
+                }
+                return "norwegiankronesign.bank.building"
+            case .norwegiankronesign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "norwegiankronesign.building.classical.fill"
+                }
+                return "norwegiankronesign.bank.building.fill"
             case .norwegiankronesign_circle: return "norwegiankronesign.circle"
             case .norwegiankronesign_circle_fill: return "norwegiankronesign.circle.fill"
             case .norwegiankronesign_gauge_chart_lefthalf_righthalf: return "norwegiankronesign.gauge.chart.lefthalf.righthalf"
@@ -34421,6 +38607,31 @@ public enum SFSymbol: Sendable {
             case .number: return "number"
             case .number_circle: return "number.circle"
             case .number_circle_fill: return "number.circle.fill"
+            case .number_sign:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "number.sign"
+                }
+                return "number"
+            case .number_sign_circle:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "number.sign.circle"
+                }
+                return "number.circle"
+            case .number_sign_circle_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "number.sign.circle.fill"
+                }
+                return "number.circle.fill"
+            case .number_sign_square:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "number.sign.square"
+                }
+                return "number.square"
+            case .number_sign_square_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "number.sign.square.fill"
+                }
+                return "number.square.fill"
             case .number_square: return "number.square"
             case .number_square_fill: return "number.square.fill"
             case .numbers:
@@ -34433,11 +38644,21 @@ public enum SFSymbol: Sendable {
                     return "numbers.ar"
                 }
                 return "textformat.123.ar"
+            case .numbers_bn: return "numbers.bn"
+            case .numbers_gu: return "numbers.gu"
             case .numbers_hi:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "numbers.hi"
                 }
                 return "textformat.123.hi"
+            case .numbers_km: return "numbers.km"
+            case .numbers_kn: return "numbers.kn"
+            case .numbers_ml: return "numbers.ml"
+            case .numbers_mni: return "numbers.mni"
+            case .numbers_mr: return "numbers.mr"
+            case .numbers_my: return "numbers.my"
+            case .numbers_or: return "numbers.or"
+            case .numbers_pa: return "numbers.pa"
             case .numbers_rectangle:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "numbers.rectangle"
@@ -34468,7 +38689,14 @@ public enum SFSymbol: Sendable {
                     return "numbers.rectangle.hi"
                 }
                 return "123.rectangle.hi"
+            case .numbers_sat: return "numbers.sat"
+            case .numbers_te: return "numbers.te"
             case .numbersign: return "numbersign"
+            case .numero_sign:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "numero.sign"
+                }
+                return "numbersign"
             case .o_circle: return "o.circle"
             case .o_circle_fill: return "o.circle.fill"
             case .o_square: return "o.square"
@@ -34521,14 +38749,22 @@ public enum SFSymbol: Sendable {
             case .p_circle_fill: return "p.circle.fill"
             case .p_square: return "p.square"
             case .p_square_fill: return "p.square.fill"
+            case .pad_header:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pad.header"
+                }
+                return "note"
             case .paddleshifter_left: return "paddleshifter.left"
             case .paddleshifter_left_fill: return "paddleshifter.left.fill"
             case .paddleshifter_right: return "paddleshifter.right"
             case .paddleshifter_right_fill: return "paddleshifter.right.fill"
+            case .paint_bucket_classic: return "paint.bucket.classic"
             case .paintbrush: return "paintbrush"
             case .paintbrush_fill: return "paintbrush.fill"
             case .paintbrush_pointed: return "paintbrush.pointed"
             case .paintbrush_pointed_fill: return "paintbrush.pointed.fill"
+            case .paintbrush_slash: return "paintbrush.slash"
+            case .paintbrush_slash_fill: return "paintbrush.slash.fill"
             case .paintpalette: return "paintpalette"
             case .paintpalette_fill: return "paintpalette.fill"
             case .pano: return "pano"
@@ -34585,7 +38821,9 @@ public enum SFSymbol: Sendable {
             case .pedal_clutch: return "pedal.clutch"
             case .pedal_clutch_fill: return "pedal.clutch.fill"
             case .pedestrian_gate_closed: return "pedestrian.gate.closed"
+            case .pedestrian_gate_closed_trianglebadge_exclamationmark: return "pedestrian.gate.closed.trianglebadge.exclamationmark"
             case .pedestrian_gate_open: return "pedestrian.gate.open"
+            case .pedestrian_gate_open_trianglebadge_exclamationmark: return "pedestrian.gate.open.trianglebadge.exclamationmark"
             case .pencil: return "pencil"
             case .pencil_and_ellipsis_rectangle: return "pencil.and.ellipsis.rectangle"
             case .pencil_and_list_clipboard: return "pencil.and.list.clipboard"
@@ -34622,6 +38860,8 @@ public enum SFSymbol: Sendable {
                     return "person.2.arrow.trianglehead.counterclockwise"
                 }
                 return "person.2.gobackward"
+            case .person_2_badge: return "person.2.badge"
+            case .person_2_badge_fill: return "person.2.badge.fill"
             case .person_2_badge_gearshape: return "person.2.badge.gearshape"
             case .person_2_badge_gearshape_fill: return "person.2.badge.gearshape.fill"
             case .person_2_badge_key: return "person.2.badge.key"
@@ -34644,6 +38884,8 @@ public enum SFSymbol: Sendable {
                 return "person.2.square.stack.fill"
             case .person_2_fill: return "person.2.fill"
             case .person_2_gobackward: return "person.2.gobackward"
+            case .person_2_shield: return "person.2.shield"
+            case .person_2_shield_fill: return "person.2.shield.fill"
             case .person_2_slash: return "person.2.slash"
             case .person_2_slash_fill: return "person.2.slash.fill"
             case .person_2_square_stack: return "person.2.square.stack"
@@ -34664,10 +38906,20 @@ public enum SFSymbol: Sendable {
             case .person_and_background_striped_horizontal: return "person.and.background.striped.horizontal"
             case .person_and_person: return "person.and.person"
             case .person_and_person_fill: return "person.and.person.fill"
+            case .person_badge_checkmark: return "person.badge.checkmark"
+            case .person_badge_checkmark_fill: return "person.badge.checkmark.fill"
+            case .person_badge_checkmark_seal: return "person.badge.checkmark.seal"
+            case .person_badge_checkmark_seal_fill: return "person.badge.checkmark.seal.fill"
             case .person_badge_clock: return "person.badge.clock"
             case .person_badge_clock_fill: return "person.badge.clock.fill"
+            case .person_badge_creditcard: return "person.badge.creditcard"
+            case .person_badge_creditcard_fill: return "person.badge.creditcard.fill"
+            case .person_badge_gearshape: return "person.badge.gearshape"
+            case .person_badge_gearshape_fill: return "person.badge.gearshape.fill"
             case .person_badge_key: return "person.badge.key"
             case .person_badge_key_fill: return "person.badge.key.fill"
+            case .person_badge_location: return "person.badge.location"
+            case .person_badge_location_fill: return "person.badge.location.fill"
             case .person_badge_minus: return "person.badge.minus"
             case .person_badge_minus_fill: return "person.badge.minus.fill"
             case .person_badge_plus: return "person.badge.plus"
@@ -34678,6 +38930,8 @@ public enum SFSymbol: Sendable {
             case .person_badge_shield_exclamationmark_fill: return "person.badge.shield.exclamationmark.fill"
             case .person_bubble: return "person.bubble"
             case .person_bubble_fill: return "person.bubble.fill"
+            case .person_building_classical: return "person.building.classical"
+            case .person_building_classical_fill: return "person.building.classical.fill"
             case .person_bust: return "person.bust"
             case .person_bust_circle: return "person.bust.circle"
             case .person_bust_circle_fill: return "person.bust.circle.fill"
@@ -34695,6 +38949,8 @@ public enum SFSymbol: Sendable {
             case .person_crop_circle_badge_checkmark_fill: return "person.crop.circle.badge.checkmark.fill"
             case .person_crop_circle_badge_clock: return "person.crop.circle.badge.clock"
             case .person_crop_circle_badge_clock_fill: return "person.crop.circle.badge.clock.fill"
+            case .person_crop_circle_badge_ellipsis: return "person.crop.circle.badge.ellipsis"
+            case .person_crop_circle_badge_ellipsis_fill: return "person.crop.circle.badge.ellipsis.fill"
             case .person_crop_circle_badge_exclam: return "person.crop.circle.badge.exclam"
             case .person_crop_circle_badge_exclam_fill: return "person.crop.circle.badge.exclam.fill"
             case .person_crop_circle_badge_exclamationmark:
@@ -34711,6 +38967,16 @@ public enum SFSymbol: Sendable {
                 }
                 return "person.crop.circle.fill.badge.exclam"
             case .person_crop_circle_badge_fill: return "person.crop.circle.badge.fill"
+            case .person_crop_circle_badge_magnifyingglass:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "person.crop.circle.badge.magnifyingglass"
+                }
+                return "person.crop.badge.magnifyingglass"
+            case .person_crop_circle_badge_magnifyingglass_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "person.crop.circle.badge.magnifyingglass.fill"
+                }
+                return "person.crop.badge.magnifyingglass.fill"
             case .person_crop_circle_badge_minus: return "person.crop.circle.badge.minus"
             case .person_crop_circle_badge_minus_fill: return "person.crop.circle.badge.minus.fill"
             case .person_crop_circle_badge_moon: return "person.crop.circle.badge.moon"
@@ -34806,12 +39072,24 @@ public enum SFSymbol: Sendable {
             case .person_icloud_fill: return "person.icloud.fill"
             case .person_line_dotted_person: return "person.line.dotted.person"
             case .person_line_dotted_person_fill: return "person.line.dotted.person.fill"
+            case .person_number_sign_rectangle: return "person.number.sign.rectangle"
+            case .person_number_sign_rectangle_fill: return "person.number.sign.rectangle.fill"
             case .person_slash: return "person.slash"
             case .person_slash_fill: return "person.slash.fill"
+            case .person_spatialaudio_3d_fill: return "person.spatialaudio.3d.fill"
+            case .person_spatialaudio_fill: return "person.spatialaudio.fill"
+            case .person_spatialaudio_stereo_3d_fill: return "person.spatialaudio.stereo.3d.fill"
+            case .person_spatialaudio_stereo_fill: return "person.spatialaudio.stereo.fill"
             case .person_text_rectangle: return "person.text.rectangle"
+            case .person_text_rectangle_badge_clock: return "person.text.rectangle.badge.clock"
+            case .person_text_rectangle_badge_clock_fill: return "person.text.rectangle.badge.clock.fill"
             case .person_text_rectangle_fill: return "person.text.rectangle.fill"
+            case .person_text_rectangle_trianglebadge_exclamationmark: return "person.text.rectangle.trianglebadge.exclamationmark"
+            case .person_text_rectangle_trianglebadge_exclamationmark_fill: return "person.text.rectangle.trianglebadge.exclamationmark.fill"
             case .person_wave_2: return "person.wave.2"
             case .person_wave_2_fill: return "person.wave.2.fill"
+            case .person_wave_2_inward: return "person.wave.2.inward"
+            case .person_wave_2_inward_fill: return "person.wave.2.inward.fill"
             case .personalhotspot: return "personalhotspot"
             case .personalhotspot_circle: return "personalhotspot.circle"
             case .personalhotspot_circle_fill: return "personalhotspot.circle.fill"
@@ -34821,6 +39099,16 @@ public enum SFSymbol: Sendable {
             case .peruviansolessign_arrow_trianglehead_counterclockwise_rotate_90: return "peruviansolessign.arrow.trianglehead.counterclockwise.rotate.90"
             case .peruviansolessign_bank_building: return "peruviansolessign.bank.building"
             case .peruviansolessign_bank_building_fill: return "peruviansolessign.bank.building.fill"
+            case .peruviansolessign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "peruviansolessign.building.classical"
+                }
+                return "peruviansolessign.bank.building"
+            case .peruviansolessign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "peruviansolessign.building.classical.fill"
+                }
+                return "peruviansolessign.bank.building.fill"
             case .peruviansolessign_circle: return "peruviansolessign.circle"
             case .peruviansolessign_circle_fill: return "peruviansolessign.circle.fill"
             case .peruviansolessign_gauge_chart_lefthalf_righthalf: return "peruviansolessign.gauge.chart.lefthalf.righthalf"
@@ -34838,6 +39126,16 @@ public enum SFSymbol: Sendable {
                 return "pesetasign.arrow.circlepath"
             case .pesetasign_bank_building: return "pesetasign.bank.building"
             case .pesetasign_bank_building_fill: return "pesetasign.bank.building.fill"
+            case .pesetasign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "pesetasign.building.classical"
+                }
+                return "pesetasign.bank.building"
+            case .pesetasign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "pesetasign.building.classical.fill"
+                }
+                return "pesetasign.bank.building.fill"
             case .pesetasign_circle: return "pesetasign.circle"
             case .pesetasign_circle_fill: return "pesetasign.circle.fill"
             case .pesetasign_gauge_chart_lefthalf_righthalf: return "pesetasign.gauge.chart.lefthalf.righthalf"
@@ -34855,6 +39153,16 @@ public enum SFSymbol: Sendable {
                 return "pesosign.arrow.circlepath"
             case .pesosign_bank_building: return "pesosign.bank.building"
             case .pesosign_bank_building_fill: return "pesosign.bank.building.fill"
+            case .pesosign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "pesosign.building.classical"
+                }
+                return "pesosign.bank.building"
+            case .pesosign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "pesosign.building.classical.fill"
+                }
+                return "pesosign.bank.building.fill"
             case .pesosign_circle: return "pesosign.circle"
             case .pesosign_circle_fill: return "pesosign.circle.fill"
             case .pesosign_gauge_chart_lefthalf_righthalf: return "pesosign.gauge.chart.lefthalf.righthalf"
@@ -34863,6 +39171,10 @@ public enum SFSymbol: Sendable {
             case .pesosign_ring_dashed: return "pesosign.ring.dashed"
             case .pesosign_square: return "pesosign.square"
             case .pesosign_square_fill: return "pesosign.square.fill"
+            case .pet_carrier: return "pet.carrier"
+            case .pet_carrier_circle: return "pet.carrier.circle"
+            case .pet_carrier_circle_fill: return "pet.carrier.circle.fill"
+            case .pet_carrier_fill: return "pet.carrier.fill"
             case .phone: return "phone"
             case .phone_and_waveform: return "phone.and.waveform"
             case .phone_and_waveform_fill: return "phone.and.waveform.fill"
@@ -34923,6 +39235,10 @@ public enum SFSymbol: Sendable {
             case .phone_fill_badge_checkmark: return "phone.fill.badge.checkmark"
             case .phone_fill_badge_plus: return "phone.fill.badge.plus"
             case .phone_fill_connection: return "phone.fill.connection"
+            case .phone_pause: return "phone.pause"
+            case .phone_pause_circle: return "phone.pause.circle"
+            case .phone_pause_circle_fill: return "phone.pause.circle.fill"
+            case .phone_pause_fill: return "phone.pause.fill"
             case .photo: return "photo"
             case .photo_artframe: return "photo.artframe"
             case .photo_artframe_circle: return "photo.artframe.circle"
@@ -34937,6 +39253,8 @@ public enum SFSymbol: Sendable {
             case .photo_badge_magnifyingglass_fill: return "photo.badge.magnifyingglass.fill"
             case .photo_badge_plus: return "photo.badge.plus"
             case .photo_badge_plus_fill: return "photo.badge.plus.fill"
+            case .photo_badge_questionmark: return "photo.badge.questionmark"
+            case .photo_badge_questionmark_fill: return "photo.badge.questionmark.fill"
             case .photo_badge_shield_exclamationmark: return "photo.badge.shield.exclamationmark"
             case .photo_badge_shield_exclamationmark_fill: return "photo.badge.shield.exclamationmark.fill"
             case .photo_circle: return "photo.circle"
@@ -34947,6 +39265,8 @@ public enum SFSymbol: Sendable {
             case .photo_on_rectangle_angled: return "photo.on.rectangle.angled"
             case .photo_on_rectangle_angled_fill: return "photo.on.rectangle.angled.fill"
             case .photo_on_rectangle_fill: return "photo.on.rectangle.fill"
+            case .photo_slash: return "photo.slash"
+            case .photo_slash_fill: return "photo.slash.fill"
             case .photo_stack: return "photo.stack"
             case .photo_stack_fill: return "photo.stack.fill"
             case .photo_trianglebadge_exclamationmark: return "photo.trianglebadge.exclamationmark"
@@ -34983,6 +39303,10 @@ public enum SFSymbol: Sendable {
             case .pip_swap: return "pip.swap"
             case .pipe_and_drop: return "pipe.and.drop"
             case .pipe_and_drop_fill: return "pipe.and.drop.fill"
+            case .pizza_slice: return "pizza.slice"
+            case .pizza_slice_fill: return "pizza.slice.fill"
+            case .pl_button_horizontal: return "pl.button.horizontal"
+            case .pl_button_horizontal_fill: return "pl.button.horizontal.fill"
             case .placeholdertext_fill: return "placeholdertext.fill"
             case .platter_2_filled_ipad: return "platter.2.filled.ipad"
             case .platter_2_filled_ipad_landscape: return "platter.2.filled.ipad.landscape"
@@ -34997,9 +39321,15 @@ public enum SFSymbol: Sendable {
             case .platter_filled_top_iphone: return "platter.filled.top.iphone"
             case .platter_top_applewatch_case: return "platter.top.applewatch.case"
             case .play: return "play"
+            case .play_bubble: return "play.bubble"
+            case .play_bubble_fill: return "play.bubble.fill"
+            case .play_bubble_fill_rtl: return "play.bubble.fill.rtl"
+            case .play_bubble_rtl: return "play.bubble.rtl"
             case .play_circle: return "play.circle"
             case .play_circle_fill: return "play.circle.fill"
             case .play_desktopcomputer: return "play.desktopcomputer"
+            case .play_diamond: return "play.diamond"
+            case .play_diamond_fill: return "play.diamond.fill"
             case .play_display: return "play.display"
             case .play_fill: return "play.fill"
             case .play_house: return "play.house"
@@ -35036,8 +39366,11 @@ public enum SFSymbol: Sendable {
                     return "plus.arrow.trianglehead.clockwise"
                 }
                 return "goforward.plus"
+            case .plus_arrow_trianglehead_counterclockwise: return "plus.arrow.trianglehead.counterclockwise"
             case .plus_bubble: return "plus.bubble"
             case .plus_bubble_fill: return "plus.bubble.fill"
+            case .plus_capsule: return "plus.capsule"
+            case .plus_capsule_fill: return "plus.capsule.fill"
             case .plus_circle: return "plus.circle"
             case .plus_circle_dashed: return "plus.circle.dashed"
             case .plus_circle_fill: return "plus.circle.fill"
@@ -35132,6 +39465,85 @@ public enum SFSymbol: Sendable {
             case .point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath: return "point.topright.arrow.triangle.backward.to.point.bottomleft.scurvepath"
             case .point_topright_arrow_triangle_backward_to_point_bottomleft_scurvepath_fill: return "point.topright.arrow.triangle.backward.to.point.bottomleft.scurvepath.fill"
             case .point_topright_filled_arrow_triangle_backward_to_point_bottomleft_scurvepath: return "point.topright.filled.arrow.triangle.backward.to.point.bottomleft.scurvepath"
+            case .pointer_arrow:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow"
+                }
+                if #available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *) {
+                    return "cursorarrow.resize.north.east.south.east"
+                }
+                return "cursorarrow"
+            case .pointer_arrow_and_square_on_square_dashed:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.and.square.on.square.dashed"
+                }
+                return "cursorarrow.and.square.on.square.dashed"
+            case .pointer_arrow_click:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.click"
+                }
+                return "cursorarrow.click"
+            case .pointer_arrow_click_2:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.click.2"
+                }
+                return "cursorarrow.click.2"
+            case .pointer_arrow_click_badge_clock:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.click.badge.clock"
+                }
+                return "cursorarrow.click.badge.clock"
+            case .pointer_arrow_ipad: return "pointer.arrow.ipad"
+            case .pointer_arrow_ipad_and_square_on_square_dashed: return "pointer.arrow.ipad.and.square.on.square.dashed"
+            case .pointer_arrow_ipad_rays: return "pointer.arrow.ipad.rays"
+            case .pointer_arrow_ipad_slash: return "pointer.arrow.ipad.slash"
+            case .pointer_arrow_ipad_slash_square: return "pointer.arrow.ipad.slash.square"
+            case .pointer_arrow_ipad_slash_square_fill: return "pointer.arrow.ipad.slash.square.fill"
+            case .pointer_arrow_ipad_square: return "pointer.arrow.ipad.square"
+            case .pointer_arrow_ipad_square_fill: return "pointer.arrow.ipad.square.fill"
+            case .pointer_arrow_motionlines:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.motionlines"
+                }
+                return "cursorarrow.motionlines"
+            case .pointer_arrow_motionlines_click:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.motionlines.click"
+                }
+                return "cursorarrow.motionlines.click"
+            case .pointer_arrow_rays:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.rays"
+                }
+                if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *) {
+                    return "cursorarrow.rays"
+                }
+                return "cursor.rays"
+            case .pointer_arrow_slash:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.slash"
+                }
+                return "cursorarrow.slash"
+            case .pointer_arrow_slash_square:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.slash.square"
+                }
+                return "cursorarrow.slash.square"
+            case .pointer_arrow_slash_square_fill:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.slash.square.fill"
+                }
+                return "cursorarrow.slash.square.fill"
+            case .pointer_arrow_square:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.square"
+                }
+                return "cursorarrow.square"
+            case .pointer_arrow_square_fill:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "pointer.arrow.square.fill"
+                }
+                return "cursorarrow.square.fill"
             case .polishzlotysign: return "polishzlotysign"
             case .polishzlotysign_arrow_circlepath: return "polishzlotysign.arrow.circlepath"
             case .polishzlotysign_arrow_trianglehead_counterclockwise_rotate_90:
@@ -35141,6 +39553,16 @@ public enum SFSymbol: Sendable {
                 return "polishzlotysign.arrow.circlepath"
             case .polishzlotysign_bank_building: return "polishzlotysign.bank.building"
             case .polishzlotysign_bank_building_fill: return "polishzlotysign.bank.building.fill"
+            case .polishzlotysign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "polishzlotysign.building.classical"
+                }
+                return "polishzlotysign.bank.building"
+            case .polishzlotysign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "polishzlotysign.building.classical.fill"
+                }
+                return "polishzlotysign.bank.building.fill"
             case .polishzlotysign_circle: return "polishzlotysign.circle"
             case .polishzlotysign_circle_fill: return "polishzlotysign.circle.fill"
             case .polishzlotysign_gauge_chart_lefthalf_righthalf: return "polishzlotysign.gauge.chart.lefthalf.righthalf"
@@ -35229,6 +39651,8 @@ public enum SFSymbol: Sendable {
             case .powerplug_portrait: return "powerplug.portrait"
             case .powerplug_portrait_fill: return "powerplug.portrait.fill"
             case .powersleep: return "powersleep"
+            case .pr_button_horizontal: return "pr.button.horizontal"
+            case .pr_button_horizontal_fill: return "pr.button.horizontal.fill"
             case .printer: return "printer"
             case .printer_dotmatrix: return "printer.dotmatrix"
             case .printer_dotmatrix_fill: return "printer.dotmatrix.fill"
@@ -35433,6 +39857,12 @@ public enum SFSymbol: Sendable {
                     return "r.square.on.square.fill"
                 }
                 return "r.square.fill.on.square.fill"
+            case .radicand_squareroot:
+                if #available(iOS 26.1, macOS 26.1, tvOS 26.1, watchOS 26.1, visionOS 26.1, *) {
+                    return "radicand.squareroot"
+                }
+                return "x.squareroot"
+            case .radicand_squareroot_ar: return "radicand.squareroot.ar"
             case .radio: return "radio"
             case .radio_fill: return "radio.fill"
             case .radiowaves_left: return "radiowaves.left"
@@ -35459,6 +39889,7 @@ public enum SFSymbol: Sendable {
             case .record_circle: return "record.circle"
             case .record_circle_fill: return "record.circle.fill"
             case .recordingtape: return "recordingtape"
+            case .recordingtape_badge: return "recordingtape.badge"
             case .recordingtape_circle: return "recordingtape.circle"
             case .recordingtape_circle_fill: return "recordingtape.circle.fill"
             case .rectangle: return "rectangle"
@@ -35487,6 +39918,7 @@ public enum SFSymbol: Sendable {
                 return "rectangle.3.offgrid.bubble.left.fill"
             case .rectangle_3_group_bubble_left: return "rectangle.3.group.bubble.left"
             case .rectangle_3_group_bubble_left_fill: return "rectangle.3.group.bubble.left.fill"
+            case .rectangle_3_group_dashed: return "rectangle.3.group.dashed"
             case .rectangle_3_group_fill:
                 if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *) {
                     return "rectangle.3.group.fill"
@@ -35496,6 +39928,8 @@ public enum SFSymbol: Sendable {
             case .rectangle_3_offgrid_bubble_left: return "rectangle.3.offgrid.bubble.left"
             case .rectangle_3_offgrid_bubble_left_fill: return "rectangle.3.offgrid.bubble.left.fill"
             case .rectangle_3_offgrid_fill: return "rectangle.3.offgrid.fill"
+            case .rectangle_3_portrait_pano: return "rectangle.3.portrait.pano"
+            case .rectangle_3_portrait_pano_fill: return "rectangle.3.portrait.pano.fill"
             case .rectangle_and_arrow_up_right_and_arrow_down_left: return "rectangle.and.arrow.up.right.and.arrow.down.left"
             case .rectangle_and_arrow_up_right_and_arrow_down_left_slash: return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
             case .rectangle_and_hand_point_up_left: return "rectangle.and.hand.point.up.left"
@@ -35518,6 +39952,8 @@ public enum SFSymbol: Sendable {
             case .rectangle_badge_minus: return "rectangle.badge.minus"
             case .rectangle_badge_person_crop: return "rectangle.badge.person.crop"
             case .rectangle_badge_plus: return "rectangle.badge.plus"
+            case .rectangle_badge_sparkles: return "rectangle.badge.sparkles"
+            case .rectangle_badge_sparkles_fill: return "rectangle.badge.sparkles.fill"
             case .rectangle_badge_xmark: return "rectangle.badge.xmark"
             case .rectangle_badge_xmark_fill: return "rectangle.badge.xmark.fill"
             case .rectangle_bottomhalf_filled: return "rectangle.bottomhalf.filled"
@@ -35553,6 +39989,8 @@ public enum SFSymbol: Sendable {
             case .rectangle_filled_and_hand_point_up_left: return "rectangle.filled.and.hand.point.up.left"
             case .rectangle_grid_1x2: return "rectangle.grid.1x2"
             case .rectangle_grid_1x2_fill: return "rectangle.grid.1x2.fill"
+            case .rectangle_grid_1x3: return "rectangle.grid.1x3"
+            case .rectangle_grid_1x3_fill: return "rectangle.grid.1x3.fill"
             case .rectangle_grid_2x2: return "rectangle.grid.2x2"
             case .rectangle_grid_2x2_fill: return "rectangle.grid.2x2.fill"
             case .rectangle_grid_3x1: return "rectangle.grid.3x1"
@@ -35581,6 +40019,7 @@ public enum SFSymbol: Sendable {
             case .rectangle_inset_topright_filled: return "rectangle.inset.topright.filled"
             case .rectangle_inset_toptrailing_filled: return "rectangle.inset.toptrailing.filled"
             case .rectangle_landscape_rotate: return "rectangle.landscape.rotate"
+            case .rectangle_landscape_rotate_slash: return "rectangle.landscape.rotate.slash"
             case .rectangle_leadinghalf_filled: return "rectangle.leadinghalf.filled"
             case .rectangle_leadinghalf_inset_filled: return "rectangle.leadinghalf.inset.filled"
             case .rectangle_leadinghalf_inset_filled_arrow_leading: return "rectangle.leadinghalf.inset.filled.arrow.leading"
@@ -35667,6 +40106,7 @@ public enum SFSymbol: Sendable {
             case .rectangle_portrait_righthalf_inset_filled: return "rectangle.portrait.righthalf.inset.filled"
             case .rectangle_portrait_rightthird_inset_filled: return "rectangle.portrait.rightthird.inset.filled"
             case .rectangle_portrait_rotate: return "rectangle.portrait.rotate"
+            case .rectangle_portrait_rotate_slash: return "rectangle.portrait.rotate.slash"
             case .rectangle_portrait_slash: return "rectangle.portrait.slash"
             case .rectangle_portrait_slash_fill: return "rectangle.portrait.slash.fill"
             case .rectangle_portrait_split_2x1: return "rectangle.portrait.split.2x1"
@@ -35721,6 +40161,8 @@ public enum SFSymbol: Sendable {
             case .rectangle_split_3x3: return "rectangle.split.3x3"
             case .rectangle_split_3x3_fill: return "rectangle.split.3x3.fill"
             case .rectangle_stack: return "rectangle.stack"
+            case .rectangle_stack_and_person: return "rectangle.stack.and.person"
+            case .rectangle_stack_and_person_fill: return "rectangle.stack.and.person.fill"
             case .rectangle_stack_badge_minus: return "rectangle.stack.badge.minus"
             case .rectangle_stack_badge_minus_fill: return "rectangle.stack.badge.minus.fill"
             case .rectangle_stack_badge_person_crop: return "rectangle.stack.badge.person.crop"
@@ -35739,6 +40181,8 @@ public enum SFSymbol: Sendable {
             case .rectangle_stack_fill_badge_plus: return "rectangle.stack.fill.badge.plus"
             case .rectangle_stack_person_crop: return "rectangle.stack.person.crop"
             case .rectangle_stack_person_crop_fill: return "rectangle.stack.person.crop.fill"
+            case .rectangle_stack_slash: return "rectangle.stack.slash"
+            case .rectangle_stack_slash_fill: return "rectangle.stack.slash.fill"
             case .rectangle_tophalf_filled: return "rectangle.tophalf.filled"
             case .rectangle_tophalf_inset_filled: return "rectangle.tophalf.inset.filled"
             case .rectangle_topthird_inset: return "rectangle.topthird.inset"
@@ -35759,6 +40203,11 @@ public enum SFSymbol: Sendable {
             case .repeat_1_circle_fill_hi: return "repeat.1.circle.fill.hi"
             case .repeat_1_circle_hi: return "repeat.1.circle.hi"
             case .repeat_1_hi: return "repeat.1.hi"
+            case .repeat_badge_xmark:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "repeat.badge.xmark"
+                }
+                return "repeat.badge.xmark.circle.fill"
             case .repeat_badge_xmark_circle_fill: return "repeat.badge.xmark.circle.fill"
             case .repeat_circle: return "repeat.circle"
             case .repeat_circle_fill: return "repeat.circle.fill"
@@ -35859,8 +40308,11 @@ public enum SFSymbol: Sendable {
             case .righttriangle_fill: return "righttriangle.fill"
             case .righttriangle_split_diagonal: return "righttriangle.split.diagonal"
             case .righttriangle_split_diagonal_fill: return "righttriangle.split.diagonal.fill"
+            case .ring: return "ring"
             case .ring_circle: return "ring.circle"
             case .ring_circle_fill: return "ring.circle.fill"
+            case .ring_dashed: return "ring.dashed"
+            case .ring_light: return "ring.light"
             case .rm_button_horizontal: return "rm.button.horizontal"
             case .rm_button_horizontal_fill: return "rm.button.horizontal.fill"
             case .road_lane_arrowtriangle_2_inward: return "road.lane.arrowtriangle.2.inward"
@@ -35912,6 +40364,16 @@ public enum SFSymbol: Sendable {
                 return "rublesign.arrow.circlepath"
             case .rublesign_bank_building: return "rublesign.bank.building"
             case .rublesign_bank_building_fill: return "rublesign.bank.building.fill"
+            case .rublesign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "rublesign.building.classical"
+                }
+                return "rublesign.bank.building"
+            case .rublesign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "rublesign.building.classical.fill"
+                }
+                return "rublesign.bank.building.fill"
             case .rublesign_circle: return "rublesign.circle"
             case .rublesign_circle_fill: return "rublesign.circle.fill"
             case .rublesign_gauge_chart_lefthalf_righthalf: return "rublesign.gauge.chart.lefthalf.righthalf"
@@ -35935,6 +40397,16 @@ public enum SFSymbol: Sendable {
                 return "rupeesign.arrow.circlepath"
             case .rupeesign_bank_building: return "rupeesign.bank.building"
             case .rupeesign_bank_building_fill: return "rupeesign.bank.building.fill"
+            case .rupeesign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "rupeesign.building.classical"
+                }
+                return "rupeesign.bank.building"
+            case .rupeesign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "rupeesign.building.classical.fill"
+                }
+                return "rupeesign.bank.building.fill"
             case .rupeesign_circle: return "rupeesign.circle"
             case .rupeesign_circle_fill: return "rupeesign.circle.fill"
             case .rupeesign_gauge_chart_lefthalf_righthalf: return "rupeesign.gauge.chart.lefthalf.righthalf"
@@ -35964,6 +40436,7 @@ public enum SFSymbol: Sendable {
             case .scissors_circle_fill: return "scissors.circle.fill"
             case .scooter: return "scooter"
             case .scope: return "scope"
+            case .scope_continuous: return "scope.continuous"
             case .screwdriver: return "screwdriver"
             case .screwdriver_fill: return "screwdriver.fill"
             case .scribble: return "scribble"
@@ -35977,9 +40450,13 @@ public enum SFSymbol: Sendable {
             case .selection_pin_in_out: return "selection.pin.in.out"
             case .sensor: return "sensor"
             case .sensor_fill: return "sensor.fill"
+            case .sensor_radiowaves_left_and_right: return "sensor.radiowaves.left.and.right"
+            case .sensor_radiowaves_left_and_right_fill: return "sensor.radiowaves.left.and.right.fill"
             case .sensor_tag_radiowaves_forward: return "sensor.tag.radiowaves.forward"
             case .sensor_tag_radiowaves_forward_fill: return "sensor.tag.radiowaves.forward.fill"
             case .server_rack: return "server.rack"
+            case .service_dog: return "service.dog"
+            case .service_dog_fill: return "service.dog.fill"
             case .shadow: return "shadow"
             case .shared_with_you: return "shared.with.you"
             case .shared_with_you_circle: return "shared.with.you.circle"
@@ -36018,6 +40495,16 @@ public enum SFSymbol: Sendable {
                 return "shekelsign.arrow.circlepath"
             case .shekelsign_bank_building: return "shekelsign.bank.building"
             case .shekelsign_bank_building_fill: return "shekelsign.bank.building.fill"
+            case .shekelsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "shekelsign.building.classical"
+                }
+                return "shekelsign.bank.building"
+            case .shekelsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "shekelsign.building.classical.fill"
+                }
+                return "shekelsign.bank.building.fill"
             case .shekelsign_circle:
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *) {
                     return "shekelsign.circle"
@@ -36097,9 +40584,16 @@ public enum SFSymbol: Sendable {
             case .shoe: return "shoe"
             case .shoe_2: return "shoe.2"
             case .shoe_2_fill: return "shoe.2.fill"
+            case .shoe_arrow_trianglehead_up_and_down: return "shoe.arrow.trianglehead.up.and.down"
+            case .shoe_arrow_trianglehead_up_and_down_fill: return "shoe.arrow.trianglehead.up.and.down.fill"
+            case .shoe_arrow_trianglehead_up_right: return "shoe.arrow.trianglehead.up.right"
+            case .shoe_arrow_trianglehead_up_right_circle: return "shoe.arrow.trianglehead.up.right.circle"
+            case .shoe_arrow_trianglehead_up_right_circle_fill: return "shoe.arrow.trianglehead.up.right.circle.fill"
+            case .shoe_arrow_trianglehead_up_right_fill: return "shoe.arrow.trianglehead.up.right.fill"
             case .shoe_circle: return "shoe.circle"
             case .shoe_circle_fill: return "shoe.circle.fill"
             case .shoe_fill: return "shoe.fill"
+            case .shoe_running_and_shadow_fill: return "shoe.running.and.shadow.fill"
             case .shoeprints_fill: return "shoeprints.fill"
             case .shower: return "shower"
             case .shower_fill: return "shower.fill"
@@ -36148,6 +40642,16 @@ public enum SFSymbol: Sendable {
             case .singaporedollarsign_arrow_trianglehead_counterclockwise_rotate_90: return "singaporedollarsign.arrow.trianglehead.counterclockwise.rotate.90"
             case .singaporedollarsign_bank_building: return "singaporedollarsign.bank.building"
             case .singaporedollarsign_bank_building_fill: return "singaporedollarsign.bank.building.fill"
+            case .singaporedollarsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "singaporedollarsign.building.classical"
+                }
+                return "singaporedollarsign.bank.building"
+            case .singaporedollarsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "singaporedollarsign.building.classical.fill"
+                }
+                return "singaporedollarsign.bank.building.fill"
             case .singaporedollarsign_circle: return "singaporedollarsign.circle"
             case .singaporedollarsign_circle_fill: return "singaporedollarsign.circle.fill"
             case .singaporedollarsign_gauge_chart_lefthalf_righthalf: return "singaporedollarsign.gauge.chart.lefthalf.righthalf"
@@ -36158,6 +40662,9 @@ public enum SFSymbol: Sendable {
             case .singaporedollarsign_square_fill: return "singaporedollarsign.square.fill"
             case .sink: return "sink"
             case .sink_fill: return "sink.fill"
+            case .siri: return "siri"
+            case .siri_gen1: return "siri.gen1"
+            case .siri_gen2: return "siri.gen2"
             case .skateboard: return "skateboard"
             case .skateboard_fill: return "skateboard.fill"
             case .skew: return "skew"
@@ -36188,6 +40695,10 @@ public enum SFSymbol: Sendable {
             case .slider_horizontal_2_square_badge_arrow_down: return "slider.horizontal.2.square.badge.arrow.down"
             case .slider_horizontal_2_square_on_square: return "slider.horizontal.2.square.on.square"
             case .slider_horizontal_3: return "slider.horizontal.3"
+            case .slider_horizontal_below_circle_lefthalf_filled: return "slider.horizontal.below.circle.lefthalf.filled"
+            case .slider_horizontal_below_circle_lefthalf_filled_inverse: return "slider.horizontal.below.circle.lefthalf.filled.inverse"
+            case .slider_horizontal_below_circle_righthalf_filled: return "slider.horizontal.below.circle.righthalf.filled"
+            case .slider_horizontal_below_circle_righthalf_filled_inverse: return "slider.horizontal.below.circle.righthalf.filled.inverse"
             case .slider_horizontal_below_rectangle: return "slider.horizontal.below.rectangle"
             case .slider_horizontal_below_square_and_square_filled: return "slider.horizontal.below.square.and.square.filled"
             case .slider_horizontal_below_square_fill_and_square: return "slider.horizontal.below.square.fill.and.square"
@@ -36197,6 +40708,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "slider.horizontal.below.square.fill.and.square"
             case .slider_horizontal_below_sun_max: return "slider.horizontal.below.sun.max"
+            case .slider_horizontal_below_sun_min: return "slider.horizontal.below.sun.min"
             case .slider_vertical_3: return "slider.vertical.3"
             case .slowmo: return "slowmo"
             case .smallcircle_circle: return "smallcircle.circle"
@@ -36247,7 +40759,10 @@ public enum SFSymbol: Sendable {
             case .space: return "space"
             case .sparkle: return "sparkle"
             case .sparkle_magnifyingglass: return "sparkle.magnifyingglass"
+            case .sparkle_text_clipboard: return "sparkle.text.clipboard"
+            case .sparkle_text_clipboard_fill: return "sparkle.text.clipboard.fill"
             case .sparkles: return "sparkles"
+            case .sparkles_2: return "sparkles.2"
             case .sparkles_rectangle_stack: return "sparkles.rectangle.stack"
             case .sparkles_rectangle_stack_fill: return "sparkles.rectangle.stack.fill"
             case .sparkles_square_fill_on_square: return "sparkles.square.fill.on.square"
@@ -36258,6 +40773,12 @@ public enum SFSymbol: Sendable {
                 return "sparkles.square.fill.on.square"
             case .sparkles_tv: return "sparkles.tv"
             case .sparkles_tv_fill: return "sparkles.tv.fill"
+            case .spatial_capture: return "spatial.capture"
+            case .spatial_capture_fill: return "spatial.capture.fill"
+            case .spatial_capture_on_hexagon: return "spatial.capture.on.hexagon"
+            case .spatial_capture_on_hexagon_fill: return "spatial.capture.on.hexagon.fill"
+            case .spatial_capture_slash: return "spatial.capture.slash"
+            case .spatial_capture_slash_fill: return "spatial.capture.slash.fill"
             case .speaker: return "speaker"
             case .speaker_1: return "speaker.1"
             case .speaker_1_fill: return "speaker.1.fill"
@@ -36284,6 +40805,8 @@ public enum SFSymbol: Sendable {
             case .speaker_slash_rtl: return "speaker.slash.rtl"
             case .speaker_square: return "speaker.square"
             case .speaker_square_fill: return "speaker.square.fill"
+            case .speaker_trianglebadge_exclamationmark: return "speaker.trianglebadge.exclamationmark"
+            case .speaker_trianglebadge_exclamationmark_fill: return "speaker.trianglebadge.exclamationmark.fill"
             case .speaker_wave_1:
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *) {
                     return "speaker.wave.1"
@@ -36606,6 +41129,7 @@ public enum SFSymbol: Sendable {
             case .square_dashed: return "square.dashed"
             case .square_dashed_inset_fill: return "square.dashed.inset.fill"
             case .square_dashed_inset_filled: return "square.dashed.inset.filled"
+            case .square_dashed_micro: return "square.dashed.micro"
             case .square_dotted: return "square.dotted"
             case .square_fill: return "square.fill"
             case .square_fill_0: return "0.square.fill"
@@ -36889,6 +41413,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "square.grid.3x3.topright.fill"
             case .square_grid_4x3_fill: return "square.grid.4x3.fill"
+            case .square_grid_month: return "square.grid.month"
             case .square_hi_0: return "0.square.hi"
             case .square_hi_00: return "00.square.hi"
             case .square_hi_01: return "01.square.hi"
@@ -37048,6 +41573,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "squareshape.dashed.squareshape"
             case .squareshape_fill: return "squareshape.fill"
+            case .squareshape_on_pattern_diagonalline: return "squareshape.on.pattern.diagonalline"
             case .squareshape_split_2x2: return "squareshape.split.2x2"
             case .squareshape_split_2x2_dotted: return "squareshape.split.2x2.dotted"
             case .squareshape_split_2x2_dotted_inside:
@@ -37072,6 +41598,7 @@ public enum SFSymbol: Sendable {
             case .star: return "star"
             case .star_bubble: return "star.bubble"
             case .star_bubble_fill: return "star.bubble.fill"
+            case .star_calendar: return "star.calendar"
             case .star_circle: return "star.circle"
             case .star_circle_fill: return "star.circle.fill"
             case .star_fill: return "star.fill"
@@ -37088,6 +41615,8 @@ public enum SFSymbol: Sendable {
                 }
                 return "star.lefthalf.fill"
             case .star_lefthalf_fill: return "star.lefthalf.fill"
+            case .star_rectangle: return "star.rectangle"
+            case .star_rectangle_fill: return "star.rectangle.fill"
             case .star_slash: return "star.slash"
             case .star_slash_fill: return "star.slash.fill"
             case .star_square: return "star.square"
@@ -37110,6 +41639,11 @@ public enum SFSymbol: Sendable {
             case .steeringwheel_arrowtriangle_left: return "steeringwheel.arrowtriangle.left"
             case .steeringwheel_arrowtriangle_right: return "steeringwheel.arrowtriangle.right"
             case .steeringwheel_badge_exclamationmark: return "steeringwheel.badge.exclamationmark"
+            case .steeringwheel_badge_lock:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "steeringwheel.badge.lock"
+                }
+                return "steeringwheel.and.lock"
             case .steeringwheel_circle: return "steeringwheel.circle"
             case .steeringwheel_circle_fill: return "steeringwheel.circle.fill"
             case .steeringwheel_exclamationmark: return "steeringwheel.exclamationmark"
@@ -37125,6 +41659,16 @@ public enum SFSymbol: Sendable {
                 return "sterlingsign.arrow.circlepath"
             case .sterlingsign_bank_building: return "sterlingsign.bank.building"
             case .sterlingsign_bank_building_fill: return "sterlingsign.bank.building.fill"
+            case .sterlingsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "sterlingsign.building.classical"
+                }
+                return "sterlingsign.bank.building"
+            case .sterlingsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "sterlingsign.building.classical.fill"
+                }
+                return "sterlingsign.bank.building.fill"
             case .sterlingsign_circle: return "sterlingsign.circle"
             case .sterlingsign_circle_fill: return "sterlingsign.circle.fill"
             case .sterlingsign_gauge_chart_lefthalf_righthalf: return "sterlingsign.gauge.chart.lefthalf.righthalf"
@@ -37149,6 +41693,9 @@ public enum SFSymbol: Sendable {
             case .stove: return "stove"
             case .stove_fill: return "stove.fill"
             case .strikethrough: return "strikethrough"
+            case .strikethrough_double: return "strikethrough.double"
+            case .stroke_line_diagonal: return "stroke.line.diagonal"
+            case .stroke_line_diagonal_slash: return "stroke.line.diagonal.slash"
             case .stroller: return "stroller"
             case .stroller_fill: return "stroller.fill"
             case .studentdesk: return "studentdesk"
@@ -37163,8 +41710,20 @@ public enum SFSymbol: Sendable {
             case .suitcase: return "suitcase"
             case .suitcase_cart: return "suitcase.cart"
             case .suitcase_cart_fill: return "suitcase.cart.fill"
+            case .suitcase_circle: return "suitcase.circle"
+            case .suitcase_circle_fill: return "suitcase.circle.fill"
             case .suitcase_fill: return "suitcase.fill"
             case .suitcase_rolling: return "suitcase.rolling"
+            case .suitcase_rolling_and_film: return "suitcase.rolling.and.film"
+            case .suitcase_rolling_and_film_circle: return "suitcase.rolling.and.film.circle"
+            case .suitcase_rolling_and_film_circle_fill: return "suitcase.rolling.and.film.circle.fill"
+            case .suitcase_rolling_and_film_fill: return "suitcase.rolling.and.film.fill"
+            case .suitcase_rolling_and_suitcase: return "suitcase.rolling.and.suitcase"
+            case .suitcase_rolling_and_suitcase_circle: return "suitcase.rolling.and.suitcase.circle"
+            case .suitcase_rolling_and_suitcase_circle_fill: return "suitcase.rolling.and.suitcase.circle.fill"
+            case .suitcase_rolling_and_suitcase_fill: return "suitcase.rolling.and.suitcase.fill"
+            case .suitcase_rolling_circle: return "suitcase.rolling.circle"
+            case .suitcase_rolling_circle_fill: return "suitcase.rolling.circle.fill"
             case .suitcase_rolling_fill: return "suitcase.rolling.fill"
             case .sum: return "sum"
             case .sum_ar: return "sum.ar"
@@ -37282,6 +41841,16 @@ public enum SFSymbol: Sendable {
                 return "swedishkronasign.arrow.circlepath"
             case .swedishkronasign_bank_building: return "swedishkronasign.bank.building"
             case .swedishkronasign_bank_building_fill: return "swedishkronasign.bank.building.fill"
+            case .swedishkronasign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "swedishkronasign.building.classical"
+                }
+                return "swedishkronasign.bank.building"
+            case .swedishkronasign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "swedishkronasign.building.classical.fill"
+                }
+                return "swedishkronasign.bank.building.fill"
             case .swedishkronasign_circle: return "swedishkronasign.circle"
             case .swedishkronasign_circle_fill: return "swedishkronasign.circle.fill"
             case .swedishkronasign_gauge_chart_lefthalf_righthalf: return "swedishkronasign.gauge.chart.lefthalf.righthalf"
@@ -37372,6 +41941,16 @@ public enum SFSymbol: Sendable {
                 return "tengesign.arrow.circlepath"
             case .tengesign_bank_building: return "tengesign.bank.building"
             case .tengesign_bank_building_fill: return "tengesign.bank.building.fill"
+            case .tengesign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "tengesign.building.classical"
+                }
+                return "tengesign.bank.building"
+            case .tengesign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "tengesign.building.classical.fill"
+                }
+                return "tengesign.bank.building.fill"
             case .tengesign_circle: return "tengesign.circle"
             case .tengesign_circle_fill: return "tengesign.circle.fill"
             case .tengesign_gauge_chart_lefthalf_righthalf: return "tengesign.gauge.chart.lefthalf.righthalf"
@@ -37401,6 +41980,11 @@ public enum SFSymbol: Sendable {
             case .text_aligncenter: return "text.aligncenter"
             case .text_alignleft: return "text.alignleft"
             case .text_alignright: return "text.alignright"
+            case .text_and_command_interface_window:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "text.and.command.interface.window"
+                }
+                return "text.and.command.macwindow"
             case .text_and_command_macwindow: return "text.and.command.macwindow"
             case .text_append: return "text.append"
             case .text_badge_checkmark: return "text.badge.checkmark"
@@ -37409,6 +41993,8 @@ public enum SFSymbol: Sendable {
             case .text_badge_plus: return "text.badge.plus"
             case .text_badge_star: return "text.badge.star"
             case .text_badge_xmark: return "text.badge.xmark"
+            case .text_below_folder: return "text.below.folder"
+            case .text_below_folder_fill: return "text.below.folder.fill"
             case .text_below_photo: return "text.below.photo"
             case .text_below_photo_fill: return "text.below.photo.fill"
             case .text_below_photo_fill_rtl: return "text.below.photo.fill.rtl"
@@ -37420,6 +42006,10 @@ public enum SFSymbol: Sendable {
             case .text_bubble_badge_clock_fill: return "text.bubble.badge.clock.fill"
             case .text_bubble_badge_clock_fill_rtl: return "text.bubble.badge.clock.fill.rtl"
             case .text_bubble_badge_clock_rtl: return "text.bubble.badge.clock.rtl"
+            case .text_bubble_badge_sparkles: return "text.bubble.badge.sparkles"
+            case .text_bubble_badge_sparkles_fill: return "text.bubble.badge.sparkles.fill"
+            case .text_bubble_badge_sparkles_fill_rtl: return "text.bubble.badge.sparkles.fill.rtl"
+            case .text_bubble_badge_sparkles_rtl: return "text.bubble.badge.sparkles.rtl"
             case .text_bubble_fill: return "text.bubble.fill"
             case .text_bubble_fill_rtl: return "text.bubble.fill.rtl"
             case .text_bubble_rtl: return "text.bubble.rtl"
@@ -37459,16 +42049,34 @@ public enum SFSymbol: Sendable {
             case .text_justify_trailing: return "text.justify.trailing"
             case .text_justifyleft: return "text.justifyleft"
             case .text_justifyright: return "text.justifyright"
+            case .text_line_2_summary: return "text.line.2.summary"
+            case .text_line_2_summary_badge_xmark: return "text.line.2.summary.badge.xmark"
+            case .text_line_3_summary: return "text.line.3.summary"
             case .text_line_first_and_arrowtriangle_forward: return "text.line.first.and.arrowtriangle.forward"
             case .text_line_last_and_arrowtriangle_forward: return "text.line.last.and.arrowtriangle.forward"
             case .text_line_magnify: return "text.line.magnify"
             case .text_magnifyingglass: return "text.magnifyingglass"
             case .text_magnifyingglass_rtl: return "text.magnifyingglass.rtl"
+            case .text_menu: return "text.menu"
+            case .text_pad_header:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "text.pad.header"
+                }
+                return "note.text"
+            case .text_pad_header_badge_clock: return "text.pad.header.badge.clock"
+            case .text_pad_header_badge_clock_rtl: return "text.pad.header.badge.clock.rtl"
+            case .text_pad_header_badge_plus:
+                if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+                    return "text.pad.header.badge.plus"
+                }
+                return "note.text.badge.plus"
             case .text_page:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "text.page"
                 }
                 return "doc.plaintext"
+            case .text_page_and_line_vertical_and_text_page: return "text.page.and.line.vertical.and.text.page"
+            case .text_page_and_line_vertical_and_text_page_rtl: return "text.page.and.line.vertical.and.text.page.rtl"
             case .text_page_badge_magnifyingglass:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "text.page.badge.magnifyingglass"
@@ -37485,6 +42093,8 @@ public enum SFSymbol: Sendable {
             case .text_page_slash_rtl: return "text.page.slash.rtl"
             case .text_quote: return "text.quote"
             case .text_quote_rtl: return "text.quote.rtl"
+            case .text_rectangle: return "text.rectangle"
+            case .text_rectangle_fill: return "text.rectangle.fill"
             case .text_rectangle_page:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "text.rectangle.page"
@@ -37496,6 +42106,7 @@ public enum SFSymbol: Sendable {
                 }
                 return "doc.text.image.fill"
             case .text_redaction: return "text.redaction"
+            case .text_square_filled: return "text.square.filled"
             case .text_viewfinder: return "text.viewfinder"
             case .text_word_spacing: return "text.word.spacing"
             case .textbox: return "textbox"
@@ -37649,6 +42260,7 @@ public enum SFSymbol: Sendable {
             case .textformat_numbers_kn: return "textformat.numbers.kn"
             case .textformat_numbers_ml: return "textformat.numbers.ml"
             case .textformat_numbers_mni: return "textformat.numbers.mni"
+            case .textformat_numbers_mr: return "textformat.numbers.mr"
             case .textformat_numbers_my:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "textformat.numbers.my"
@@ -37773,10 +42385,12 @@ public enum SFSymbol: Sendable {
             case .theatermasks_circle_fill: return "theatermasks.circle.fill"
             case .theatermasks_fill: return "theatermasks.fill"
             case .thermometer: return "thermometer"
+            case .thermometer_and_ellipsis: return "thermometer.and.ellipsis"
             case .thermometer_and_liquid_waves: return "thermometer.and.liquid.waves"
             case .thermometer_and_liquid_waves_snowflake: return "thermometer.and.liquid.waves.snowflake"
             case .thermometer_and_liquid_waves_trianglebadge_exclamationmark: return "thermometer.and.liquid.waves.trianglebadge.exclamationmark"
             case .thermometer_brakesignal: return "thermometer.brakesignal"
+            case .thermometer_gauge_open: return "thermometer.gauge.open"
             case .thermometer_high: return "thermometer.high"
             case .thermometer_low: return "thermometer.low"
             case .thermometer_medium:
@@ -37793,12 +42407,17 @@ public enum SFSymbol: Sendable {
             case .thermometer_sun_circle: return "thermometer.sun.circle"
             case .thermometer_sun_circle_fill: return "thermometer.sun.circle.fill"
             case .thermometer_sun_fill: return "thermometer.sun.fill"
+            case .thermometer_tirepressure: return "thermometer.tirepressure"
             case .thermometer_transmission: return "thermometer.transmission"
             case .thermometer_variable: return "thermometer.variable"
             case .thermometer_variable_and_figure: return "thermometer.variable.and.figure"
             case .thermometer_variable_and_figure_circle: return "thermometer.variable.and.figure.circle"
             case .thermometer_variable_and_figure_circle_fill: return "thermometer.variable.and.figure.circle.fill"
+            case .thermometer_variable_badge_clock: return "thermometer.variable.badge.clock"
+            case .thermometer_variable_badge_play: return "thermometer.variable.badge.play"
             case .ticket: return "ticket"
+            case .ticket_circle: return "ticket.circle"
+            case .ticket_circle_fill: return "ticket.circle.fill"
             case .ticket_fill: return "ticket.fill"
             case .timelapse: return "timelapse"
             case .timeline_selection: return "timeline.selection"
@@ -37834,6 +42453,8 @@ public enum SFSymbol: Sendable {
             case .train_side_middle_car: return "train.side.middle.car"
             case .train_side_rear_car: return "train.side.rear.car"
             case .tram: return "tram"
+            case .tram_card: return "tram.card"
+            case .tram_card_fill: return "tram.card.fill"
             case .tram_circle: return "tram.circle"
             case .tram_circle_fill: return "tram.circle.fill"
             case .tram_fill: return "tram.fill"
@@ -37868,6 +42489,8 @@ public enum SFSymbol: Sendable {
             case .tray_and_arrow_down_fill: return "tray.and.arrow.down.fill"
             case .tray_and_arrow_up: return "tray.and.arrow.up"
             case .tray_and_arrow_up_fill: return "tray.and.arrow.up.fill"
+            case .tray_badge: return "tray.badge"
+            case .tray_badge_fill: return "tray.badge.fill"
             case .tray_circle: return "tray.circle"
             case .tray_circle_fill: return "tray.circle.fill"
             case .tray_fill: return "tray.fill"
@@ -37988,6 +42611,16 @@ public enum SFSymbol: Sendable {
                 return "tugriksign.arrow.circlepath"
             case .tugriksign_bank_building: return "tugriksign.bank.building"
             case .tugriksign_bank_building_fill: return "tugriksign.bank.building.fill"
+            case .tugriksign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "tugriksign.building.classical"
+                }
+                return "tugriksign.bank.building"
+            case .tugriksign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "tugriksign.building.classical.fill"
+                }
+                return "tugriksign.bank.building.fill"
             case .tugriksign_circle: return "tugriksign.circle"
             case .tugriksign_circle_fill: return "tugriksign.circle.fill"
             case .tugriksign_gauge_chart_lefthalf_righthalf: return "tugriksign.gauge.chart.lefthalf.righthalf"
@@ -38006,6 +42639,16 @@ public enum SFSymbol: Sendable {
                 return "turkishlirasign.arrow.circlepath"
             case .turkishlirasign_bank_building: return "turkishlirasign.bank.building"
             case .turkishlirasign_bank_building_fill: return "turkishlirasign.bank.building.fill"
+            case .turkishlirasign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "turkishlirasign.building.classical"
+                }
+                return "turkishlirasign.bank.building"
+            case .turkishlirasign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "turkishlirasign.building.classical.fill"
+                }
+                return "turkishlirasign.bank.building.fill"
             case .turkishlirasign_circle: return "turkishlirasign.circle"
             case .turkishlirasign_circle_fill: return "turkishlirasign.circle.fill"
             case .turkishlirasign_gauge_chart_lefthalf_righthalf: return "turkishlirasign.gauge.chart.lefthalf.righthalf"
@@ -38034,16 +42677,27 @@ public enum SFSymbol: Sendable {
             case .u_square_fill: return "u.square.fill"
             case .uiwindow_split_2x1: return "uiwindow.split.2x1"
             case .umbrella: return "umbrella"
+            case .umbrella_circle: return "umbrella.circle"
+            case .umbrella_circle_fill: return "umbrella.circle.fill"
             case .umbrella_fill: return "umbrella.fill"
+            case .umbrella_gauge_open: return "umbrella.gauge.open"
             case .umbrella_percent: return "umbrella.percent"
             case .umbrella_percent_ar: return "umbrella.percent.ar"
             case .umbrella_percent_fill: return "umbrella.percent.fill"
             case .umbrella_percent_fill_ar: return "umbrella.percent.fill.ar"
+            case .umbrella_sensor_tag_radiowaves_left_and_right: return "umbrella.sensor.tag.radiowaves.left.and.right"
+            case .umbrella_sensor_tag_radiowaves_left_and_right_fill: return "umbrella.sensor.tag.radiowaves.left.and.right.fill"
             case .underline: return "underline"
+            case .underline_double: return "underline.double"
             case .v_circle: return "v.circle"
             case .v_circle_fill: return "v.circle.fill"
             case .v_square: return "v.square"
             case .v_square_fill: return "v.square.fill"
+            case .vent_airflow_diffused: return "vent.airflow.diffused"
+            case .vent_airflow_focused: return "vent.airflow.focused"
+            case .vent_airflow_manual: return "vent.airflow.manual"
+            case .vent_airflow_oscillating: return "vent.airflow.oscillating"
+            case .vent_heat_waves_upward: return "vent.heat.waves.upward"
             case .vial_viewfinder: return "vial.viewfinder"
             case .video: return "video"
             case .video_and_waveform: return "video.and.waveform"
@@ -38052,6 +42706,12 @@ public enum SFSymbol: Sendable {
             case .video_badge_ellipsis: return "video.badge.ellipsis"
             case .video_badge_plus: return "video.badge.plus"
             case .video_badge_plus_fill: return "video.badge.plus.fill"
+            case .video_badge_questionmark: return "video.badge.questionmark"
+            case .video_badge_questionmark_ar: return "video.badge.questionmark.ar"
+            case .video_badge_questionmark_fill: return "video.badge.questionmark.fill"
+            case .video_badge_questionmark_fill_ar: return "video.badge.questionmark.fill.ar"
+            case .video_badge_shield_exclamationmark: return "video.badge.shield.exclamationmark"
+            case .video_badge_shield_exclamationmark_fill: return "video.badge.shield.exclamationmark.fill"
             case .video_badge_waveform:
                 if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *) {
                     return "video.badge.waveform"
@@ -38099,6 +42759,7 @@ public enum SFSymbol: Sendable {
             case .view_2d: return "view.2d"
             case .view_3d: return "view.3d"
             case .viewfinder: return "viewfinder"
+            case .viewfinder_and_person: return "viewfinder.and.person"
             case .viewfinder_circle: return "viewfinder.circle"
             case .viewfinder_circle_fill: return "viewfinder.circle.fill"
             case .viewfinder_rectangular: return "viewfinder.rectangular"
@@ -38118,6 +42779,8 @@ public enum SFSymbol: Sendable {
                     return "vision.pro.and.arrow.forward.fill"
                 }
                 return "visionpro.and.arrow.forward.fill"
+            case .vision_pro_badge_checkmark: return "vision.pro.badge.checkmark"
+            case .vision_pro_badge_checkmark_fill: return "vision.pro.badge.checkmark.fill"
             case .vision_pro_badge_exclamationmark:
                 if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
                     return "vision.pro.badge.exclamationmark"
@@ -38219,6 +42882,8 @@ public enum SFSymbol: Sendable {
             case .wallet_bifold_fill: return "wallet.bifold.fill"
             case .wallet_pass: return "wallet.pass"
             case .wallet_pass_fill: return "wallet.pass.fill"
+            case .wallet_sensor_tag_radiowaves_left_and_right: return "wallet.sensor.tag.radiowaves.left.and.right"
+            case .wallet_sensor_tag_radiowaves_left_and_right_fill: return "wallet.sensor.tag.radiowaves.left.and.right.fill"
             case .wand_and_outline: return "wand.and.outline"
             case .wand_and_outline_inverse: return "wand.and.outline.inverse"
             case .wand_and_rays: return "wand.and.rays"
@@ -38302,6 +42967,11 @@ public enum SFSymbol: Sendable {
             case .waveform: return "waveform"
             case .waveform_and_magnifyingglass: return "waveform.and.magnifyingglass"
             case .waveform_and_mic: return "waveform.and.mic"
+            case .waveform_and_person:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "waveform.and.person"
+                }
+                return "waveform.and.person.filled"
             case .waveform_and_person_filled: return "waveform.and.person.filled"
             case .waveform_badge_checkmark: return "waveform.badge.checkmark"
             case .waveform_badge_exclamationmark: return "waveform.badge.exclamationmark"
@@ -38324,6 +42994,8 @@ public enum SFSymbol: Sendable {
             case .waveform_badge_xmark: return "waveform.badge.xmark"
             case .waveform_circle: return "waveform.circle"
             case .waveform_circle_fill: return "waveform.circle.fill"
+            case .waveform_low: return "waveform.low"
+            case .waveform_mid: return "waveform.mid"
             case .waveform_path: return "waveform.path"
             case .waveform_path_badge_minus: return "waveform.path.badge.minus"
             case .waveform_path_badge_plus: return "waveform.path.badge.plus"
@@ -38375,13 +43047,17 @@ public enum SFSymbol: Sendable {
             case .wheelchair: return "wheelchair"
             case .widget_extralarge: return "widget.extralarge"
             case .widget_extralarge_badge_plus: return "widget.extralarge.badge.plus"
+            case .widget_grid_2x1_rectangle: return "widget.grid.2x1.rectangle"
+            case .widget_grid_2x1_rectangle_fill: return "widget.grid.2x1.rectangle.fill"
             case .widget_large: return "widget.large"
             case .widget_large_badge_plus: return "widget.large.badge.plus"
             case .widget_medium: return "widget.medium"
             case .widget_medium_badge_plus: return "widget.medium.badge.plus"
             case .widget_small: return "widget.small"
+            case .widget_small_badge_exclamationmark: return "widget.small.badge.exclamationmark"
             case .widget_small_badge_plus: return "widget.small.badge.plus"
             case .wifi: return "wifi"
+            case .wifi_badge_lock: return "wifi.badge.lock"
             case .wifi_circle: return "wifi.circle"
             case .wifi_circle_fill: return "wifi.circle.fill"
             case .wifi_exclamationmark: return "wifi.exclamationmark"
@@ -38447,6 +43123,16 @@ public enum SFSymbol: Sendable {
                 return "wonsign.arrow.circlepath"
             case .wonsign_bank_building: return "wonsign.bank.building"
             case .wonsign_bank_building_fill: return "wonsign.bank.building.fill"
+            case .wonsign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "wonsign.building.classical"
+                }
+                return "wonsign.bank.building"
+            case .wonsign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "wonsign.building.classical.fill"
+                }
+                return "wonsign.bank.building.fill"
             case .wonsign_circle: return "wonsign.circle"
             case .wonsign_circle_fill: return "wonsign.circle.fill"
             case .wonsign_gauge_chart_lefthalf_righthalf: return "wonsign.gauge.chart.lefthalf.righthalf"
@@ -38497,11 +43183,14 @@ public enum SFSymbol: Sendable {
                 }
                 return "bin.xmark.fill"
             case .xmark_circle: return "xmark.circle"
+            case .xmark_circle_badge_airplane: return "xmark.circle.badge.airplane"
+            case .xmark_circle_badge_airplane_fill: return "xmark.circle.badge.airplane.fill"
             case .xmark_circle_fill: return "xmark.circle.fill"
             case .xmark_diamond: return "xmark.diamond"
             case .xmark_diamond_fill: return "xmark.diamond.fill"
             case .xmark_icloud: return "xmark.icloud"
             case .xmark_icloud_fill: return "xmark.icloud.fill"
+            case .xmark_interface_window: return "xmark.interface.window"
             case .xmark_octagon: return "xmark.octagon"
             case .xmark_octagon_fill: return "xmark.octagon.fill"
             case .xmark_rectangle: return "xmark.rectangle"
@@ -38516,6 +43205,7 @@ public enum SFSymbol: Sendable {
             case .xmark_square_fill: return "xmark.square.fill"
             case .xmark_triangle_circle_square: return "xmark.triangle.circle.square"
             case .xmark_triangle_circle_square_fill: return "xmark.triangle.circle.square.fill"
+            case .xmark_viewfinder: return "xmark.viewfinder"
             case .xserve: return "xserve"
             case .xserve_raid: return "xserve.raid"
             case .y_circle: return "y.circle"
@@ -38531,6 +43221,16 @@ public enum SFSymbol: Sendable {
                 return "yensign.arrow.circlepath"
             case .yensign_bank_building: return "yensign.bank.building"
             case .yensign_bank_building_fill: return "yensign.bank.building.fill"
+            case .yensign_building_classical:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "yensign.building.classical"
+                }
+                return "yensign.bank.building"
+            case .yensign_building_classical_fill:
+                if #available(iOS 27.0, macOS 27.0, tvOS 27.0, watchOS 27.0, visionOS 27.0, *) {
+                    return "yensign.building.classical.fill"
+                }
+                return "yensign.bank.building.fill"
             case .yensign_circle: return "yensign.circle"
             case .yensign_circle_fill: return "yensign.circle.fill"
             case .yensign_gauge_chart_lefthalf_righthalf: return "yensign.gauge.chart.lefthalf.righthalf"
@@ -38595,10 +43295,7 @@ public enum SFSymbol: Sendable {
     }
     #endif
     
-    // AppKit is importable under Mac Catalyst (`canImport(AppKit)` is true), but
-    // NSImage.SymbolConfiguration is unavailable there, so exclude the AppKit image
-    // helpers from Mac Catalyst — UIKit (`uiImage` above) covers that environment.
-    #if canImport(AppKit) && !targetEnvironment(macCatalyst)
+    #if canImport(AppKit)
     @available(macOS 11.0, *)
     public var nsImage: NSImage? {
         NSImage(systemSymbolName: self.name, accessibilityDescription: nil)
